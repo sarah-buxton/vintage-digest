@@ -33,12 +33,36 @@
     "type": "html",
     "listings": [
      {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_78&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_86&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_67&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_66&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_68&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60_69&limit=100&page={page}",
+      "max_pages": 5
+     },
+     {
       "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60&limit=100&page={page}",
-      "max_pages": 10
+      "max_pages": 5
      },
      {
       "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=82&limit=100&page={page}",
-      "max_pages": 10
+      "max_pages": 5
      }
     ],
     "link_pattern": "route=product/product.*product_id=\\d+",
