@@ -32,6 +32,18 @@
   input[type=search] { width: 180px; }
   label.check { font-size: 13px; color: var(--muted); display: flex; gap: 4px; align-items: center; }
   main { max-width: 1400px; margin: 0 auto; padding: 20px 32px 60px; }
+  .coverage { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 12px 16px; margin-bottom: 18px; }
+  .coverage .head { font-size: 13px; color: var(--muted); margin-bottom: 8px; }
+  .coverage .head b { color: var(--ink); font-weight: 600; }
+  .pills { display: flex; flex-wrap: wrap; gap: 6px; }
+  .pill { border: 1px solid var(--line); border-radius: 999px; padding: 3px 10px 3px 8px; font: inherit; font-size: 12px; background: var(--bg); color: var(--ink); cursor: pointer; display: flex; align-items: center; gap: 6px; }
+  .pill .dot { width: 7px; height: 7px; border-radius: 50%; background: var(--muted); }
+  .pill.ok .dot { background: var(--good); } .pill.empty .dot { background: var(--warn); } .pill.err .dot { background: var(--bad); }
+  .pill.ok, .pill.empty { color: var(--ink); }
+  .pill.err, .pill.pending { color: var(--muted); }
+  .pill.out { opacity: .4; }
+  .pill.sel { border-color: var(--ink); background: var(--tag); }
+  .pill .n { color: var(--muted); }
   .notice { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 18px; color: var(--muted); }
   .notice b { color: var(--ink); font-weight: 600; }
   .count { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
@@ -93,6 +105,7 @@
 </div></div>
 
 <main>
+  <div class="coverage" id="coverage"></div>
   <div id="notice"></div>
   <p class="count" id="count"></p>
   <div class="grid" id="grid"></div>
@@ -185,15 +198,13 @@ function render() {
     $("tabs").appendChild(b);
   });
   $("sinceGroup").style.display = S.view === "all" ? "none" : "";
+  renderCoverage();
 
   const allNew = D.items.filter(i => i.first_seen === D.generated);
   const baselineOnly = allNew.length && allNew.every(i => i.baseline);
-  const broken = D.shops.filter(s => s.covered && (s.status === "error" || s.warning));
   let notice = "";
   if (baselineOnly && S.view === "new")
     notice += `<div class="notice"><b>First check done.</b> Everything currently for sale has been recorded as the starting point, so nothing counts as new yet. New pieces appear after the next weekly check. Use <b>All in stock</b> to browse now.</div>`;
-  if (broken.length)
-    notice += `<div class="notice"><b>${broken.length} shop${broken.length > 1 ? "s" : ""} had a problem this week:</b> ${broken.map(s => esc(s.name)).join(", ")}. See the shop list below.</div>`;
   $("notice").innerHTML = notice;
 
   let list = applyFilters(viewItems(S.view));
@@ -224,12 +235,35 @@ function card(i) {
     <div class="price">${price}</div></div></a>`;
 }
 
+function shopState(s) {
+  if (s.status === "error") {
+    const blocked = /\b(401|403|429)\b/.test(s.error || "");
+    return { cls: "err", label: blocked ? "Blocked the check" : "Couldn't be read", detail: s.error };
+  }
+  if (!s.status) return { cls: "pending", label: "Not checked yet" };
+  if (!s.count) return { cls: "empty", label: "Read, but no items found" };
+  return { cls: "ok", label: `${s.count} items` + (s.warning ? ` (${s.warning})` : "") };
+}
+
+function renderCoverage() {
+  const covered = D.shops.filter(s => s.covered).sort((a, b) => a.km - b.km);
+  const inFeed = covered.filter(s => shopState(s).cls === "ok");
+  const missing = covered.length - inFeed.length;
+  const rest = D.shops.length - covered.length;
+  $("coverage").innerHTML = `<div class="head"><b>${inFeed.length} of ${covered.length} shops in this feed.</b> ${missing ? missing + " missing this week (red or amber). " : ""}${rest} other VNTG shops aren't checked yet. Click a shop to show only its pieces.</div>
+    <div class="pills">${covered.map(s => { const st = shopState(s);
+      const out = !S.zones.includes(s.zone) ? " out" : "";
+      return `<button class="pill ${st.cls}${out}${S.shop === s.id ? " sel" : ""}" data-id="${esc(s.id)}" title="${esc(s.name + ": " + st.label + (st.detail ? " · " + st.detail : ""))}"><span class="dot"></span>${esc(s.name)}<span class="n">${st.cls === "ok" ? s.count : st.cls === "err" ? (st.label === "Blocked the check" ? "blocked" : "error") : st.cls === "empty" ? "0" : "–"}</span></button>`; }).join("")}</div>`;
+  $("coverage").querySelectorAll(".pill").forEach(b => b.onclick = () => {
+    S.shop = S.shop === b.dataset.id ? "" : b.dataset.id; $("shop").value = S.shop; save(); render();
+  });
+}
+
 function renderShops() {
   const covered = D.shops.filter(s => s.covered).sort((a, b) => a.km - b.km);
   $("shopRows").innerHTML = covered.map(s => {
-    const st = s.status === "error" ? `<span class="err">Couldn't read: ${esc(s.error)}</span>`
-      : s.warning ? `<span class="warn">${esc(s.warning)}</span>`
-      : s.status === "ok" ? `<span class="ok">OK</span>` : "Not checked yet";
+    const x = shopState(s);
+    const st = `<span class="${x.cls === "ok" ? "ok" : x.cls === "err" ? "err" : x.cls === "empty" ? "warn" : ""}">${esc(x.label)}${x.detail ? ": " + esc(x.detail) : ""}</span>`;
     return `<tr><td><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a></td>
       <td>${esc(s.zone)}${s.zone === "Amsterdam" ? "" : " · " + s.km + " km"}</td><td>${s.count ?? "–"}</td><td>${st}</td></tr>`;
   }).join("");
