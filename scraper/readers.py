@@ -257,11 +257,15 @@ def read_html(shop, fetch):
     return list(found.values())
 
 
-JUNK_TITLE = re.compile(r"^(quick ?view|view( product)?|bekijk|meer info|more info|nieuw|new|sold|verkocht|img[_ -]?\d+.*|dsc[_ -]?\d+.*|\d+)$", re.I)
+JUNK_TITLE = re.compile(r"^(quick ?view|view( product)?|bekijk|meer info|more info|nieuw|new|sold|verkocht|img[_ -]?\d+.*|dsc[_ -]?\d+.*|\d+)( (sold|verkocht|nieuw|new))?$", re.I)
+
+
+def is_junk_title(text):
+    return not _clean_title(text)
 
 
 def _clean_title(text):
-    text = (text or "").strip()
+    text = re.sub(r"[\ue000-\uf8ff]", "", text or "").strip()  # drop icon-font characters
     return "" if JUNK_TITLE.match(text) else text
 
 

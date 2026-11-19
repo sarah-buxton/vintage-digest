@@ -14,7 +14,7 @@ import time
 import traceback
 
 sys.path.insert(0, str(pathlib.Path(__file__).parent))
-from readers import READERS, read_detail  # noqa: E402
+from readers import READERS, read_detail, is_junk_title  # noqa: E402
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
 SHOPS_FILE = ROOT / "data" / "shops.json"
@@ -113,14 +113,18 @@ def run(today, fetch):
         fetched = 0
         for it in found:
             iid = f"{sid}:{it['key']}"
-            needs = it.pop("_needs_detail", False) or not it.get("image")
+            known = items.get(iid)
+            bad_title = known is not None and is_junk_title(known.get("title"))
+            needs = it.pop("_needs_detail", False) or not it.get("image") or bad_title
             if not needs:
                 continue
-            if iid in items:  # known item: reuse what we stored
+            if known:  # known item: reuse what we stored
                 for k in ("title", "image", "price"):
-                    it[k] = it.get(k) or items[iid].get(k)
-                if it.get("image"):
-                    continue  # otherwise fetch its page again to find a photo
+                    if k == "title" and bad_title:
+                        continue
+                    it[k] = it.get(k) or known.get(k)
+                if it.get("image") and not bad_title:
+                    continue  # otherwise fetch its page again for a photo or a proper title
             if fetched >= cap:
                 continue
             try:
@@ -159,7 +163,7 @@ def run(today, fetch):
                 prev.pop("sold_on", None)
             if it.get("price") and prev.get("price") and it["price"] != prev["price"]:
                 prev["price_history"].append([today, it["price"]])
-            keep_title = reader["type"] in ("html", "instagram_embed") and prev.get("title") not in (None, "", "Untitled")
+            keep_title = reader["type"] in ("html", "instagram_embed") and not is_junk_title(prev.get("title")) and prev.get("title") != "Untitled"
             prev.update(last_seen=today, url=it["url"],
                         title=prev["title"] if keep_title else (it.get("title") or prev["title"]),
                         image=it.get("image") or prev.get("image"),
