@@ -38,12 +38,21 @@ def _sold_text(text):
 # ---------------------------------------------------------------- Shopify
 def read_shopify(shop, fetch):
     base = shop["reader"]["base"].rstrip("/")
-    items = []
-    for page in range(1, 41):
-        data = json.loads(fetch(f"{base}/products.json?limit=250&page={page}"))
-        products = data.get("products", [])
-        if not products:
-            break
+    # Optional: read only some collections (e.g. a shop's vintage section)
+    sources = [f"{base}/collections/{c}/products.json" for c in shop["reader"].get("collections", [])] \
+        or [f"{base}/products.json"]
+    items, seen = [], set()
+    done = set()
+    for source, page in ((src, pg) for src in sources for pg in range(1, 41)):
+        if source in done:
+            continue
+        data = json.loads(fetch(f"{source}?limit=250&page={page}"))
+        if len(data.get("products", [])) < 250:
+            done.add(source)
+        products = [p for p in data.get("products", []) if p["id"] not in seen]
+        seen.update(p["id"] for p in products)
+        if not data.get("products"):
+            continue
         for p in products:
             variants = p.get("variants") or []
             prices = [float(v["price"]) for v in variants if v.get("price") not in (None, "")]
@@ -61,8 +70,6 @@ def read_shopify(shop, fetch):
                 "available": any(v.get("available", True) for v in variants) if variants else True,
                 "source_date": p.get("published_at"),
             })
-        if len(products) < 250:
-            break
     return items
 
 
@@ -227,11 +234,11 @@ def read_html(shop, fetch):
                 else:
                     key = urlparse(href).path.rstrip("/")
                 if key in found:
+                    text = a.get_text(" ", strip=True)
+                    if text and not found[key]["title"] and not re.fullmatch(r"(view|bekijk|more|meer).*", text, re.I):
+                        found[key]["title"] = text  # first link to it was an image without text
                     continue
-                img = a.find("img")
-                if img is None:
-                    card = a.find_parent(["article", "li"]) or a.find_parent(class_=re.compile(r"product|item|card|grid", re.I))
-                    img = card.find("img") if card else None
+                img = a.find("img") or _card_image(a, pattern)
                 text = a.get_text(" ", strip=True)
                 found[key] = {
                     "key": key,
@@ -248,6 +255,24 @@ def read_html(shop, fetch):
     if not found:
         raise RuntimeError("no product links matched on the listing pages")
     return list(found.values())
+
+
+def _card_image(a, pattern):
+    """Photo sitting next to the link rather than inside it: walk up to the
+    smallest block that holds an image and links only to this product."""
+    href = a.get("href")
+    node = a
+    for _ in range(5):
+        node = node.parent
+        if node is None:
+            return None
+        links = {x.get("href") for x in node.find_all("a", href=True) if pattern.search(x["href"].rstrip("/"))}
+        if len(links) > 1:
+            return None  # reached a block holding other products
+        img = node.find("img")
+        if img is not None and links <= {href}:
+            return img
+    return None
 
 
 def _clean_url(href, cfg):

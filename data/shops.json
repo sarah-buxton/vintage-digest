@@ -33,13 +33,18 @@
     "type": "html",
     "listings": [
      {
-      "url": "https://www.treasuredepot.nl/index.php?route=product/catalog&sort=p.date_added&order=DESC&limit=100&page={page}",
-      "max_pages": 15
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=60&limit=100&page={page}",
+      "max_pages": 10
+     },
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/category&path=82&limit=100&page={page}",
+      "max_pages": 10
      }
     ],
     "link_pattern": "route=product/product.*product_id=\\d+",
     "key_pattern": "product_id=(\\d+)"
-   }
+   },
+   "note": "Only lamps and ceramics are read (the shop also sells sunglasses and postcards)."
   },
   {
    "id": "fussy-people-amsterdam",
@@ -53,8 +58,13 @@
    "zone": "Amsterdam",
    "reader": {
     "type": "shopify",
-    "base": "https://www.fussypeople.eu"
-   }
+    "base": "https://www.fussypeople.eu",
+    "collections": [
+     "the-vintage-design-collection",
+     "the-vintage-design-collection-v2"
+    ]
+   },
+   "note": "Only the vintage collections are read (the shop also sells new homeware and clothes)."
   },
   {
    "id": "just-design-classics-amsterdam",
@@ -70,14 +80,27 @@
     "type": "html",
     "listings": [
      {
-      "url": "https://www.justdesignclassics.com/all-products/results,1-500"
+      "url": "https://www.justdesignclassics.com/vintage-specials/chairs/results,1-0"
      },
      {
-      "url": "https://www.justdesignclassics.com/all-products"
+      "url": "https://www.justdesignclassics.com/vintage-specials/office-chairs/results,1-0"
+     },
+     {
+      "url": "https://www.justdesignclassics.com/vintage-specials/easy-chairs/results,1-0"
+     },
+     {
+      "url": "https://www.justdesignclassics.com/vintage-specials/lighting/results,1-0"
+     },
+     {
+      "url": "https://www.justdesignclassics.com/vintage-specials/table-misc/results,1-0"
+     },
+     {
+      "url": "https://www.justdesignclassics.com/vintage-specials"
      }
     ],
-    "link_pattern": "justdesignclassics\\.com/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+-detail$"
-   }
+    "link_pattern": "justdesignclassics\\.com/vintage-specials/[a-z0-9-]+/[a-z0-9-]+-detail$"
+   },
+   "note": "Only the Vintage & Specials section is read (the shop also sells new designer furniture)."
   },
   {
    "id": "kollect-zaandam",

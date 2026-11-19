@@ -44,6 +44,11 @@
   .pill.out { opacity: .4; }
   .pill.sel { border-color: var(--ink); background: var(--tag); }
   .pill .n { color: var(--muted); }
+  .totop { position: fixed; right: 24px; bottom: 24px; z-index: 10; width: 44px; height: 44px; border-radius: 50%;
+           border: 1px solid var(--line); background: var(--ink); color: var(--bg); font-size: 20px; line-height: 1; cursor: pointer;
+           box-shadow: 0 4px 14px rgba(0,0,0,.15); opacity: 0; pointer-events: none; transition: opacity .2s ease; }
+  .totop.show { opacity: .9; pointer-events: auto; }
+  .totop:hover { opacity: 1; }
   .notice { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 18px; color: var(--muted); }
   .notice b { color: var(--ink); font-weight: 600; }
   .count { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
@@ -116,7 +121,11 @@
   </section>
 </main>
 
+<button class="totop" id="totop" aria-label="Back to top" title="Back to top">↑</button>
 <script>
+window.addEventListener("scroll", () => document.getElementById("totop").classList.toggle("show", window.scrollY > 600), { passive: true });
+document.getElementById("totop").onclick = () => window.scrollTo({ top: 0, behavior: "smooth" });
+
 const ZONES = ["Amsterdam", "Within 20 km", "Further"];
 const TYPES = ["Seating", "Tables & desks", "Storage", "Lighting", "Decor & art", "Other"];
 const VIEWS = [["new", "New"], ["drops", "Price drops"], ["sold", "Sold"], ["all", "All in stock"]];

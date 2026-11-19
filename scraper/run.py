@@ -28,6 +28,13 @@ DETAIL_CAP = 150             # ... and on later runs (new pieces, plus known one
 SOLD_KEEP_DAYS = 60          # sold items stay on the page this long
 USER_AGENT = "Mozilla/5.0 (personal weekly vintage digest; one visit per week)"
 
+# Never show these: clothes, accessories, paper ephemera.
+EXCLUDE = re.compile(
+    r"sun ?glasses|zonnebril|eyewear|t-?shirt|longsleeve|sweater|hoodie|cardigan|jumper|knitwear|"
+    r"\bdress\b|\bjurk\b|trousers|\bjeans\b|\bskirt\b|blouse|\bjacket\b|\bscarf\b|\bsjaal\b|"
+    r"handbag|\bpurse\b|sneakers|\bshoes\b|schoenen|jewel(le)?ry(?!\s*(box|cabinet|chest|case|stand|kist|kast|doos))|sieraden(?!kist|kast|doos)|earrings|necklace|bracelet|"
+    r"postcards?|ansichtkaart|apparel|clothing|kleding", re.I)
+
 TYPES = [  # checked in this order; first match wins
     ("Lighting", r"lamp|light|lighting|verlichting|pendant|hanglamp|sconce|chandelier|kroonluchter|luminaire|lampen"),
     ("Seating", r"chair|stoel|fauteuil|armchair|sofa|\bbank\b|banken|bench|stool|kruk|lounge|seating|zetel|chaise|daybed|poef|pouf|zitmeubel"),
@@ -116,6 +123,7 @@ def run(today, fetch):
         for it in found:
             if it.get("title"):
                 it["title"] = re.sub(r"\s*\(stock:\s*\d+\)", "", it["title"]).strip()
+        found = [it for it in found if not EXCLUDE.search(f"{it.get('title', '')} {it.get('category', '')}")]
         live_ids = set()
         for it in found:
             iid = f"{sid}:{it['key']}"
