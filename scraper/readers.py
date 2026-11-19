@@ -356,3 +356,69 @@ READERS = {
     "instagram_embed": read_instagram_embed,
     "html": read_html,
 }
+
+
+# ---------------------------------------------------------------- Auto: work out which kind of site this is
+# Product-link shapes, most specific first. Each is matched against the path of links on the shop's own host.
+LINK_FAMILIES = [
+    r"/products?/[^/?#]+/?$",
+    r"/product-page/[^/?#]+/?$",
+    r"/(item|items|artikel|artikelen|objects?)/[^/?#]+/?$",
+    r"-detail/?$",
+    r"/\d{3,}-[^/?#]+\.html$",
+    r"/(shop|collectie|collection|aanbod|webshop|winkel|catalog|meubels|stock|vintage)/[^/?#]+/[^/?#]{8,}/?$",
+    r"/(shop|collectie|collection|aanbod|webshop|winkel|meubels|stock|vintage)/[^/?#]{12,}/?$",
+]
+LISTING_PATHS = ["/", "/shop", "/shop/", "/collection", "/collectie", "/aanbod", "/webshop", "/products",
+                 "/winkel", "/catalog", "/meubels", "/new", "/nieuw", "/vintage", "/collection/all", "/stock"]
+
+
+def _json(fetch, url):
+    try:
+        return json.loads(fetch(url))
+    except Exception:
+        return None
+
+
+def detect(shop, fetch):
+    """Return a concrete reader config for the shop's website, or raise."""
+    base = (shop["reader"].get("base") or shop["website"]).rstrip("/")
+    d = _json(fetch, f"{base}/products.json?limit=1")
+    if isinstance(d, dict) and "products" in d:
+        return {"type": "shopify", "base": base}
+    d = _json(fetch, f"{base}/wp-json/wc/store/v1/products?per_page=1")
+    if isinstance(d, list) and d and "prices" in d[0]:
+        return {"type": "woo", "base": base}
+    host = re.escape(urlparse(base).netloc.replace("www.", ""))
+    hits = {}  # family -> {listing urls, links}
+    for path in LISTING_PATHS:
+        url = base + path
+        try:
+            soup = BeautifulSoup(fetch(url), "html.parser")
+        except Exception:
+            continue
+        for a in soup.find_all("a", href=True):
+            href = urljoin(url, a["href"]).split("#")[0]
+            if not re.search(rf"//(www\.)?{host}/", href):
+                continue
+            path_only = urlparse(href).path
+            for fam in LINK_FAMILIES:
+                if re.search(fam, path_only):
+                    h = hits.setdefault(fam, {"listings": set(), "links": set()})
+                    h["listings"].add(url)
+                    h["links"].add(path_only.rstrip("/"))
+                    break
+    for fam in LINK_FAMILIES:  # first family (most specific) with enough products wins
+        if fam in hits and len(hits[fam]["links"]) >= 4:
+            return {"type": "html", "listings": [{"url": u} for u in sorted(hits[fam]["listings"])],
+                    "link_pattern": rf"{host}" + r"[^?#]*" + fam}
+    raise RuntimeError("couldn't recognise this website's shop pages")
+
+
+def read_auto(shop, fetch):
+    cfg = detect(shop, fetch)
+    shop["_detected"] = cfg
+    return READERS[cfg["type"]](dict(shop, reader=cfg), fetch)
+
+
+READERS["auto"] = read_auto

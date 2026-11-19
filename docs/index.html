@@ -221,6 +221,7 @@ function render() {
 
   let list = applyFilters(viewItems(S.view));
   const km = i => (shopById[i.shop] || {}).km ?? 999;
+  const kmTxt = s => s.km == null ? "" : " · " + s.km + " km";
   const sorters = {
     new: (a, b) => (b.sold_on || b.first_seen).localeCompare(a.sold_on || a.first_seen) || km(a) - km(b),
     plow: (a, b) => (a.price ?? 1e9) - (b.price ?? 1e9),
@@ -243,7 +244,7 @@ function card(i) {
   const when = i.status === "sold" ? "" : ` · listed ${i.baseline ? "before " : ""}${fmtDate(i.first_seen)}`;
   return `<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener">${img}
     <div class="body"><div class="title">${esc(i.title)}</div>
-    <div class="meta">${esc(shop.name)} · ${esc(shop.town)}${shop.zone === "Amsterdam" ? "" : " · " + shop.km + " km"}${when} · ${esc(i.type)}</div>
+    <div class="meta">${esc(shop.name)} · ${esc(shop.town)}${shop.zone === "Amsterdam" || shop.km == null ? "" : " · " + shop.km + " km"}${when} · ${esc(i.type)}</div>
     <div class="price">${price}</div></div></a>`;
 }
 
@@ -258,7 +259,7 @@ function shopState(s) {
 }
 
 function renderCoverage() {
-  const covered = D.shops.filter(s => s.covered).sort((a, b) => a.km - b.km);
+  const covered = D.shops.filter(s => s.covered).sort((a, b) => (a.km ?? 999) - (b.km ?? 999));
   const inFeed = covered.filter(s => shopState(s).cls === "ok");
   const missing = covered.length - inFeed.length;
   const rest = D.shops.length - covered.length;
@@ -272,16 +273,16 @@ function renderCoverage() {
 }
 
 function renderShops() {
-  const covered = D.shops.filter(s => s.covered).sort((a, b) => a.km - b.km);
+  const covered = D.shops.filter(s => s.covered).sort((a, b) => (a.km ?? 999) - (b.km ?? 999));
   $("shopRows").innerHTML = covered.map(s => {
     const x = shopState(s);
     const st = `<span class="${x.cls === "ok" ? "ok" : x.cls === "err" ? "err" : x.cls === "empty" ? "warn" : ""}">${esc(x.label)}${x.detail ? ": " + esc(x.detail) : ""}</span>`;
     return `<tr><td><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a></td>
-      <td>${esc(s.zone)}${s.zone === "Amsterdam" ? "" : " · " + s.km + " km"}</td><td>${s.count ?? "–"}</td><td>${st}</td></tr>`;
+      <td>${esc(s.zone)}${s.zone === "Amsterdam" || s.km == null ? "" : " · " + s.km + " km"}${s.design_icons ? " · Design Icons" : ""}</td><td>${s.count ?? "–"}</td><td>${st}</td></tr>`;
   }).join("");
-  const rest = D.shops.filter(s => !s.covered).sort((a, b) => a.km - b.km);
+  const rest = D.shops.filter(s => !s.covered).sort((a, b) => (a.km ?? 999) - (b.km ?? 999));
   $("uncoveredSummary").textContent = `${rest.length} more VNTG shops not checked yet`;
-  $("uncovered").innerHTML = rest.map(s => `<li><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a>, ${esc(s.town)} (${s.km} km)${s.note ? " ⚠ " + esc(s.note) : ""}</li>`).join("");
+  $("uncovered").innerHTML = rest.map(s => `<li><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a>, ${esc(s.town)} (${s.km == null ? "distance unknown" : s.km + " km"})${s.note ? " ⚠ " + esc(s.note) : ""}</li>`).join("");
 }
 </script>
 </body>

@@ -92,7 +92,16 @@ def run(today, fetch):
         sstate = state["shops"].setdefault(sid, {"baseline_done": False})
         first_run = not sstate["baseline_done"]
         try:
-            found = READERS[reader["type"]](shop, fetch)
+            if reader["type"] == "auto" and sstate.get("detected"):
+                try:
+                    found = READERS[sstate["detected"]["type"]](dict(shop, reader=sstate["detected"]), fetch)
+                except Exception:
+                    found = READERS["auto"](shop, fetch)
+            else:
+                found = READERS[reader["type"]](shop, fetch)
+            if shop.get("_detected"):
+                sstate["detected"] = shop.pop("_detected")
+            reader = sstate.get("detected", reader)
         except Exception as e:  # one broken shop must not stop the others
             sstate.update(status="error", error=f"{type(e).__name__}: {e}"[:300], last_run=today)
             print(f"[{sid}] ERROR {e}")
@@ -193,7 +202,7 @@ def write_page_data(shops, state, today):
             "id": s["id"], "name": s["name"], "town": s["town"], "zone": s["zone"],
             "km": s["km_from_dam"], "website": s["website"], "covered": bool(s.get("reader")),
             "status": st.get("status"), "error": st.get("error"), "warning": st.get("warning"),
-            "count": st.get("last_count"), "note": s.get("note"),
+            "count": st.get("last_count"), "note": s.get("note"), "design_icons": bool(s.get("design_icons")),
         })
     out_items = []
     for iid, it in state["items"].items():

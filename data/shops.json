@@ -68,7 +68,8 @@
     "link_pattern": "route=product/product.*product_id=\\d+",
     "key_pattern": "product_id=(\\d+)"
    },
-   "note": "Only lamps and ceramics are read (the shop also sells sunglasses and postcards)."
+   "note": "Only lamps and ceramics are read (the shop also sells sunglasses and postcards).",
+   "design_icons": true
   },
   {
    "id": "fussy-people-amsterdam",
@@ -319,7 +320,8 @@
    "reader": {
     "type": "woo",
     "base": "https://www.vintage-asylum.nl"
-   }
+   },
+   "design_icons": true
   },
   {
    "id": "amsterdam-modernism-cruquius",
@@ -372,7 +374,8 @@
    "reader": {
     "type": "woo",
     "base": "https://www.devreugdedesign.com"
-   }
+   },
+   "design_icons": true
   },
   {
    "id": "vintage-haarlem-ijmuiden",
@@ -420,7 +423,10 @@
    "lng": 4.70581,
    "km_from_dam": 27.3,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "joink-eemnes",
@@ -432,7 +438,10 @@
    "lng": 5.2478,
    "km_from_dam": 28.0,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "royal-crown-obdam",
@@ -504,7 +513,10 @@
    "lng": 5.0434,
    "km_from_dam": 34.6,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "de-machinekamer-utrecht",
@@ -602,7 +614,10 @@
    "lng": 4.3606,
    "km_from_dam": 50.0,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "residentie-interieur-den-haag",
@@ -770,7 +785,10 @@
    "lng": 5.1689,
    "km_from_dam": 70.5,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "vintro-design-westmaas",
@@ -818,7 +836,10 @@
    "lng": 5.5801,
    "km_from_dam": 76.4,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "rijp-vintage-haren",
@@ -854,7 +875,10 @@
    "lng": 5.5167,
    "km_from_dam": 80.5,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "mippies-arnhem",
@@ -974,7 +998,10 @@
    "lng": 4.79303,
    "km_from_dam": 88.9,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "the-house-of-cool-tilburg",
@@ -1070,7 +1097,10 @@
    "lng": 4.4945,
    "km_from_dam": 96.2,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "massmoderndesign-roosendaal",
@@ -1094,7 +1124,10 @@
    "lng": 4.4897,
    "km_from_dam": 97.2,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "oker-vintage-interior-sint-oedenrode",
@@ -1178,7 +1211,10 @@
    "lng": 6.4772,
    "km_from_dam": 114.3,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "retrohuis-nl-stiens",
@@ -1322,7 +1358,10 @@
    "lng": 6.1782,
    "km_from_dam": 143.1,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "bij-de-tijd-groningen",
@@ -1334,7 +1373,10 @@
    "lng": 6.55915,
    "km_from_dam": 144.8,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "vintagexplosion-wetsinge",
@@ -1346,7 +1388,10 @@
    "lng": 6.5367,
    "km_from_dam": 151.1,
    "zone": "Further",
-   "reader": null
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true
   },
   {
    "id": "vintage-jolie-roermond",
@@ -1443,6 +1488,96 @@
    "km_from_dam": 180.0,
    "zone": "Further",
    "reader": null
+  },
+  {
+   "id": "lev-lifestyle",
+   "name": "Lev Lifestyle",
+   "address": "Online gallery, Netherlands",
+   "town": "Netherlands",
+   "website": "https://www.levlifestyle.nl",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Further",
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true,
+   "note": "Not on VNTG's shop map; exact location unknown."
+  },
+  {
+   "id": "juki-amsterdam",
+   "name": "JUKI Amsterdam",
+   "address": "1e Jan van der Heijdenstraat 103, Amsterdam",
+   "town": "Amsterdam",
+   "website": "https://www.jukiamsterdam.com",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Amsterdam",
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true,
+   "note": "Not on VNTG's shop map. Releases stock in drops."
+  },
+  {
+   "id": "supernova-vintage",
+   "name": "Supernova Vintage",
+   "address": "Location unconfirmed",
+   "town": "Unknown",
+   "website": "https://www.supernova-vintage.com",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Further",
+   "reader": {
+    "type": "auto"
+   },
+   "design_icons": true,
+   "note": "Not on VNTG's shop map. Dutch-language site; location not confirmed."
+  },
+  {
+   "id": "iconic-objects",
+   "name": "Iconic Objects",
+   "address": "Culemborg",
+   "town": "Culemborg",
+   "website": "https://www.1stdibs.com/dealers/iconic-objects/",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Further",
+   "reader": null,
+   "design_icons": true,
+   "note": "No webshop of its own found; sells through 1stDibs."
+  },
+  {
+   "id": "walter-design",
+   "name": "Walter Design",
+   "address": "Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.1stdibs.com/dealers/walter-design/",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Further",
+   "reader": null,
+   "design_icons": true,
+   "note": "No webshop of its own found; sells through 1stDibs."
+  },
+  {
+   "id": "vintage-hoarder",
+   "name": "Vintage Hoarder",
+   "address": "Haarlem",
+   "town": "Haarlem",
+   "website": "https://www.1stdibs.com/dealers/vintage-hoarder/",
+   "lat": null,
+   "lng": null,
+   "km_from_dam": null,
+   "zone": "Further",
+   "reader": null,
+   "design_icons": true,
+   "note": "No webshop of its own found; sells through 1stDibs."
   }
  ]
 }
