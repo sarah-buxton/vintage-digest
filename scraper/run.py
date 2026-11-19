@@ -159,8 +159,9 @@ def run(today, fetch):
                 prev.pop("sold_on", None)
             if it.get("price") and prev.get("price") and it["price"] != prev["price"]:
                 prev["price_history"].append([today, it["price"]])
+            keep_title = reader["type"] in ("html", "instagram_embed") and prev.get("title") not in (None, "", "Untitled")
             prev.update(last_seen=today, url=it["url"],
-                        title=it.get("title") or prev["title"],
+                        title=prev["title"] if keep_title else (it.get("title") or prev["title"]),
                         image=it.get("image") or prev.get("image"),
                         price=it.get("price") or prev.get("price"))
 

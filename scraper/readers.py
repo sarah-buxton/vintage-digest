@@ -234,15 +234,15 @@ def read_html(shop, fetch):
                 else:
                     key = urlparse(href).path.rstrip("/")
                 if key in found:
-                    text = a.get_text(" ", strip=True)
+                    text = _clean_title(a.get_text(" ", strip=True))
                     if text and not found[key]["title"] and not re.fullmatch(r"(view|bekijk|more|meer).*", text, re.I):
                         found[key]["title"] = text  # first link to it was an image without text
                     continue
                 img = a.find("img") or _card_image(a, pattern)
-                text = a.get_text(" ", strip=True)
+                text = _clean_title(a.get_text(" ", strip=True))
                 found[key] = {
                     "key": key,
-                    "title": text or (img.get("alt") if img else "") or "",
+                    "title": text or _clean_title(img.get("alt") if img else "") or "",
                     "url": href,
                     "image": _img_src(img, url),
                     "price": None,
@@ -255,6 +255,14 @@ def read_html(shop, fetch):
     if not found:
         raise RuntimeError("no product links matched on the listing pages")
     return list(found.values())
+
+
+JUNK_TITLE = re.compile(r"^(quick ?view|view( product)?|bekijk|meer info|more info|nieuw|new|sold|verkocht|img[_ -]?\d+.*|dsc[_ -]?\d+.*|\d+)$", re.I)
+
+
+def _clean_title(text):
+    text = (text or "").strip()
+    return "" if JUNK_TITLE.match(text) else text
 
 
 def _card_image(a, pattern):
