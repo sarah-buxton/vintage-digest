@@ -24,7 +24,7 @@ OUT_FILE = ROOT / "docs" / "data.json"
 # Readers that see a shop's whole stock, so a missing item really has gone.
 FULL_STOCK_READERS = {"shopify", "woo", "wp_posts", "lightspeed"}
 DETAIL_CAP_FIRST_RUN = 250   # product pages fetched per shop on its first run
-DETAIL_CAP = 80              # ... and on later runs (only pages not seen before)
+DETAIL_CAP = 150             # ... and on later runs (new pieces, plus known ones still missing a photo)
 SOLD_KEEP_DAYS = 60          # sold items stay on the page this long
 USER_AGENT = "Mozilla/5.0 (personal weekly vintage digest; one visit per week)"
 
@@ -103,7 +103,8 @@ def run(today, fetch):
             if iid in items:  # known item: reuse what we stored
                 for k in ("title", "image", "price"):
                     it[k] = it.get(k) or items[iid].get(k)
-                continue
+                if it.get("image"):
+                    continue  # otherwise fetch its page again to find a photo
             if fetched >= cap:
                 continue
             try:
@@ -112,6 +113,9 @@ def run(today, fetch):
                 print(f"[{sid}] detail failed {it['url']}: {e}")
             fetched += 1
 
+        for it in found:
+            if it.get("title"):
+                it["title"] = re.sub(r"\s*\(stock:\s*\d+\)", "", it["title"]).strip()
         live_ids = set()
         for it in found:
             iid = f"{sid}:{it['key']}"

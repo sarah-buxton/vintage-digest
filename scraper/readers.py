@@ -181,11 +181,11 @@ def read_instagram_embed(shop, fetch):
             seen.add(m.group(1))
             box = a.find_parent(class_=re.compile(r"sbi_item|item|post")) or a.parent
             img = a.find("img") or (box.find("img") if box else None)
-            caption = " ".join(filter(None, [
-                a.get("data-caption"), box.get_text(" ", strip=True) if box else "",
-                img.get("alt") if img else "",
-            ])).strip()
-            title = re.split(r"€", caption)[0].strip(" -|") or "Instagram post"
+            caption = (a.get("data-caption") or (img.get("alt") if img else "") or "").strip()
+            if not caption or re.search(r"open post by|instagram post", caption, re.I):
+                caption = box.get_text(" ", strip=True) if box else ""
+            caption = re.sub(r"open (post|reel|carousel) by \S+ with id \d+", "", caption, flags=re.I)
+            title = re.sub(r"^[\d\s]+", "", re.split(r"€", caption)[0].replace("`", "")).strip(" -|") or "Instagram post"
             image = a.get("data-full-res") or (img and (img.get("data-src") or img.get("src")))
             items.append({
                 "key": m.group(1),
@@ -229,6 +229,9 @@ def read_html(shop, fetch):
                 if key in found:
                     continue
                 img = a.find("img")
+                if img is None:
+                    card = a.find_parent(["article", "li"]) or a.find_parent(class_=re.compile(r"product|item|card|grid", re.I))
+                    img = card.find("img") if card else None
                 text = a.get_text(" ", strip=True)
                 found[key] = {
                     "key": key,
@@ -257,9 +260,10 @@ def _clean_url(href, cfg):
 def _img_src(img, page_url):
     if not img:
         return None
-    for attr in ("data-src", "data-lazy-src", "data-original", "src"):
+    for attr in ("data-src", "data-lazy-src", "data-original", "src", "data-srcset", "srcset"):
         v = img.get(attr)
         if v and not v.startswith("data:"):
+            v = v.split(",")[-1].strip().split(" ")[0] if "srcset" in attr else v
             return urljoin(page_url, v)
     return None
 
@@ -296,7 +300,14 @@ def read_detail(url, fetch):
     h1 = soup.find("h1")
     out["title"] = (out.get("title") or meta("og:title") or (h1.get_text(" ", strip=True) if h1 else None)
                     or (soup.title.get_text(strip=True) if soup.title else None))
-    out["image"] = out.get("image") or meta("og:image")
+    out["image"] = out.get("image") or meta("og:image") or meta("twitter:image")
+    if not out.get("image"):
+        main = soup.find("main") or soup.body or soup
+        for img in main.find_all("img"):
+            src = _img_src(img, url)
+            if src and not re.search(r"logo|icon|sprite|placeholder|\.svg", src, re.I):
+                out["image"] = src
+                break
     if not out.get("price"):
         amount = meta("product:price:amount")
         if amount:
