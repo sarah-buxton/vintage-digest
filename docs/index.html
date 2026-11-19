@@ -137,6 +137,9 @@ fetch("data.json?" + Date.now()).then(r => r.json()).then(data => {
   D = data; D.shops.forEach(s => shopById[s.id] = s);
   const covered = D.shops.filter(s => s.covered);
   $("sub").textContent = `Last checked ${fmtDate(D.generated)} · ${covered.length} shops · new pieces each Monday`;
+  // Until a check has found new pieces, open on All in stock instead of an empty New tab.
+  const anyNew = D.items.some(i => !i.baseline && i.status === "live");
+  if (!anyNew && S.view === "new") S.view = "all";
   buildControls(); render(); renderShops();
 }).catch(() => { $("sub").textContent = "No data yet. The first weekly run creates it."; });
 
