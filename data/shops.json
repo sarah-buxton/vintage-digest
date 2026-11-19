@@ -1,0 +1,1401 @@
+{
+ "_comment": "Shop list from vntg.com/shops/netherlands (map data, 19 Nov 2026). km_from_dam is straight-line distance from Dam Square. A shop with reader=null is listed but not scraped yet.",
+ "shops": [
+  {
+   "id": "brocanteurs-amsterdam",
+   "name": "Brocanteurs",
+   "address": "Overtoom 179, 1054 HG Amsterdam",
+   "town": "Amsterdam",
+   "website": "https://www.brocanteurs.nl",
+   "lat": 52.36155,
+   "lng": 4.87141,
+   "km_from_dam": 1.9,
+   "zone": "Amsterdam",
+   "reader": {
+    "type": "instagram_embed",
+    "pages": [
+     "https://www.brocanteurs.nl/",
+     "https://www.brocanteurs.nl/collection-cloned/"
+    ]
+   }
+  },
+  {
+   "id": "treasure-depot-amsterdam",
+   "name": "Treasure Depot",
+   "address": "Van der Pekstraat 107, 1031 GV Amsterdam",
+   "town": "Amsterdam",
+   "website": "https://www.treasuredepot.nl",
+   "lat": 52.3902,
+   "lng": 4.9082,
+   "km_from_dam": 2.2,
+   "zone": "Amsterdam",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.treasuredepot.nl/index.php?route=product/catalog&sort=p.date_added&order=DESC&limit=100&page={page}",
+      "max_pages": 15
+     }
+    ],
+    "link_pattern": "route=product/product.*product_id=\\d+",
+    "key_pattern": "product_id=(\\d+)"
+   }
+  },
+  {
+   "id": "fussy-people-amsterdam",
+   "name": "Fussy People",
+   "address": "Iepenplein 17-O, 1091 JN Amsterdam",
+   "town": "Amsterdam",
+   "website": "https://www.fussypeople.eu",
+   "lat": 52.3563,
+   "lng": 4.9151,
+   "km_from_dam": 2.4,
+   "zone": "Amsterdam",
+   "reader": {
+    "type": "shopify",
+    "base": "https://www.fussypeople.eu"
+   }
+  },
+  {
+   "id": "just-design-classics-amsterdam",
+   "name": "Just Design Classics",
+   "address": "Veemarkt 147, 1019 CC Amsterdam",
+   "town": "Amsterdam",
+   "website": "https://www.justdesignclassics.com",
+   "lat": 52.3678,
+   "lng": 4.9386,
+   "km_from_dam": 3.2,
+   "zone": "Amsterdam",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.justdesignclassics.com/all-products/results,1-500"
+     },
+     {
+      "url": "https://www.justdesignclassics.com/all-products"
+     }
+    ],
+    "link_pattern": "justdesignclassics\\.com/[a-z0-9-]+/[a-z0-9-]+/[a-z0-9-]+-detail$"
+   }
+  },
+  {
+   "id": "kollect-zaandam",
+   "name": "Kollect",
+   "address": "Barndegat 9, 1505 HM Zaandam",
+   "town": "Zaandam",
+   "website": "https://www.kollect.nl",
+   "lat": 52.4279,
+   "lng": 4.8591,
+   "km_from_dam": 6.5,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "woo",
+    "base": "https://www.kollect.nl"
+   }
+  },
+  {
+   "id": "mister-parker-amstelveen",
+   "name": "Mister Parker",
+   "address": "Nieuwe Karselaan 6, 1182 BR Amstelveen",
+   "town": "Amstelveen",
+   "website": "https://www.misterparker.eu",
+   "lat": 52.3112,
+   "lng": 4.8473,
+   "km_from_dam": 7.5,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.misterparker.eu/shop"
+     }
+    ],
+    "link_pattern": "misterparker\\.eu/product-page/[^/?#]+$"
+   }
+  },
+  {
+   "id": "de-machinekamer-zaandam",
+   "name": "De Machinekamer",
+   "address": "Stormhoek 39, 1506 SW Zaandam",
+   "town": "Zaandam",
+   "website": "https://www.demachinekamer.nl",
+   "lat": 52.4293,
+   "lng": 4.8194,
+   "km_from_dam": 8.0,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "lightspeed",
+    "base": "https://www.demachinekamer.nl",
+    "collection": "vintage-collectie"
+   }
+  },
+  {
+   "id": "kunstconsult-amstelveen",
+   "name": "Kunstconsult",
+   "address": "Zomerlindepad 5, 1185 RC Amstelveen",
+   "town": "Amstelveen",
+   "website": "https://www.kunstconsult.com",
+   "lat": 52.2931,
+   "lng": 4.8492,
+   "km_from_dam": 9.4,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.kunstconsult.com/Collection"
+     },
+     {
+      "url": "https://www.kunstconsult.com/"
+     }
+    ],
+    "link_pattern": "kunstconsult\\.com/(?!Collection|News|Events|Contact|About)[A-Z][A-Za-z-]+/[^/?#]*\\.[^/?#]*$"
+   }
+  },
+  {
+   "id": "studio-1-nes-aan-de-amstel",
+   "name": "Studio 1",
+   "address": "Amsteldijk Zuid 180E, 1188 VN Nes Aan De Amstel",
+   "town": "Nes Aan De Amstel",
+   "website": "https://studio-1.nl",
+   "lat": 52.257,
+   "lng": 4.8712,
+   "km_from_dam": 13.0,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://studio-1.nl/new"
+     },
+     {
+      "url": "https://studio-1.nl/seating"
+     },
+     {
+      "url": "https://studio-1.nl/lighting"
+     },
+     {
+      "url": "https://studio-1.nl/storage"
+     },
+     {
+      "url": "https://studio-1.nl/tables-desks"
+     },
+     {
+      "url": "https://studio-1.nl/other"
+     }
+    ],
+    "link_pattern": "studio-1\\.nl/(seating|lighting|storage|tables-desks|other)/[^/]+/[^/?#]+$"
+   }
+  },
+  {
+   "id": "vintage-boutique-abcoude-abcoude",
+   "name": "Vintage Boutique Abcoude",
+   "address": "Velterslaan 1, 1391 HV Abcoude",
+   "town": "Abcoude",
+   "website": "https://www.vintageboutiqueabcoude.nl",
+   "lat": 52.2757,
+   "lng": 5.0162,
+   "km_from_dam": 13.7,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "wp_posts",
+    "base": "https://vintageboutiqueabcoude.nl"
+   }
+  },
+  {
+   "id": "papadante-de-kwakel",
+   "name": "Papadante",
+   "address": "Noorddammerweg 39, 1424 NW De Kwakel",
+   "town": "De Kwakel",
+   "website": "https://www.papadante.com",
+   "lat": 52.2545,
+   "lng": 4.8037,
+   "km_from_dam": 14.5,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "woo",
+    "base": "https://papadante.com"
+   }
+  },
+  {
+   "id": "modern-artifacts-hoofddorp",
+   "name": "Modern Artifacts",
+   "address": "Hoofdweg 583, 2131 MT Hoofddorp",
+   "town": "Hoofddorp",
+   "website": "https://www.modernartifacts.nl",
+   "lat": 52.3118,
+   "lng": 4.7002,
+   "km_from_dam": 14.7,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "woo",
+    "base": "https://www.modernartifacts.nl"
+   }
+  },
+  {
+   "id": "retro-studio-purmerend",
+   "name": "Retro Studio",
+   "address": "Kanaalstraat 5, 1441 KE Purmerend",
+   "town": "Purmerend",
+   "website": "https://www.retrostudio.nl",
+   "lat": 52.5115,
+   "lng": 4.9442,
+   "km_from_dam": 15.8,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.retrostudio.nl/nl/nieuw-toegevoegde-artikelen?page={page}",
+      "max_pages": 5
+     },
+     {
+      "url": "https://www.retrostudio.nl/nl/104-vintage-meubelen?page={page}",
+      "max_pages": 30
+     }
+    ],
+    "link_pattern": "retrostudio\\.nl/nl/[a-z0-9-]+/\\d+-[^/?#]+\\.html$",
+    "key_pattern": "/(\\d+)-[^/]+\\.html$"
+   }
+  },
+  {
+   "id": "vintage-asylum-haarlem",
+   "name": "Vintage Asylum",
+   "address": "Zijlstraat 21 A, 2011 TJ Haarlem",
+   "town": "Haarlem",
+   "website": "https://www.vintage-asylum.nl",
+   "lat": 52.383,
+   "lng": 4.6309,
+   "km_from_dam": 17.8,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "woo",
+    "base": "https://www.vintage-asylum.nl"
+   }
+  },
+  {
+   "id": "amsterdam-modernism-cruquius",
+   "name": "Amsterdam Modernism",
+   "address": "Bennebroekerdijk 209A, 2142 LD Cruquius",
+   "town": "Cruquius",
+   "website": "https://www.amsterdammodernism.com",
+   "lat": 52.33378,
+   "lng": 4.62184,
+   "km_from_dam": 18.9,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://amsterdammodernism.com/collection/seating"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection/storage"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection/tables"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection/desks"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection/lighting"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection/decorative"
+     },
+     {
+      "url": "https://amsterdammodernism.com/collection"
+     }
+    ],
+    "link_pattern": "amsterdammodernism\\.com/products/[^/?#]+$"
+   }
+  },
+  {
+   "id": "de-vreugde-design-wilnis",
+   "name": "De Vreugde Design",
+   "address": "Oud Huijserweg 51-53, 3648 AB Wilnis",
+   "town": "Wilnis",
+   "website": "https://www.devreugdedesign.com",
+   "lat": 52.1963,
+   "lng": 4.9086,
+   "km_from_dam": 19.7,
+   "zone": "Within 20 km",
+   "reader": {
+    "type": "woo",
+    "base": "https://www.devreugdedesign.com"
+   }
+  },
+  {
+   "id": "vintage-haarlem-ijmuiden",
+   "name": "Vintage Haarlem",
+   "address": "Trawlerkade 44, 1976 CB IJmuiden",
+   "town": "IJmuiden",
+   "website": "https://www.vintagehaarlem.nl",
+   "lat": 52.4592,
+   "lng": 4.5891,
+   "km_from_dam": 22.7,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "cocoon-collectables-hilversum",
+   "name": "Cocoon Collectables",
+   "address": "Kerkbrink 16, 1211 BX Hilversum",
+   "town": "Hilversum",
+   "website": "https://www.cocooncollectables.nl",
+   "lat": 52.2238,
+   "lng": 5.1704,
+   "km_from_dam": 25.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "shop-for-design-heiloo",
+   "name": "Shop for Design",
+   "address": "Handelsweg 20, 1851 NX Heiloo",
+   "town": "Heiloo",
+   "website": "https://www.shopfordesign.nl",
+   "lat": 52.589,
+   "lng": 4.7039,
+   "km_from_dam": 27.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "calm-shapes-heiloo",
+   "name": "Calm Shapes",
+   "address": "Handelsweg 4 a, 1851NX Heiloo",
+   "town": "Heiloo",
+   "website": "https://www.calmshapes.com",
+   "lat": 52.59053,
+   "lng": 4.70581,
+   "km_from_dam": 27.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "joink-eemnes",
+   "name": "Joink",
+   "address": "Vogelkersberg 14B, 3755 BN Eemnes",
+   "town": "Eemnes",
+   "website": "https://www.joink.nl",
+   "lat": 52.246,
+   "lng": 5.2478,
+   "km_from_dam": 28.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "royal-crown-obdam",
+   "name": "Royal Crown",
+   "address": "Butter 16, 1713GM Obdam",
+   "town": "Obdam",
+   "website": "https://www.royalcrown.nl",
+   "lat": 52.6701,
+   "lng": 4.8894,
+   "km_from_dam": 33.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "h-gallery-utrecht",
+   "name": "H. Gallery",
+   "address": "Concordiastraat 68-144, 3551 EM Utrecht",
+   "town": "Utrecht",
+   "website": "https://www.hgallery.com",
+   "lat": 52.0989,
+   "lng": 5.0979,
+   "km_from_dam": 33.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "found-icons-utrecht",
+   "name": "FOUND ICONS",
+   "address": "Reijerscop 27, 3454 HX Utrecht",
+   "town": "Utrecht",
+   "website": "https://www.foundicons.nl",
+   "lat": 52.0768,
+   "lng": 5.0055,
+   "km_from_dam": 33.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "meneer-en-mevrouw-de-boer-utrecht",
+   "name": "Meneer en Mevrouw de Boer",
+   "address": "Jan van Galenstraat 91, 3572 LD Utrecht",
+   "town": "Utrecht",
+   "website": "https://www.meneerenmevrouwdeboer.nl",
+   "lat": 52.1022,
+   "lng": 5.1363,
+   "km_from_dam": 34.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studiotout-bilthoven",
+   "name": "StudioTOUT",
+   "address": "Bilderdijklaan 112A, 3723 DG Bilthoven",
+   "town": "Bilthoven",
+   "website": "https://www.studiotout.com",
+   "lat": 52.1344,
+   "lng": 5.2176,
+   "km_from_dam": 34.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vount-de-meern",
+   "name": "Vount",
+   "address": "Gessel 42, 3454 MZ De Meern",
+   "town": "De Meern",
+   "website": "https://www.vount.nl",
+   "lat": 52.0756,
+   "lng": 5.0434,
+   "km_from_dam": 34.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "de-machinekamer-utrecht",
+   "name": "De Machinekamer",
+   "address": "Nieuw Amsterdamlaan 15-17, 3526 AE Utrecht",
+   "town": "Utrecht",
+   "website": "https://www.demachinekamer.nl",
+   "lat": 52.0633,
+   "lng": 5.1054,
+   "km_from_dam": 37.4,
+   "zone": "Further",
+   "reader": null,
+   "note": "Same website as another pin; stock is read once under the pin nearest Amsterdam."
+  },
+  {
+   "id": "het-item-zeist",
+   "name": "Het Item",
+   "address": "Weeshuislaan 5, 3701 JV Zeist",
+   "town": "Zeist",
+   "website": "https://www.hetitem.com",
+   "lat": 52.086,
+   "lng": 5.2435,
+   "km_from_dam": 39.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "wereldspul-landsmeer",
+   "name": "Wereldspul",
+   "address": "Kanaaldijk 50a, 1121 NZ Landsmeer",
+   "town": "Landsmeer",
+   "website": "https://www.wereldspul.nl",
+   "lat": 52.013,
+   "lng": 5.0154,
+   "km_from_dam": 40.9,
+   "zone": "Further",
+   "reader": null,
+   "note": "VNTG's map pin is near Utrecht but the address is Landsmeer, next to Amsterdam. Check and correct lat/lng."
+  },
+  {
+   "id": "retro-xl-vianen",
+   "name": "Retro XL",
+   "address": "Buitenstad 58, 4132 AC Vianen",
+   "town": "Vianen",
+   "website": "https://www.retroxl.nl",
+   "lat": 51.9975,
+   "lng": 5.0903,
+   "km_from_dam": 43.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "entourage-finds-berkel-en-rodenrijs",
+   "name": "Entourage Finds",
+   "address": "Noordeindseweg 308C, 2651 LM Berkel en Rodenrijs",
+   "town": "Berkel en Rodenrijs",
+   "website": "https://www.entouragefinds.com",
+   "lat": 52.0164,
+   "lng": 4.4855,
+   "km_from_dam": 48.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "retrorevolution-nl-woudenberg",
+   "name": "Retrorevolution.nl",
+   "address": "Maarsbergseweg 69, 3931 JG Woudenberg",
+   "town": "Woudenberg",
+   "website": "https://www.retrorevolution.nl",
+   "lat": 52.0703,
+   "lng": 5.4102,
+   "km_from_dam": 48.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "mooiestukken-nl-voorburg",
+   "name": "MooieStukken.nl",
+   "address": "Koningin Julianalaan 198, 2274 JP Voorburg",
+   "town": "Voorburg",
+   "website": "https://www.mooiestukken.nl",
+   "lat": 52.0769,
+   "lng": 4.3533,
+   "km_from_dam": 49.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "deja-vintage-den-haag",
+   "name": "Deja Vintage",
+   "address": "Westvlietweg 74 A3, 2495 AB Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.dejavintage.com",
+   "lat": 52.0639,
+   "lng": 4.3606,
+   "km_from_dam": 50.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "residentie-interieur-den-haag",
+   "name": "Residentie Interieur",
+   "address": "Stevinstraat 182A, 2587 ET Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.residentieinterieur.nl",
+   "lat": 52.111,
+   "lng": 4.2898,
+   "km_from_dam": 50.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "koffie-en-kansen-den-haag",
+   "name": "Koffie en Kansen",
+   "address": "Zaanstraat 34, 2515 TN Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.koffieenkansen-shop.nl",
+   "lat": 52.0745,
+   "lng": 4.3258,
+   "km_from_dam": 50.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio-ceres-den-haag",
+   "name": "Studio Ceres",
+   "address": "Boekhorststraat 31, 2512 CL Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.studioceres.nl",
+   "lat": 52.0742,
+   "lng": 4.3094,
+   "km_from_dam": 51.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "oldenbeuving-vintage-design-den-haag",
+   "name": "Oldenbeuving Vintage Design",
+   "address": "Spiegelstraat 31, 2518 ES Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.oldenbeuvingvintagedesign.com",
+   "lat": 52.0849,
+   "lng": 4.2941,
+   "km_from_dam": 51.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio-m-bel-den-haag",
+   "name": "Studio Møbel",
+   "address": "Koningin Emmaplein 1&2, 2518 RH Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.studiomobel.store",
+   "lat": 52.0767,
+   "lng": 4.2941,
+   "km_from_dam": 52.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "ztijl-nl-berkel-en-rodenrijs",
+   "name": "Ztijl.nl",
+   "address": "Zwarteweg 1, 2651 BJ Berkel en Rodenrijs",
+   "town": "Berkel en Rodenrijs",
+   "website": "https://www.ztijl.nl",
+   "lat": 51.977,
+   "lng": 4.4592,
+   "km_from_dam": 53.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "jalabala-den-haag",
+   "name": "Jalabala",
+   "address": "Fahrenheitstraat 671a, 2561 DD Den Haag",
+   "town": "Den Haag",
+   "website": "https://www.jalabala.nl",
+   "lat": 52.0794,
+   "lng": 4.2687,
+   "km_from_dam": 53.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vangee-studio-dronten",
+   "name": "Vangee Studio",
+   "address": "De Vecht 14C, 8253 PH Dronten",
+   "town": "Dronten",
+   "website": "https://www.vangee.studio",
+   "lat": 52.5424,
+   "lng": 5.7047,
+   "km_from_dam": 58.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "de-gravintage-buren",
+   "name": "De Gravintage",
+   "address": "Buitenhuizenpoort 2, 4116 CA Buren",
+   "town": "Buren",
+   "website": "https://www.degravintage.nl",
+   "lat": 51.9118,
+   "lng": 5.3331,
+   "km_from_dam": 59.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "bespoke-vintage-design-gorinchem",
+   "name": "Bespoke Vintage Design",
+   "address": "Handelskade 5 - 28, 4205 AC Gorinchem",
+   "town": "Gorinchem",
+   "website": "https://www.bespokevintage.nl",
+   "lat": 51.83958,
+   "lng": 4.97596,
+   "km_from_dam": 59.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "atkris-haaften",
+   "name": "AtKris",
+   "address": "Dreef 22, 4175 AH Haaften",
+   "town": "Haaften",
+   "website": "https://www.atkris.com",
+   "lat": 51.81508,
+   "lng": 5.21348,
+   "km_from_dam": 65.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "tussen-cor-kitsch-maassluis",
+   "name": "Tussen Cor & Kitsch",
+   "address": "Johan Evertsenlaan 15, 3143 AJ Maassluis",
+   "town": "Maassluis",
+   "website": "https://www.tussencorenkitsch.nl",
+   "lat": 51.919,
+   "lng": 4.2557,
+   "km_from_dam": 66.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "tussen-cor-kitsch-maassluis",
+   "name": "Tussen Cor & Kitsch",
+   "address": "Keucheniusstraat 23, 3144 EM Maassluis",
+   "town": "Maassluis",
+   "website": "https://www.tussencorenkitsch.nl",
+   "lat": 51.9203,
+   "lng": 4.249,
+   "km_from_dam": 66.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "van-ons-nederhemert",
+   "name": "VAN ONS",
+   "address": "De Hophoven 3, 5317JV Nederhemert",
+   "town": "Nederhemert",
+   "website": "https://www.vanons.eu",
+   "lat": 51.7623,
+   "lng": 5.1689,
+   "km_from_dam": 70.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintro-design-westmaas",
+   "name": "Vintro-Design",
+   "address": "Groeneweg 1, 3273 LP Westmaas",
+   "town": "Westmaas",
+   "website": "https://www.vintro-design.nl",
+   "lat": 51.7883,
+   "lng": 4.4504,
+   "km_from_dam": 71.7,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "finevintage-apeldoorn",
+   "name": "FineVintage",
+   "address": "Koninginnelaan 89, 7315 BP Apeldoorn",
+   "town": "Apeldoorn",
+   "website": "https://www.finevintage.nl",
+   "lat": 52.2263,
+   "lng": 5.9569,
+   "km_from_dam": 74.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "tim-tom-lemmer",
+   "name": "Tim Tom",
+   "address": "Lemsterpad 54-A 46, 8531 AA Lemmer",
+   "town": "Lemmer",
+   "website": "https://www.tim-tom.nl",
+   "lat": 52.8373,
+   "lng": 5.7244,
+   "km_from_dam": 76.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "the-great-apple-appeltern",
+   "name": "The Great Apple",
+   "address": "Kerkstraat 21, 6629 AR Appeltern",
+   "town": "Appeltern",
+   "website": "https://www.thegreatapple.nl",
+   "lat": 51.8311,
+   "lng": 5.5801,
+   "km_from_dam": 76.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "rijp-vintage-haren",
+   "name": "Rijp Vintage",
+   "address": "Kerkplein 4, 5368 AM Haren",
+   "town": "Haren",
+   "website": "https://www.rijpvintage.com",
+   "lat": 51.7978,
+   "lng": 5.5854,
+   "km_from_dam": 79.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "b22-design-oosterzee",
+   "name": "B22 Design",
+   "address": "Buren 22, 8536 TJ Oosterzee",
+   "town": "Oosterzee",
+   "website": "https://www.b22design.nl",
+   "lat": 52.86914,
+   "lng": 5.75001,
+   "km_from_dam": 80.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintage-nl-oss",
+   "name": "Vintage.nl",
+   "address": "Obrechtstraat 23 C, 5344 AT Oss",
+   "town": "Oss",
+   "website": "https://www.misceaup.nl",
+   "lat": 51.7596,
+   "lng": 5.5167,
+   "km_from_dam": 80.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "mippies-arnhem",
+   "name": "Mippies",
+   "address": "Klarendalseweg 382, 6822 GT Arnhem",
+   "town": "Arnhem",
+   "website": "https://www.mippies.com",
+   "lat": 51.9894,
+   "lng": 5.9237,
+   "km_from_dam": 82.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintage-venue-furniture-oosterhout",
+   "name": "VINTAGE VENUE furniture",
+   "address": "Wilhelminakanaal-Zuid 102, 4903 RA Oosterhout",
+   "town": "Oosterhout",
+   "website": "https://www.vintagevenue.nl",
+   "lat": 51.6313,
+   "lng": 4.8611,
+   "km_from_dam": 82.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintage-design-store-breda",
+   "name": "Vintage Design Store",
+   "address": "Takkebijsters 58, 4817 BL Breda",
+   "town": "Breda",
+   "website": "https://www.vintagedesignstore.nl",
+   "lat": 51.5953,
+   "lng": 4.8291,
+   "km_from_dam": 86.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "55concept-wilp",
+   "name": "55concept",
+   "address": "Rijksstraatweg 37, 7384 AB Wilp",
+   "town": "Wilp",
+   "website": "https://www.55concept.com",
+   "lat": 52.21871,
+   "lng": 6.14502,
+   "km_from_dam": 86.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vonvintage-eu-udenhout",
+   "name": "Vonvintage.eu",
+   "address": "Spoorakkerweg 3-03, 5071 NC Udenhout",
+   "town": "Udenhout",
+   "website": "https://www.vonvintage.eu",
+   "lat": 51.606,
+   "lng": 5.1581,
+   "km_from_dam": 87.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "furnip-breda",
+   "name": "Furnip",
+   "address": "Nassausingel 26, 4811 DG Breda",
+   "town": "Breda",
+   "website": "https://www.furnip.nl",
+   "lat": 51.5902,
+   "lng": 4.7878,
+   "km_from_dam": 87.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "dewolff-deventer",
+   "name": "&dewolff",
+   "address": "Bergkerkplein 7, 7411 EN Deventer",
+   "town": "Deventer",
+   "website": "https://www.endewolff.nl",
+   "lat": 52.25208,
+   "lng": 6.16261,
+   "km_from_dam": 87.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "huisraadvantoen-oldemarkt",
+   "name": "HuisraadVanToen",
+   "address": "Weerdijk 8B, 8375 AX Oldemarkt",
+   "town": "Oldemarkt",
+   "website": "https://www.huisraadvantoen.nl",
+   "lat": 52.8238,
+   "lng": 5.9675,
+   "km_from_dam": 88.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "mippies-lathum",
+   "name": "Mippies",
+   "address": "Koestraat 1a, 6988 AA Lathum",
+   "town": "Lathum",
+   "website": "https://www.mippies.com",
+   "lat": 51.9863,
+   "lng": 6.0263,
+   "km_from_dam": 88.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "atelier-uma-breda",
+   "name": "Atelier UMA",
+   "address": "Erasmusweg 22, 4834 AA Breda",
+   "town": "Breda",
+   "website": "https://www.atelieruma.com",
+   "lat": 51.57579,
+   "lng": 4.79303,
+   "km_from_dam": 88.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "the-house-of-cool-tilburg",
+   "name": "The House of Cool",
+   "address": "Petrus Loosjesstraat 7A, 5013 BW Tilburg",
+   "town": "Tilburg",
+   "website": "https://www.thehouseofcool.nl",
+   "lat": 51.5738,
+   "lng": 5.0945,
+   "km_from_dam": 89.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "indubio-gendt",
+   "name": "INDUBIO",
+   "address": "Langstraat 291a, 6691 EE Gendt",
+   "town": "Gendt",
+   "website": "https://www.indubio.nl",
+   "lat": 51.8787,
+   "lng": 5.9389,
+   "km_from_dam": 90.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "dezaak-deluxe-tilburg",
+   "name": "DEZAAK DELUXE",
+   "address": "Ceramstraat 1A, 5013 BB Tilburg",
+   "town": "Tilburg",
+   "website": "https://www.dezaak-deluxe.nl",
+   "lat": 51.5658,
+   "lng": 5.1058,
+   "km_from_dam": 90.9,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "decennia-design-tilburg",
+   "name": "Decennia Design",
+   "address": "Meelstraat 82, 5025 KN Tilburg",
+   "town": "Tilburg",
+   "website": "https://www.decenniadesign.nl",
+   "lat": 51.5526,
+   "lng": 5.0694,
+   "km_from_dam": 92.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "classicdesign-nl-doesburg",
+   "name": "Classicdesign.nl",
+   "address": "Meipoortstraat 39n, 6981 DJ Doesburg",
+   "town": "Doesburg",
+   "website": "https://www.classicdesign.nl",
+   "lat": 52.0142,
+   "lng": 6.1372,
+   "km_from_dam": 93.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "novac-vintage-steenwijk",
+   "name": "NOVAC Vintage",
+   "address": "Tukseweg 87, 8334 RS Steenwijk",
+   "town": "Steenwijk",
+   "website": "https://www.novac-vintage.nl",
+   "lat": 52.7925,
+   "lng": 6.1002,
+   "km_from_dam": 94.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "svenska-fynd-zutphen",
+   "name": "Svenska Fynd",
+   "address": "Zonnehorst 5, 7207 BT Zutphen",
+   "town": "Zutphen",
+   "website": "https://www.svenskafynd.nl",
+   "lat": 52.1106,
+   "lng": 6.2211,
+   "km_from_dam": 95.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio-nine-design-roosendaal",
+   "name": "Studio Nine Design",
+   "address": "Zeggeveld 9C, 4705 RP Roosendaal",
+   "town": "Roosendaal",
+   "website": "https://www.studioninedesign.nl",
+   "lat": 51.5438,
+   "lng": 4.4945,
+   "km_from_dam": 96.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "massmoderndesign-roosendaal",
+   "name": "MassModernDesign",
+   "address": "Schotsbossenstraat 17, 4705 AE Roosendaal",
+   "town": "Roosendaal",
+   "website": "https://www.massmoderndesign.com",
+   "lat": 51.5439,
+   "lng": 4.4905,
+   "km_from_dam": 96.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "smuk-collectables-roosendaal",
+   "name": "SMUK collectables",
+   "address": "De Meeten 20, 4706 NG Roosendaal",
+   "town": "Roosendaal",
+   "website": "https://www.smukcollectables.com",
+   "lat": 51.5349,
+   "lng": 4.4897,
+   "km_from_dam": 97.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "oker-vintage-interior-sint-oedenrode",
+   "name": "OKER Vintage Interior",
+   "address": "Wolfswinkel 8, 5691 PC Sint-Oedenrode",
+   "town": "Sint-Oedenrode",
+   "website": "https://www.okervintage.com",
+   "lat": 51.5318,
+   "lng": 5.4963,
+   "km_from_dam": 102.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "huis-van-geluk-zierikzee",
+   "name": "Huis van Geluk",
+   "address": "Havenpark 24, 4301 CD Zierikzee",
+   "town": "Zierikzee",
+   "website": "https://www.huisvangeluk.nl",
+   "lat": 51.649,
+   "lng": 3.9222,
+   "km_from_dam": 104.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "redesignable-bergen-op-zoom",
+   "name": "Redesignable",
+   "address": "Bredasestraat 84, 4611 CK Bergen op Zoom",
+   "town": "Bergen op Zoom",
+   "website": "https://www.redesignable.com",
+   "lat": 51.4976,
+   "lng": 4.2961,
+   "km_from_dam": 105.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "hervinter-dedemsvaart",
+   "name": "Hervinter",
+   "address": "Judith van Marlelaan 15, 7701 HV Dedemsvaart",
+   "town": "Dedemsvaart",
+   "website": "https://www.hervinter.nl",
+   "lat": 52.6018,
+   "lng": 6.4543,
+   "km_from_dam": 108.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintage-design-co-eindhoven",
+   "name": "Vintage Design & Co",
+   "address": "Gestelsestraat 46, 5615 LG Eindhoven",
+   "town": "Eindhoven",
+   "website": "https://www.vintagedesignenco.com",
+   "lat": 51.4316,
+   "lng": 5.4718,
+   "km_from_dam": 112.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "thiele-holland-silvolde",
+   "name": "Thiele Holland",
+   "address": "Ulftseweg 37, 7064 BA Silvolde",
+   "town": "Silvolde",
+   "website": "https://www.thieleholland.com",
+   "lat": 51.9079,
+   "lng": 6.3832,
+   "km_from_dam": 114.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vervlogen-jaren-hoogeveen",
+   "name": "Vervlogen Jaren",
+   "address": "Industrieweg 7, 7903 AH Hoogeveen",
+   "town": "Hoogeveen",
+   "website": "https://www.vervlogenjaren.nl",
+   "lat": 52.7323,
+   "lng": 6.4772,
+   "km_from_dam": 114.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "retrohuis-nl-stiens",
+   "name": "Retrohuis.nl",
+   "address": "Seestjer 18, 9051 VD Stiens",
+   "town": "Stiens",
+   "website": "https://www.retrohuis.nl",
+   "lat": 53.2667,
+   "lng": 5.7472,
+   "km_from_dam": 114.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "t-t-antiques-hoogeveen",
+   "name": "T&T Antiques",
+   "address": "Piet Soerstraat 6, 7903 TK Hoogeveen",
+   "town": "Hoogeveen",
+   "website": "https://www.tt-antiques.nl",
+   "lat": 52.7336,
+   "lng": 6.514,
+   "km_from_dam": 116.7,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "holder-interiors-gytsjerk",
+   "name": "Holder Interiors",
+   "address": "Rinia van Nautaweg 3, 9061 AA Gytsjerk",
+   "town": "Gytsjerk",
+   "website": "https://www.holderinteriors.nl",
+   "lat": 53.2355,
+   "lng": 5.8991,
+   "km_from_dam": 117.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vandevintage-leende",
+   "name": "Vandevintage",
+   "address": "Kerkpad 13, 5595 BX Leende",
+   "town": "Leende",
+   "website": "https://www.vandevintage.nl",
+   "lat": 51.3504,
+   "lng": 5.5542,
+   "km_from_dam": 122.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "timeless-art-oirlo",
+   "name": "Timeless Art",
+   "address": "Oirloseweg 18, 5808 BN Oirlo",
+   "town": "Oirlo",
+   "website": "https://www.timeless-art.com",
+   "lat": 51.5149,
+   "lng": 6.0322,
+   "km_from_dam": 123.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "tussenin-asten-heusden",
+   "name": "Tussenin",
+   "address": "Voorste Heusden 45i, 5725 AB Asten-Heusden",
+   "town": "Asten-Heusden",
+   "website": "https://www.tussenin.eu",
+   "lat": 51.3863,
+   "lng": 5.7635,
+   "km_from_dam": 125.0,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "jac-ard-castenray",
+   "name": "JAC - ARD",
+   "address": "Lollebeekweg 28a, 5811 AL Castenray",
+   "town": "Castenray",
+   "website": "https://www.jac-ard.com",
+   "lat": 51.4841,
+   "lng": 6.0168,
+   "km_from_dam": 125.4,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "pled-maarheeze",
+   "name": "PLED",
+   "address": "Het Laar 22, 6026 RX Maarheeze",
+   "town": "Maarheeze",
+   "website": "https://www.pledvintage.com",
+   "lat": 51.2994,
+   "lng": 5.6071,
+   "km_from_dam": 129.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio1900-grijpskerk",
+   "name": "Studio1900",
+   "address": "Kievitsweg 30b, 9843 HA Grijpskerk",
+   "town": "Grijpskerk",
+   "website": "https://www.studio1900.nl",
+   "lat": 53.2672,
+   "lng": 6.3069,
+   "km_from_dam": 137.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "tm-s-maasbree",
+   "name": "ÅTMØS",
+   "address": "Dorpstraat 71, 5993 AM Maasbree",
+   "town": "Maasbree",
+   "website": "https://www.atmosvintagedesign.com",
+   "lat": 51.3589,
+   "lng": 6.05304,
+   "km_from_dam": 138.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "fr-mel-baarlo",
+   "name": "Frümel",
+   "address": "Napoleonsbaan Zuid 39 A, 5991 NB Baarlo",
+   "town": "Baarlo",
+   "website": "https://www.frumel.com",
+   "lat": 51.3194,
+   "lng": 6.0789,
+   "km_from_dam": 142.7,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "jean-michel-store-venlo",
+   "name": "Jean-Michel Store",
+   "address": "Maagdenbergweg 2, 5915 CR Venlo",
+   "town": "Venlo",
+   "website": "https://www.jeanmichelstore.com",
+   "lat": 51.3604,
+   "lng": 6.1782,
+   "km_from_dam": 143.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "bij-de-tijd-groningen",
+   "name": "Bij de Tijd",
+   "address": "Flemingstraat 5, 9728 GZ Groningen",
+   "town": "Groningen",
+   "website": "https://www.winkelbijdetijd.nl",
+   "lat": 53.19753,
+   "lng": 6.55915,
+   "km_from_dam": 144.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintagexplosion-wetsinge",
+   "name": "Vintagexplosion",
+   "address": "Oosterlaan 2, 9773 TE Wetsinge",
+   "town": "Wetsinge",
+   "website": "https://www.vintagexplosion.com",
+   "lat": 53.3,
+   "lng": 6.5367,
+   "km_from_dam": 151.1,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "vintage-jolie-roermond",
+   "name": "Vintage Jolie",
+   "address": "Schuitenberg 8, 6041 JJ Roermond",
+   "town": "Roermond",
+   "website": "https://www.vintagejolie.nl",
+   "lat": 51.1914,
+   "lng": 5.9883,
+   "km_from_dam": 151.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio-cadmium-echt",
+   "name": "STUDIO CADMIUM",
+   "address": "Kelvinweg 3A, 6101 WT Echt",
+   "town": "Echt",
+   "website": "https://www.studiocadmium.com",
+   "lat": 51.1156,
+   "lng": 5.8753,
+   "km_from_dam": 155.3,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "retrospect-echt",
+   "name": "Retrospect",
+   "address": "Bosstraat 32b, 6101 NX Echt",
+   "town": "Echt",
+   "website": "https://www.retrospect.eu",
+   "lat": 51.0978,
+   "lng": 5.8796,
+   "km_from_dam": 157.2,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "howaboutout-zuidbroek",
+   "name": "Howaboutout",
+   "address": "Beneluxweg 21, 9636 HV Zuidbroek",
+   "town": "Zuidbroek",
+   "website": "https://www.howaboutout.com",
+   "lat": 53.1641,
+   "lng": 6.8701,
+   "km_from_dam": 159.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "lattico-sittard",
+   "name": "Lattico",
+   "address": "Steenweg 47, 6131 BB Sittard",
+   "town": "Sittard",
+   "website": "https://www.latticodesign.com",
+   "lat": 51.0004,
+   "lng": 5.8628,
+   "km_from_dam": 166.6,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "studio-alium-sittard",
+   "name": "Studio Alium",
+   "address": "Baenjenstraat 16a-18, 6131JK Sittard",
+   "town": "Sittard",
+   "website": "https://www.studioalium.nl",
+   "lat": 50.9942,
+   "lng": 5.8697,
+   "km_from_dam": 167.5,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "bestwelhip-nl-geleen",
+   "name": "Bestwelhip.nl",
+   "address": "Groenseykerstraat 41B, 6161 SE Geleen",
+   "town": "Geleen",
+   "website": "https://www.bestwelhip.nl",
+   "lat": 50.96944,
+   "lng": 5.82318,
+   "km_from_dam": 168.8,
+   "zone": "Further",
+   "reader": null
+  },
+  {
+   "id": "urban-modern-landgraaf",
+   "name": "Urban Modern",
+   "address": "Havikweg 14A, 6374AZ Landgraaf",
+   "town": "Landgraaf",
+   "website": "https://www.urbanmodern.nl",
+   "lat": 50.9163,
+   "lng": 6.0288,
+   "km_from_dam": 180.0,
+   "zone": "Further",
+   "reader": null
+  }
+ ]
+}

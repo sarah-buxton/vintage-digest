@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vintage this week</title>
+<meta name="robots" content="noindex">
+<style>
+  :root {
+    --bg: #f6f4ef; --card: #fffdf9; --ink: #1d1c1a; --muted: #77736b; --line: #e3dfd6;
+    --accent: #1d1c1a; --tag: #ece8df; --good: #2f6b4f; --warn: #9a5b13; --bad: #a33a2c;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--ink);
+         font: 15px/1.45 -apple-system, BlinkMacSystemFont, "Helvetica Neue", Helvetica, Arial, sans-serif; }
+  header { padding: 40px 32px 8px; max-width: 1400px; margin: 0 auto; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-weight: 400; font-size: 44px; letter-spacing: -0.01em; margin: 0; }
+  .sub { color: var(--muted); margin-top: 6px; }
+  .bar { position: sticky; top: 0; z-index: 5; background: rgba(246,244,239,.94); backdrop-filter: blur(6px);
+         border-bottom: 1px solid var(--line); }
+  .bar-inner { max-width: 1400px; margin: 0 auto; padding: 12px 32px; display: flex; flex-wrap: wrap; gap: 10px 22px; align-items: center; }
+  .tabs { display: flex; gap: 4px; }
+  .tab { white-space: nowrap; border: 0; background: none; padding: 6px 12px; border-radius: 999px; cursor: pointer; font: inherit; color: var(--muted); }
+  .tab.on { background: var(--ink); color: var(--bg); }
+  .tab .n { opacity: .7; font-size: 12px; margin-left: 4px; }
+  .group { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; }
+  .label { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); margin-right: 2px; }
+  .chip { border: 1px solid var(--line); background: var(--card); padding: 4px 10px; border-radius: 999px; cursor: pointer; font: inherit; font-size: 13px; color: var(--muted); }
+  .chip.on { border-color: var(--ink); color: var(--ink); background: var(--tag); }
+  input[type=number], input[type=search], select { font: inherit; font-size: 13px; padding: 5px 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--card); color: var(--ink); }
+  input[type=number] { width: 84px; }
+  input[type=search] { width: 180px; }
+  label.check { font-size: 13px; color: var(--muted); display: flex; gap: 4px; align-items: center; }
+  main { max-width: 1400px; margin: 0 auto; padding: 20px 32px 60px; }
+  .notice { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 14px 16px; margin-bottom: 18px; color: var(--muted); }
+  .notice b { color: var(--ink); font-weight: 600; }
+  .count { color: var(--muted); font-size: 13px; margin: 0 0 14px; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;
+          text-decoration: none; color: inherit; transition: transform .12s ease, box-shadow .12s ease; }
+  .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.06); }
+  .img { aspect-ratio: 4 / 5; background: var(--tag) center / cover no-repeat; position: relative; }
+  .img.none { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px; }
+  .badge { position: absolute; top: 10px; left: 10px; background: var(--ink); color: var(--bg); font-size: 11px; padding: 3px 8px; border-radius: 999px; letter-spacing: .03em; }
+  .badge.sold { background: var(--bad); }
+  .badge.drop { background: var(--good); }
+  .body { padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 4px; flex: 1; }
+  .title { font-size: 14px; line-height: 1.35; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+  .price { font-family: Georgia, serif; font-size: 17px; margin-top: auto; padding-top: 6px; }
+  .price s { color: var(--muted); font-size: 13px; margin-left: 6px; }
+  .price .na { color: var(--muted); font-size: 13px; font-family: inherit; }
+  .meta { font-size: 12px; color: var(--muted); }
+  .empty { text-align: center; color: var(--muted); padding: 60px 0; }
+  section.shops { margin-top: 56px; border-top: 1px solid var(--line); padding-top: 24px; }
+  section.shops h2 { font-family: Georgia, serif; font-weight: 400; font-size: 24px; margin: 0 0 12px; }
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th, td { text-align: left; padding: 7px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+  th { color: var(--muted); font-weight: 500; }
+  .ok { color: var(--good); } .warn { color: var(--warn); } .err { color: var(--bad); }
+  details { margin-top: 18px; color: var(--muted); font-size: 13px; }
+  details ul { columns: 3; padding-left: 18px; }
+  a { color: inherit; }
+  @media (max-width: 700px) {
+    .bar { position: static; }
+    .tabs { width: 100%; overflow-x: auto; }
+    header, .bar-inner, main { padding-left: 16px; padding-right: 16px; }
+    h1 { font-size: 32px; }
+    .grid { grid-template-columns: repeat(2, 1fr); gap: 12px; }
+    details ul { columns: 1; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Vintage this week</h1>
+  <div class="sub" id="sub">Loading…</div>
+</header>
+
+<div class="bar"><div class="bar-inner">
+  <div class="tabs" id="tabs"></div>
+  <div class="group" id="sinceGroup"><span class="label">New since</span><select id="since"></select></div>
+  <div class="group"><span class="label">Area</span><span id="zones"></span></div>
+  <div class="group"><span class="label">Type</span><span id="types"></span></div>
+  <div class="group"><span class="label">Price €</span>
+    <input type="number" id="pmin" placeholder="min" min="0" step="50">
+    <input type="number" id="pmax" placeholder="max" min="0" step="50">
+    <label class="check"><input type="checkbox" id="noprice" checked> incl. no price</label></div>
+  <div class="group"><select id="shop"><option value="">All shops</option></select></div>
+  <div class="group"><select id="sort">
+    <option value="new">Newest first</option><option value="plow">Price: low to high</option>
+    <option value="phigh">Price: high to low</option><option value="near">Nearest shop</option></select></div>
+  <div class="group"><input type="search" id="q" placeholder="Search (e.g. teak, Bauhaus)"></div>
+</div></div>
+
+<main>
+  <div id="notice"></div>
+  <p class="count" id="count"></p>
+  <div class="grid" id="grid"></div>
+  <section class="shops">
+    <h2>Shops</h2>
+    <table><thead><tr><th>Shop</th><th>Area</th><th>Items</th><th>Last check</th></tr></thead><tbody id="shopRows"></tbody></table>
+    <details><summary id="uncoveredSummary"></summary><ul id="uncovered"></ul></details>
+  </section>
+</main>
+
+<script>
+const ZONES = ["Amsterdam", "Within 20 km", "Further"];
+const TYPES = ["Seating", "Tables & desks", "Storage", "Lighting", "Decor & art", "Other"];
+const VIEWS = [["new", "New"], ["drops", "Price drops"], ["sold", "Sold"], ["all", "All in stock"]];
+const DEFAULTS = { view: "new", since: 1, zones: ["Amsterdam", "Within 20 km"], types: TYPES.slice(), pmin: "", pmax: "", noprice: true, shop: "", sort: "new", q: "" };
+
+let D, shopById = {}, S = load();
+function load() {
+  try { return Object.assign({}, DEFAULTS, JSON.parse(localStorage.getItem("vintageFilters") || "{}")); }
+  catch (e) { return Object.assign({}, DEFAULTS); }
+}
+function save() { try { localStorage.setItem("vintageFilters", JSON.stringify(S)); } catch (e) {} }
+const $ = id => document.getElementById(id);
+const eur = n => "€ " + n.toLocaleString("nl-NL", { maximumFractionDigits: 0 });
+const fmtDate = d => new Date(d + "T12:00:00").toLocaleDateString("en-GB", { day: "numeric", month: "short" });
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
+
+fetch("data.json?" + Date.now()).then(r => r.json()).then(data => {
+  D = data; D.shops.forEach(s => shopById[s.id] = s);
+  const covered = D.shops.filter(s => s.covered);
+  $("sub").textContent = `Last checked ${fmtDate(D.generated)} · ${covered.length} shops · new pieces each Monday`;
+  buildControls(); render(); renderShops();
+}).catch(() => { $("sub").textContent = "No data yet. The first weekly run creates it."; });
+
+function chips(el, values, key) {
+  el.innerHTML = "";
+  values.forEach(v => {
+    const b = document.createElement("button");
+    b.className = "chip" + (S[key].includes(v) ? " on" : ""); b.textContent = v;
+    b.onclick = () => { S[key] = S[key].includes(v) ? S[key].filter(x => x !== v) : S[key].concat(v); b.classList.toggle("on"); save(); render(); };
+    el.appendChild(b);
+  });
+}
+
+function buildControls() {
+  chips($("zones"), ZONES, "zones");
+  chips($("types"), TYPES, "types");
+  const runs = D.runs.slice().reverse();
+  $("since").innerHTML = [1, 2, 4, 8].filter(n => n <= Math.max(runs.length, 1))
+    .map(n => `<option value="${n}">${n === 1 ? "Latest check" : "Last " + n + " checks"} (${fmtDate(runs[Math.min(n, runs.length) - 1] || D.generated)})</option>`).join("");
+  if (S.since > runs.length) S.since = 1;
+  $("since").value = S.since;
+  D.shops.filter(s => s.covered).sort((a, b) => a.name.localeCompare(b.name))
+    .forEach(s => $("shop").insertAdjacentHTML("beforeend", `<option value="${esc(s.id)}">${esc(s.name)}</option>`));
+  ["pmin", "pmax", "shop", "sort", "q"].forEach(k => { $(k).value = S[k]; $(k).oninput = () => { S[k] = $(k).value; save(); render(); }; });
+  $("noprice").checked = S.noprice; $("noprice").onchange = () => { S.noprice = $("noprice").checked; save(); render(); };
+  $("since").onchange = () => { S.since = +$("since").value; save(); render(); };
+}
+
+function viewItems(view) {
+  const runs = D.runs.slice().reverse();
+  const sinceDate = runs[Math.min(S.since, runs.length) - 1] || D.generated;
+  if (view === "new") return D.items.filter(i => i.status === "live" && !i.baseline && i.first_seen >= sinceDate);
+  if (view === "drops") return D.items.filter(i => i.status === "live" && i.was && i.price_changed >= sinceDate);
+  if (view === "sold") return D.items.filter(i => i.status === "sold" && i.sold_on >= sinceDate);
+  return D.items.filter(i => i.status === "live");
+}
+
+function applyFilters(list) {
+  const q = S.q.trim().toLowerCase(), min = parseFloat(S.pmin), max = parseFloat(S.pmax);
+  return list.filter(i => {
+    const shop = shopById[i.shop] || {};
+    if (!S.zones.includes(shop.zone)) return false;
+    if (!S.types.includes(i.type)) return false;
+    if (S.shop && i.shop !== S.shop) return false;
+    if (i.price == null) { if (!S.noprice) return false; }
+    else { if (!isNaN(min) && i.price < min) return false; if (!isNaN(max) && i.price > max) return false; }
+    if (q && !(i.title + " " + shop.name).toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+
+function render() {
+  $("tabs").innerHTML = "";
+  VIEWS.forEach(([v, label]) => {
+    const b = document.createElement("button");
+    b.className = "tab" + (S.view === v ? " on" : "");
+    b.innerHTML = `${label}<span class="n">${applyFilters(viewItems(v)).length}</span>`;
+    b.onclick = () => { S.view = v; save(); render(); };
+    $("tabs").appendChild(b);
+  });
+  $("sinceGroup").style.display = S.view === "all" ? "none" : "";
+
+  const allNew = D.items.filter(i => i.first_seen === D.generated);
+  const baselineOnly = allNew.length && allNew.every(i => i.baseline);
+  const broken = D.shops.filter(s => s.covered && (s.status === "error" || s.warning));
+  let notice = "";
+  if (baselineOnly && S.view === "new")
+    notice += `<div class="notice"><b>First check done.</b> Everything currently for sale has been recorded as the starting point, so nothing counts as new yet. New pieces appear after the next weekly check. Use <b>All in stock</b> to browse now.</div>`;
+  if (broken.length)
+    notice += `<div class="notice"><b>${broken.length} shop${broken.length > 1 ? "s" : ""} had a problem this week:</b> ${broken.map(s => esc(s.name)).join(", ")}. See the shop list below.</div>`;
+  $("notice").innerHTML = notice;
+
+  let list = applyFilters(viewItems(S.view));
+  const km = i => (shopById[i.shop] || {}).km ?? 999;
+  const sorters = {
+    new: (a, b) => (b.sold_on || b.first_seen).localeCompare(a.sold_on || a.first_seen) || km(a) - km(b),
+    plow: (a, b) => (a.price ?? 1e9) - (b.price ?? 1e9),
+    phigh: (a, b) => (b.price ?? -1) - (a.price ?? -1),
+    near: (a, b) => km(a) - km(b),
+  };
+  list.sort(sorters[S.sort] || sorters.new);
+  $("count").textContent = `${list.length} piece${list.length === 1 ? "" : "s"}`;
+  $("grid").innerHTML = list.length ? list.map(card).join("") : `<div class="empty">Nothing matches these filters.</div>`;
+}
+
+function card(i) {
+  const shop = shopById[i.shop] || {};
+  const badge = i.status === "sold" ? `<span class="badge sold">Sold ${fmtDate(i.sold_on)}</span>`
+    : i.was ? `<span class="badge drop">Price drop</span>`
+    : (!i.baseline && i.first_seen === D.generated) ? `<span class="badge">New</span>` : "";
+  const img = i.image ? `<div class="img" style="background-image:url('${esc(i.image)}')">${badge}</div>`
+                      : `<div class="img none">${badge}No photo</div>`;
+  const price = i.price != null ? `${eur(i.price)}${i.was ? `<s>${eur(i.was)}</s>` : ""}` : `<span class="na">Price on request</span>`;
+  const when = i.status === "sold" ? "" : ` · listed ${i.baseline ? "before " : ""}${fmtDate(i.first_seen)}`;
+  return `<a class="card" href="${esc(i.url)}" target="_blank" rel="noopener">${img}
+    <div class="body"><div class="title">${esc(i.title)}</div>
+    <div class="meta">${esc(shop.name)} · ${esc(shop.town)}${shop.zone === "Amsterdam" ? "" : " · " + shop.km + " km"}${when} · ${esc(i.type)}</div>
+    <div class="price">${price}</div></div></a>`;
+}
+
+function renderShops() {
+  const covered = D.shops.filter(s => s.covered).sort((a, b) => a.km - b.km);
+  $("shopRows").innerHTML = covered.map(s => {
+    const st = s.status === "error" ? `<span class="err">Couldn't read: ${esc(s.error)}</span>`
+      : s.warning ? `<span class="warn">${esc(s.warning)}</span>`
+      : s.status === "ok" ? `<span class="ok">OK</span>` : "Not checked yet";
+    return `<tr><td><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a></td>
+      <td>${esc(s.zone)}${s.zone === "Amsterdam" ? "" : " · " + s.km + " km"}</td><td>${s.count ?? "–"}</td><td>${st}</td></tr>`;
+  }).join("");
+  const rest = D.shops.filter(s => !s.covered).sort((a, b) => a.km - b.km);
+  $("uncoveredSummary").textContent = `${rest.length} more VNTG shops not checked yet`;
+  $("uncovered").innerHTML = rest.map(s => `<li><a href="${esc(s.website)}" target="_blank" rel="noopener">${esc(s.name)}</a>, ${esc(s.town)} (${s.km} km)${s.note ? " ⚠ " + esc(s.note) : ""}</li>`).join("");
+}
+</script>
+</body>
+</html>
