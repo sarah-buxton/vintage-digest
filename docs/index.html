@@ -190,7 +190,7 @@ function applyFilters(list) {
   const q = S.q.trim().toLowerCase(), min = parseFloat(S.pmin), max = parseFloat(S.pmax);
   return list.filter(i => {
     const shop = shopById[i.shop] || {};
-    if (!S.zones.includes(shop.zone)) return false;
+    if (!S.shop && !S.zones.includes(shop.zone)) return false;  // picking a shop overrides the area filter
     if (!S.types.includes(i.type)) return false;
     if (S.shop && i.shop !== S.shop) return false;
     if (i.price == null) { if (!S.noprice) return false; }
@@ -265,7 +265,7 @@ function renderCoverage() {
   const rest = D.shops.length - covered.length;
   $("coverage").innerHTML = `<div class="head"><b>${inFeed.length} of ${covered.length} shops in this feed.</b> ${missing ? missing + " missing this week (red or amber). " : ""}${rest} other VNTG shops aren't checked yet. Click a shop to show only its pieces.</div>
     <div class="pills">${covered.map(s => { const st = shopState(s);
-      const out = !S.zones.includes(s.zone) ? " out" : "";
+      const out = !S.shop && !S.zones.includes(s.zone) ? " out" : "";
       return `<button class="pill ${st.cls}${out}${S.shop === s.id ? " sel" : ""}" data-id="${esc(s.id)}" title="${esc(s.name + ": " + st.label + (st.detail ? " · " + st.detail : ""))}"><span class="dot"></span>${esc(s.name)}<span class="n">${st.cls === "ok" ? s.count : st.cls === "err" ? (st.label === "Blocked the check" ? "blocked" : "error") : st.cls === "empty" ? "0" : "–"}</span></button>`; }).join("")}</div>`;
   $("coverage").querySelectorAll(".pill").forEach(b => b.onclick = () => {
     S.shop = S.shop === b.dataset.id ? "" : b.dataset.id; $("shop").value = S.shop; save(); render();
