@@ -44,6 +44,24 @@ TYPES = [  # checked in this order; first match wins
 ]
 
 
+OUT_OF_STOCK = re.compile(r"\s*\b(out of stock|sold out|uitverkocht|niet op voorraad)\b\s*", re.I)
+
+
+def bigger_image(url):
+    """Ask the shop's image server for a larger photo where its address allows it."""
+    if not url:
+        return url
+    if "wixstatic.com" in url:  # Wix: small, deliberately blurred thumbnails
+        return re.sub(r"/v1/fill/[^/]+/", "/v1/fill/w_600,h_750,al_c,q_85,enc_auto/", url)
+    if "/wp-content/uploads/" in url:  # WordPress: drop the -300x300 thumbnail suffix
+        return re.sub(r"-\d{2,4}x\d{2,4}(?=\.(jpe?g|png|webp)\b)", "", url, flags=re.I)
+    if "cdn.shopify.com" in url and "width=" not in url:
+        return url + ("&" if "?" in url else "?") + "width=700"
+    if "squarespace-cdn.com" in url and "format=" not in url:
+        return url + ("&" if "?" in url else "?") + "format=750w"
+    return url
+
+
 def classify(*texts):
     text = " ".join(t or "" for t in texts).lower()
     for name, pattern in TYPES:
@@ -136,6 +154,9 @@ def run(today, fetch):
         for it in found:
             if it.get("title"):
                 it["title"] = re.sub(r"\s*\(stock:\s*\d+\)", "", it["title"]).strip()
+                if OUT_OF_STOCK.search(it["title"]):  # e.g. Deja Vintage: "... Out of stock"
+                    it["available"] = False
+                    it["title"] = OUT_OF_STOCK.sub("", it["title"]).strip(" -|·")
         found = [it for it in found if not EXCLUDE.search(f"{it.get('title', '')} {it.get('category', '')}")]
         live_ids = set()
         for it in found:
@@ -215,7 +236,7 @@ def write_page_data(shops, state, today):
             continue
         hist = [p for _, p in it.get("price_history", []) if p]
         out_items.append({
-            "id": iid, "shop": it["shop"], "title": it["title"], "url": it["url"], "image": it.get("image"),
+            "id": iid, "shop": it["shop"], "title": it["title"], "url": it["url"], "image": bigger_image(it.get("image")), "thumb": it.get("image") if bigger_image(it.get("image")) != it.get("image") else None,
             "price": it.get("price"), "type": it["type"], "first_seen": it["first_seen"],
             "baseline": it.get("baseline", False), "status": it["status"], "sold_on": it.get("sold_on"),
             "was": max(hist) if len(hist) > 1 and it.get("price") and max(hist) > it["price"] else None,

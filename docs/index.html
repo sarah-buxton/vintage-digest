@@ -56,7 +56,8 @@
   .card { background: var(--card); border: 1px solid var(--line); border-radius: 10px; overflow: hidden; display: flex; flex-direction: column;
           text-decoration: none; color: inherit; transition: transform .12s ease, box-shadow .12s ease; }
   .card:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,0,0,.06); }
-  .img { aspect-ratio: 4 / 5; background: var(--tag) center / cover no-repeat; position: relative; }
+  .img { aspect-ratio: 4 / 5; background: var(--tag); position: relative; overflow: hidden; }
+  .img img { width: 100%; height: 100%; object-fit: cover; display: block; }
   .img.none { display: flex; align-items: center; justify-content: center; color: var(--muted); font-size: 12px; }
   .badge { position: absolute; top: 10px; left: 10px; background: var(--ink); color: var(--bg); font-size: 11px; padding: 3px 8px; border-radius: 999px; letter-spacing: .03em; }
   .badge.sold { background: var(--bad); }
@@ -238,7 +239,7 @@ function card(i) {
   const badge = i.status === "sold" ? `<span class="badge sold">Sold ${fmtDate(i.sold_on)}</span>`
     : i.was ? `<span class="badge drop">Price drop</span>`
     : (!i.baseline && i.first_seen === D.generated) ? `<span class="badge">New</span>` : "";
-  const img = i.image ? `<div class="img" style="background-image:url('${esc(i.image)}')">${badge}</div>`
+  const img = i.image ? `<div class="img"><img src="${esc(i.image)}" alt="" loading="lazy" decoding="async"${i.thumb ? ` data-t="${esc(i.thumb)}" onerror="if(this.dataset.t){this.src=this.dataset.t;this.dataset.t=''}"` : ""}>${badge}</div>`
                       : `<div class="img none">${badge}No photo</div>`;
   const price = i.price != null ? `${eur(i.price)}${i.was ? `<s>${eur(i.was)}</s>` : ""}` : `<span class="na">Price on request</span>`;
   const when = i.status === "sold" ? "" : ` · listed ${i.baseline ? "before " : ""}${fmtDate(i.first_seen)}`;
