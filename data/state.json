@@ -18,7 +18,7 @@
 "error": null,
 "warning": null,
 "last_run": "2026-11-20",
-"last_count": 158
+"last_count": 159
 },
 "fussy-people-amsterdam": {
 "baseline_done": true,
@@ -213,7 +213,7 @@
 "van-ons-nederhemert": {
 "baseline_done": false,
 "status": "error",
-"error": "RuntimeError: couldn't recognise this website's shop pages",
+"error": "ReadTimeout: HTTPSConnectionPool(host='public-api.wordpress.com', port=443): Read timed out. (read timeout=30)",
 "last_run": "2026-11-20"
 },
 "the-great-apple-appeltern": {
@@ -236,7 +236,7 @@
 "vintage-nl-oss": {
 "baseline_done": false,
 "status": "error",
-"error": "RuntimeError: couldn't recognise this website's shop pages",
+"error": "RuntimeError: no product links matched on the listing pages",
 "last_run": "2026-11-20"
 },
 "atelier-uma-breda": {
@@ -252,16 +252,20 @@
 "last_count": 410
 },
 "studio-nine-design-roosendaal": {
-"baseline_done": false,
-"status": "error",
-"error": "RuntimeError: couldn't recognise this website's shop pages",
-"last_run": "2026-11-20"
+"baseline_done": true,
+"status": "ok",
+"error": null,
+"last_run": "2026-11-20",
+"warning": null,
+"last_count": 137
 },
 "smuk-collectables-roosendaal": {
-"baseline_done": false,
-"status": "error",
-"error": "RuntimeError: couldn't recognise this website's shop pages",
-"last_run": "2026-11-20"
+"baseline_done": true,
+"status": "ok",
+"error": null,
+"last_run": "2026-11-20",
+"warning": null,
+"last_count": 91
 },
 "vervlogen-jaren-hoogeveen": {
 "baseline_done": false,
@@ -300,10 +304,12 @@
 "last_run": "2026-11-20"
 },
 "lev-lifestyle": {
-"baseline_done": false,
-"status": "error",
-"error": "RuntimeError: couldn't recognise this website's shop pages",
-"last_run": "2026-11-20"
+"baseline_done": true,
+"status": "ok",
+"error": null,
+"last_run": "2026-11-20",
+"warning": null,
+"last_count": 0
 },
 "juki-amsterdam": {
 "baseline_done": true,
@@ -329,7 +335,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Gilded iron coffee table '1990'",
 "url": "https://www.instagram.com/p/Df7CuFuisCy/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/912519752_18655389295039817_3769206059429524287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3VEMe7uyzloQ7kNvwHvPJoo&_nc_oc=AdoGochdhs29eTn8MJw0CGeTZk2ar-pPbwKKtwmCMGPPcKj6C_AQnsba_E6OYGw1-D1wh3CblDQLSffLRVlEBjtq&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQJRz4eox6rsDhAN0UN8WtmRI1NMvKmpsFCBv84lj_KWeUNgdU49ORIoXTYoH6QlPKI5ckCy2Z6r_Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTnDG7zpftDpilORAYRugTLSn3xCvHnq_x58KDaM0Ogjw&oe=6B062D81",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/912519752_18655389295039817_3769206059429524287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3VEMe7uyzloQ7kNvwHvPJoo&_nc_oc=AdoGochdhs29eTn8MJw0CGeTZk2ar-pPbwKKtwmCMGPPcKj6C_AQnsba_E6OYGw1-D1wh3CblDQLSffLRVlEBjtq&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQK2wFdF6IWp3x4cnqxLQvrXM4y7AEcFTPq5pBEr7-S_OHSnsE46wE__FKVirdjj6LGGqQeQDZm0qg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS16s23HQ4rVKYNLdO-YyoFpYUsca4s3LkByEAaGajTGw&oe=6B062D81",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -347,7 +353,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Sciolari brass chandelier + 1 matching wall light '1960'",
 "url": "https://www.instagram.com/p/Df690NSCvPX/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/907061754_18655381273039817_4993880650660551052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tbSGGBOoRUQQ7kNvwFxbwpV&_nc_oc=Adr9w5676UXAhQREJTuhcS8mFi6J6l8O2tLSJlHcPGQ-HcLfV3JwSVETJ7CU5YJ3YPGm4Dn808GU6w7hq3aIpmma&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQKXRFVbDZzIo48nXRfTEynNI8Jc0HlqASN_4xF6cnLRTQNLMCoWPDITQrR_MxAJHjr_Ex-ubjTjMQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQxkD3u2mD_nrwcEGrHKwvFf_hyGqInO-DwMthOFncXrA&oe=6B061DFE",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/907061754_18655381273039817_4993880650660551052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tbSGGBOoRUQQ7kNvwFxbwpV&_nc_oc=Adr9w5676UXAhQREJTuhcS8mFi6J6l8O2tLSJlHcPGQ-HcLfV3JwSVETJ7CU5YJ3YPGm4Dn808GU6w7hq3aIpmma&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQJNakwKIPrBIk0FCLAXQ1MOZAUTi_rIWpxzRzX_gdOpfhi0L0lrE-uDnMCsxUlQNuKH4c3jwkY6bw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScaV3iboyjvtFQVhJ6EutP6P9zfMM_wiTK0BJyVwY8hw&oe=6B061DFE",
 "price": 550.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -365,7 +371,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Instagram post",
 "url": "https://www.instagram.com/p/DfSPyQpqG3y/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/886769630_18649711399039817_6632361862758526601_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RGL3MRrbKu8Q7kNvwGF306n&_nc_oc=AdrEwh0WNOvnvGLSjI-5u30SmymrxkLkPPAeJUy82UsghU32LEZnhfMoEEj-ZInvA4J5A-YJD2CAPclomoqgztkY&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQI_VP0r5IY6_ZNsJqQpc9PAnnbLGSrravDOAXQQIjFZqndqX3HPHYlPiV1v89VV47Tp7jLMbXI8vQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT891yH5F2WXYV3KzL3YcVs4IorZykoX-UoLP_a68zJkA&oe=6B061136",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/886769630_18649711399039817_6632361862758526601_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RGL3MRrbKu8Q7kNvwGF306n&_nc_oc=AdrEwh0WNOvnvGLSjI-5u30SmymrxkLkPPAeJUy82UsghU32LEZnhfMoEEj-ZInvA4J5A-YJD2CAPclomoqgztkY&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQIB7gYk5PctkagsTHoEX7uqJ47c8vypiZp2PPqTYvGhBL2gVm8HzAdk2NVA5aa9OV7JkBnRux4Skg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT2bFcDCxQmf1Z_GaAWZ8W83oUk0NXmNG2pfFuOABx10A&oe=6B061136",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -383,7 +389,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Cast iron baby crib '1890'",
 "url": "https://www.instagram.com/p/De_rnLOCrmu/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/865040612_18646896178039817_4420445919827583258_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MMp8lplxpQgQ7kNvwGjqmfR&_nc_oc=AdoIwz3MphSKwHFDxt9qP6ClkKz0rr-KaLPXdCvVHwM55cFpBiVNFrYNJohbOo9T9bfCLCKJ1RbndNWehpgvmda3&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQLTwsLUFn4LdTyx7E6-PKEjujDAqwKPQeTOxpMEUCC8VzjJ9oUzDIzcHV63cyhW0QNg5kyPOkwBhQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT2S33SD7yymBRHsl_VXeAEJUWjkDZnIvRjG_Rn7k-BPw&oe=6B0612A0",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/865040612_18646896178039817_4420445919827583258_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MMp8lplxpQgQ7kNvwGjqmfR&_nc_oc=AdoIwz3MphSKwHFDxt9qP6ClkKz0rr-KaLPXdCvVHwM55cFpBiVNFrYNJohbOo9T9bfCLCKJ1RbndNWehpgvmda3&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKJzdvyAQcoxrO2Kz9LaFOgt8Mw8MGdHg26J4S52JEe3sIn6c4s3IxK5QGDdMfaDW0EjBvUkft7NA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSKGHtN71BHJeU64fsdUPdBeiALTaY6Kqd-yBXbBuLkbA&oe=6B0612A0",
 "price": 230.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -401,7 +407,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Malevolti bird '1970' found a beautiful nest.\n\n#malevolti #bird",
 "url": "https://www.instagram.com/p/De2L6ejKMMj/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/864579591_18645425833039817_1824914383640314784_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aLy6qZsbnUYQ7kNvwG6tKFJ&_nc_oc=AdqrhIPl25bCElXIIfn1MJiy1J9m7AbGN9I7PKrGZb_7T357XQ1mvMgjQQurhTUl9LJJab48ac79PFukQbXEN00i&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQKkGHTiRUXyye6kg3vPFmzCDtdzujdhlGbY0WMXkFtvkj3f13zRPKGnOPpsD5q7_dDop2RIITtRXQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRV-jl_T8-lyTzTJZlyrp_qSDdjkD_q-oluRqzMGs5aDw&oe=6B062660",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/864579591_18645425833039817_1824914383640314784_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aLy6qZsbnUYQ7kNvwG6tKFJ&_nc_oc=AdqrhIPl25bCElXIIfn1MJiy1J9m7AbGN9I7PKrGZb_7T357XQ1mvMgjQQurhTUl9LJJab48ac79PFukQbXEN00i&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLhopE5UhR2wwr_9Nvml6XjRhKpSTy8pyeK7rgJMcf34KOqLHXOiq6WOlgx0i7tvJxXTcZKPsvdRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS16vOJI_m6GmK-oLXXuWG08ZfzPwSgWsbFRwbaSBHixQ&oe=6B062660",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -419,7 +425,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Brass 'elephants' coffee table '1970'",
 "url": "https://www.instagram.com/p/DeJ8aRNisI7/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/839065031_18639010573039817_8173211220113441571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cWPXWOqGdY4Q7kNvwHnpMg2&_nc_oc=AdqTB89g5uywxxTxuxaKbceCTWdzynbqOLWDh_XvadGzfH-EnHMcdyFlHsbwO6MinklXrAXOx3J-78BNXaRhiC7X&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQIVF4DiysZE-ck3GbLa-dWLdDIh-sxMnISOc22nxZAlg-CzsWfkA38HzMtmE8FeKFw3UYMLzk078g&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRLhHkgTQY4ImQYrs_dkx56J21NfbDpz9p-OLKkaLXcLw&oe=6B062F08",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/839065031_18639010573039817_8173211220113441571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cWPXWOqGdY4Q7kNvwHnpMg2&_nc_oc=AdqTB89g5uywxxTxuxaKbceCTWdzynbqOLWDh_XvadGzfH-EnHMcdyFlHsbwO6MinklXrAXOx3J-78BNXaRhiC7X&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLDANMqJkEvgFvp1WaU-it7Qs_tKceWou3KqvTC0qPM9ZCaqeLawierkDbHWV8kiDJKDe3E0NDsAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSY8Z4ZtECp7uMPFRdjRlZu5OzDFEg_aNOmiRStNlGBQQ&oe=6B062F08",
 "price": 550.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -437,7 +443,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Fleur de lis table lamp '1970'",
 "url": "https://www.instagram.com/p/Dd8w9IPihuG/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/829586217_18637095388039817_1438675875873751929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jWmVHuGuPDIQ7kNvwHe6j1e&_nc_oc=Ado3EIYR9oXFubZ7s-iJmGox9QJYFN1hMipePqpwguzAkUzZakvt1Q-AJOwrTJrcNAj_ZUts9KtMijFZVKzY9acS&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQLc0BGOhOChcqCYQwxxer97ZfeBxIeYpPwjPFkULMroueNutYj55aaR934bo79FbQq6ti1XgLQhcw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQsL4dHKjbqA_p5Iv0vUcNDC99T_AAGNllCpdCR7rs9ww&oe=6B060712",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/829586217_18637095388039817_1438675875873751929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jWmVHuGuPDIQ7kNvwHe6j1e&_nc_oc=Ado3EIYR9oXFubZ7s-iJmGox9QJYFN1hMipePqpwguzAkUzZakvt1Q-AJOwrTJrcNAj_ZUts9KtMijFZVKzY9acS&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKer4dUuwoaEvIRHG7moHTwMCtarlpRFb8hs3rOmt93LTawRqPvLIBtevtC-yQYv9HgyeFfGf1Mgw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4J2wn930i36QuWRwocVcapenicTHi2T8QUqtsPXOIkw&oe=6B063F52",
 "price": 175.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -455,7 +461,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Set nightstands '1970'",
 "url": "https://www.instagram.com/p/Ddq5NQyCtCb/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/821729277_18634671562039817_3664990649855564028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nOjyll8zlTgQ7kNvwGG9VvM&_nc_oc=AdrLdpXXWtpD-oUXlFML3nb_wrV0bcJfMVkXfOLNrt2kdKmeoYokYGenQcUhjjsupgvNEfoVuxMGmOn8qII2J8rY&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQLmu9k7j2d9IzV5zMD8CtB3ZBI8InfyiTXmEve63WhNXuVI4Tju9d-h8p2h1QNTnLeAH8wBlMkB8w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT2dQeBlDvV7CnfN8n0kQE2u-ws72XsGkZ8b8r78bbXfw&oe=6B06093C",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/821729277_18634671562039817_3664990649855564028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nOjyll8zlTgQ7kNvwGG9VvM&_nc_oc=AdrLdpXXWtpD-oUXlFML3nb_wrV0bcJfMVkXfOLNrt2kdKmeoYokYGenQcUhjjsupgvNEfoVuxMGmOn8qII2J8rY&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLqUgY-GaFjZdGCtdpcCXGFUw2kSFVzVpOg82CdIOSFb38sKnX2YLpK4t3_FTE3zhpX_v2jlnbfxQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS82vdZXbHUTczhaUqVTHWCOqmQf0D79kgywsXJ4k7dVA&oe=6B06417C",
 "price": 350.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -473,7 +479,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Iron coffee table '1990/2000'",
 "url": "https://www.instagram.com/p/Ddlwv85CjwG/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/818492177_18634003375039817_6154297412487138746_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=i9JePAMjf6MQ7kNvwFSr-BC&_nc_oc=AdpLRR6bXRcgXIYG_z5FFKOcm_0U109HMWW_Mz_SIr_oPfNE_m8Xtawst6itcBcsi4Y4MLKBq9R2AETino9b0Kl4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQKIK5lhNUTZqQKJvnoWYKtgvE1Om9awSvbTszI_jC-Ym1RbsXVZAHjyYoFqTo32njQMKGMf1FEPLQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQfpqTqwfxKx-2EDk4cvjvpk_pwQnDVChHj6ohPByGtyQ&oe=6B060352",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/818492177_18634003375039817_6154297412487138746_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=i9JePAMjf6MQ7kNvwFSr-BC&_nc_oc=AdpLRR6bXRcgXIYG_z5FFKOcm_0U109HMWW_Mz_SIr_oPfNE_m8Xtawst6itcBcsi4Y4MLKBq9R2AETino9b0Kl4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKD2mC_eX4Fb_y_0X-X0dSIkvZRKHQNEgnZoqKrAb_txHiLdvWVl7sffeUJnDlm4BrsmZXOsIGH5w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQPXKUQpSxH6MPGRp9N3IszUr4ECUQIu8Y2nOCZmX4_8g&oe=6B063B92",
 "price": 550.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -491,7 +497,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Svenskt Tenn servingcart '1950'",
 "url": "https://www.instagram.com/p/DdWAv7GCkgC/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/809209694_18631921057039817_6852615465349279348_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IAGwrdfkrAkQ7kNvwGUttyz&_nc_oc=AdqFy4108tQSJVeYp8EWNtA-Vky29bCmDTgXjerr68KWA03N9AcBz2iWVI2FdQ1VlkGaoh0X2bVm4GEpzpfVQA2s&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=1GVY3ZJnMz5gfrgUvdGnxg&_nc_tpa=Q5bMBQIl11R4-kLf-cipRMPIIB0Yqjg3tDMnOsB0md2Cpror2WhtCnkD0td-klcIhoWF6KIg5755WaPx7w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRdSe6BE2Mqnd58yBewv2C0uUtDMn4VpBdTf3jd20auYQ&oe=6B061B48",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/809209694_18631921057039817_6852615465349279348_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IAGwrdfkrAkQ7kNvwGUttyz&_nc_oc=AdqFy4108tQSJVeYp8EWNtA-Vky29bCmDTgXjerr68KWA03N9AcBz2iWVI2FdQ1VlkGaoh0X2bVm4GEpzpfVQA2s&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQJiQIIOfAePXw1-sAw25Xgwm2yvP2nb63nTo-1tKEyEBboNkQPQv5nfm-x2a6yVVedIjoeeyRJ6Aw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTdTpvW14b3K5y2JLB0Z8kJKnxaik1NClXbBav3LnFPoA&oe=6B061B48",
 "price": 350.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -509,7 +515,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Visiting our cliënts in the UK on 16th and 17th of July. \n\nOrders (due to custom paperwork..) can be booked till 9th of July.\n\nSee you soon.",
 "url": "https://www.instagram.com/p/DaXalKgqiUH/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/722809761_18606609154039817_5000879953168755816_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dFNW-bc-NeYQ7kNvwHaw-FF&_nc_oc=Adrm6XzwLN_0ZsByAIuHJmfAWXmPU_ImkJxEZGBJh2f7wGb7fs-RyNrVzeIp7HCiMxufafNURww5gG5gxN5bmtDX&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=ctw908s9iJisHQ8GEsc0Rg&_nc_tpa=Q5bMBQK-IkAESSru5GdSE4enacbZqRubzRifmoqmWMHWXF8MKIAbB5VhmkzW9U6rz37XwHOFtEgUjO1OLQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSjS3XSom9DQj_cNXztmBv4zcHEQBlMaOAoMG565dCz9g&oe=6B06072D",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/722809761_18606609154039817_5000879953168755816_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dFNW-bc-NeYQ7kNvwHaw-FF&_nc_oc=Adrm6XzwLN_0ZsByAIuHJmfAWXmPU_ImkJxEZGBJh2f7wGb7fs-RyNrVzeIp7HCiMxufafNURww5gG5gxN5bmtDX&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=g3WSNqpXFEnuWGrTrsEveA&_nc_tpa=Q5bMBQKwHWQ_uOfpUCet8lbGslO01wpDE4_U3qvn84Hxl3LuvmTg7SInfY7jAL1UOdQqZgBIl-sOCE46rw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRtA3BRGg8RAGmNy84CjC1KejoeTJPbPnVQS9iQss0YHw&oe=6B063F6D",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -527,7 +533,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Glass tablelamp '1970'",
 "url": "https://www.instagram.com/p/DaQOtG_ikrM/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/729622123_18605706472039817_3187091305160711416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Ixq9YCkql8Q7kNvwFXJ8M1&_nc_oc=AdpSPy289znIm22FlBhqiCjov2B31O5js8YU-gwgNLmJbFC-0pJpFIFvHy2DdcyHcXPC2SZ0eEy3ClM7kEjLu7vo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=ctw908s9iJisHQ8GEsc0Rg&_nc_tpa=Q5bMBQJKVaaTrC7dcImQ_GlA6iwAzYsbdIhF1e_crCZgLcpqRraHgJ7MKJjPj4K9YUkG1R6g3J1Npf__Fg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSg7AMGWGm4BcKLry6Eyx_0W2M8IG47yKPjuKjNqqS7SA&oe=6B061DE2",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/729622123_18605706472039817_3187091305160711416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Ixq9YCkql8Q7kNvwFXJ8M1&_nc_oc=AdpSPy289znIm22FlBhqiCjov2B31O5js8YU-gwgNLmJbFC-0pJpFIFvHy2DdcyHcXPC2SZ0eEy3ClM7kEjLu7vo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=g3WSNqpXFEnuWGrTrsEveA&_nc_tpa=Q5bMBQKcauQRcpp5_ETgAKTZ1MqOURXrX8LLIayogBeT3uTESPy0VxPTqm15DSux-EgnP1bxPG5TbV2GYQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWGbkH0uYIXUFacyRVT0OVIo8IbFkRrJw_Au3KjFBhaw&oe=6B061DE2",
 "price": 450.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -61785,7 +61791,7 @@ null
 "type": "Decor & art",
 "first_seen": "2026-11-19",
 "last_seen": "2026-11-20",
-"status": "live",
+"status": "gone",
 "baseline": false,
 "price_history": [
 [
@@ -71159,7 +71165,7 @@ null
 "shop": "kunstconsult-amstelveen",
 "title": "Babs Haenen, Vessel van gekleurd porselein, gedateerd gesigneerd met monogram onderzijde, 1983 - Babs Haenen",
 "url": "https://www.kunstconsult.com/Ceramics/Babs-Haenen.-Vessel-van-gekleurd-porselein.-gedateerd-gesigneerd-met-monogram-onderzijde.-1983",
-"image": "http://images.artimin.com/i-f/700/1400/1:1/183258.jpg",
+"image": "https://images.artimin.com/i-f/1200/900/1:1/192166.jpg",
 "price": 950.0,
 "type": "Decor & art",
 "first_seen": "2026-11-20",
@@ -71177,7 +71183,7 @@ null
 "shop": "kunstconsult-amstelveen",
 "title": "Mommie Schwarz, colorful sketch, watercolor and pencil on paper, 1920s - Mommie (S.L.) Schwarz",
 "url": "https://www.kunstconsult.com/Paintings-Prints/Mommie-Schwarz.-colorful-sketch.-watercolor-and-pencil-on-paper.-1920s",
-"image": "http://images.artimin.com/i-f/700/1400/1:1/117167.jpg",
+"image": "https://images.artimin.com/i-f/1200/400/1:1/122255.jpg",
 "price": 2500.0,
 "type": "Decor & art",
 "first_seen": "2026-11-20",
@@ -71555,7 +71561,7 @@ null
 "shop": "the-great-apple-appeltern",
 "title": "Deru leather crafted set of 9 animals, Germany 1960s",
 "url": "https://thegreatapple.nl/winkel/accessories/deru-leather-crafted-set-of-9-animals-germany-1960s",
-"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_6343-Photoroom.png",
+"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_6343-Photoroom-250x167.png",
 "price": 1495.0,
 "type": "Other",
 "first_seen": "2026-11-20",
@@ -71573,7 +71579,7 @@ null
 "shop": "the-great-apple-appeltern",
 "title": "Art Nouveau Flemish Earthenware Pottery Huge XL Vase or Umbrella Stand Decorated with a Peacock, 1900s",
 "url": "https://thegreatapple.nl/winkel/accessories/art-nouveau-flemish-earthenware-pottery-huge-xl-vase-or-umbrella-stand-decorated-with-a-peacock-1900s",
-"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_1300-scaled-Photoroom.png",
+"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_1300-scaled-Photoroom-250x333.png",
 "price": 399.0,
 "type": "Decor & art",
 "first_seen": "2026-11-20",
@@ -71591,7 +71597,7 @@ null
 "shop": "the-great-apple-appeltern",
 "title": "Set KVC Semily Chairs",
 "url": "https://thegreatapple.nl/winkel/seating/set-kvc-semily-chairs",
-"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_0493-Photoroom.png",
+"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_0493-Photoroom-250x167.png",
 "price": 399.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -71609,7 +71615,7 @@ null
 "shop": "the-great-apple-appeltern",
 "title": "Large Vintage Leather Medicine Ball - Antique Gym Decor - Shop Display or Prop",
 "url": "https://thegreatapple.nl/winkel/accessories/large-vintage-leather-medicine-ball-antique-gym-decor-shop-display-or-prop",
-"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_8827-Photoroom.png",
+"image": "https://thegreatapple.nl/wp-content/uploads/2025/11/IMG_8827-Photoroom-250x167.png",
 "price": 89.0,
 "type": "Other",
 "first_seen": "2026-11-20",
@@ -71620,6 +71626,4146 @@ null
 [
 "2026-11-20",
 89.0
+]
+]
+},
+"treasure-depot-amsterdam:2064": {
+"shop": "treasure-depot-amsterdam",
+"title": "Hans-Agne Jakobsson T625 lamp",
+"url": "https://www.treasuredepot.nl/index.php?route=product/product&product_id=2064",
+"image": "https://www.treasuredepot.nl/image/cache/catalog/hanglampen/26451%20(8)-2593x3112.jpg",
+"price": 485.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+485.0
+]
+]
+},
+"kunstconsult-amstelveen:/Ceramics/Henk-Wolvers.-Porcelain-vase.-1988": {
+"shop": "kunstconsult-amstelveen",
+"title": "Henk Wolvers, Porcelain vase, 1988 - Henk Wolvers",
+"url": "https://www.kunstconsult.com/Ceramics/Henk-Wolvers.-Porcelain-vase.-1988",
+"image": "http://images.artimin.com/i-f/700/1400/1:1/137369.jpg",
+"price": 1250.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-writing-desk-in-rosewood-sibast-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder writing desk in rosewood Sibast Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-writing-desk-in-rosewood-sibast-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1742/sm_02.jpg",
+"price": 4250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/sculptural-danish-lounge-chair-in-teak-and-fabric-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Sculptural Danish lounge chair in teak and fabric Denmark 1960",
+"url": "https://www.studioninedesign.nl/sculptural-danish-lounge-chair-in-teak-and-fabric-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1675/sm_01.jpg",
+"price": 3500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-teak-executive-desk-and-return-sibast-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder teak executive desk and return Sibast Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-teak-executive-desk-and-return-sibast-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1736/sm_01.jpg",
+"price": 7250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+7250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kurt-ostervig-set-of-six-dining-chairs-in-teak-brande-mobelindustri-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kurt Ostervig set of six dining chairs in teak Brande Mobelindustri Denmark 1960",
+"url": "https://www.studioninedesign.nl/kurt-ostervig-set-of-six-dining-chairs-in-teak-brande-mobelindustri-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1725/sm_01.jpg",
+"price": 4500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/cees-braakman-du04-sideboard-in-teak-pastoe-the-netherlands-1958": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Cees Braakman DU04 sideboard in teak Pastoe The Netherlands 1958",
+"url": "https://www.studioninedesign.nl/cees-braakman-du04-sideboard-in-teak-pastoe-the-netherlands-1958",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1741/sm_02.jpg",
+"price": 4250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/illum-wikkelso-model-v11-sofa-in-black-leather-holger-christiansen-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Illum Wikkelso model V11 sofa in black leather Holger Christiansen Denmark 1960",
+"url": "https://www.studioninedesign.nl/illum-wikkelso-model-v11-sofa-in-black-leather-holger-christiansen-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1666/sm_05.jpg",
+"price": 9500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+9500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/nieuwenborg-and-wegman-tetrahedron-floor-lamp-indoor-netherlands-1979": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Nieuwenborg and Wegman Tetrahedron floor lamp Indoor Netherlands 1979",
+"url": "https://www.studioninedesign.nl/nieuwenborg-and-wegman-tetrahedron-floor-lamp-indoor-netherlands-1979",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1728/sm_01.jpg",
+"price": 750.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-model-207-desk-in-rosewood-sibast-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder model 207 desk in rosewood Sibast Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-model-207-desk-in-rosewood-sibast-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1740/sm_03.jpg",
+"price": 4250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/large-freestanding-italian-executive-desk-in-rosewood-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Large freestanding Italian executive desk in rosewood Italy 1960",
+"url": "https://www.studioninedesign.nl/large-freestanding-italian-executive-desk-in-rosewood-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1726/sm_01.jpg",
+"price": 4950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-moller-model-77-dining-chairs-in-oak-j-l-moller-mobelfabrik-denmark-1959": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Moller model 77 dining chairs in oak J.L. Moller Mobelfabrik Denmark 1959",
+"url": "https://www.studioninedesign.nl/niels-moller-model-77-dining-chairs-in-oak-j-l-moller-mobelfabrik-denmark-1959",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1734/sm_02.jpg",
+"price": 1600.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1600.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-wegner-extendable-dining-table-in-rosewood-andreas-tuck-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans Wegner extendable dining table in rosewood Andreas Tuck Denmark 1960",
+"url": "https://www.studioninedesign.nl/hans-wegner-extendable-dining-table-in-rosewood-andreas-tuck-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1733/sm_01.jpg",
+"price": 10500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+10500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/e-larsen-a-bender-madsen-pair-of-armchairs-willy-beck-denmark-1949": {
+"shop": "studio-nine-design-roosendaal",
+"title": "E. Larsen & A. Bender Madsen pair of armchairs Willy Beck Denmark 1949",
+"url": "https://www.studioninedesign.nl/e-larsen-a-bender-madsen-pair-of-armchairs-willy-beck-denmark-1949",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1739/sm_04.jpg",
+"price": 2500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/nanna-ditzel-desk-model-nd93-in-teak-soren-willadsen-denmark-1955": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Nanna Ditzel desk model ND93 in teak Soren Willadsen Denmark 1955.",
+"url": "https://www.studioninedesign.nl/nanna-ditzel-desk-model-nd93-in-teak-soren-willadsen-denmark-1955",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1712/sm_Ex.jpg",
+"price": 6250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+6250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/severin-hansen-model-163-nesting-tables-in-rosewood-haslev-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Severin Hansen model 163 nesting tables in rosewood Haslev Denmark 1960",
+"url": "https://www.studioninedesign.nl/severin-hansen-model-163-nesting-tables-in-rosewood-haslev-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1738/sm_01.jpg",
+"price": 1250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/don-bar-model-5005-wall-mounted-fireplace-in-steel-belgium-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Don-Bar model 5005 wall-mounted fireplace in steel Belgium 1970",
+"url": "https://www.studioninedesign.nl/don-bar-model-5005-wall-mounted-fireplace-in-steel-belgium-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1737/sm_02.jpg",
+"price": 1450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-large-dining-table-in-rosewood-sibast-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder large dining table in rosewood Sibast Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-large-dining-table-in-rosewood-sibast-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1721/sm_02.jpg",
+"price": 3750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-c-andersen-pair-of-side-tables-in-teak-and-formica-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans C. Andersen pair of side tables in teak and formica Denmark 1960",
+"url": "https://www.studioninedesign.nl/hans-c-andersen-pair-of-side-tables-in-teak-and-formica-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1699/sm_01.jpg",
+"price": 850.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+850.0
+]
+]
+},
+"studio-nine-design-roosendaal:/frederik-kayser-hertug-sideboard-in-rosewood-viken-norway-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Frederik Kayser Hertug sideboard in rosewood Viken Norway 1960",
+"url": "https://www.studioninedesign.nl/frederik-kayser-hertug-sideboard-in-rosewood-viken-norway-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1707/sm_02.jpg",
+"price": 4950.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-model-145-rosewood-mirror-aksel-kjersgaard-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen model 145 rosewood mirror Aksel Kjersgaard Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-model-145-rosewood-mirror-aksel-kjersgaard-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1744/sm_01_1.jpg",
+"price": 575.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+575.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-model-207-desk-in-teak-sibast-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder model 207 desk in teak Sibast Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-model-207-desk-in-teak-sibast-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1714/sm_02.jpg",
+"price": 3750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/willem-van-doorn-floor-lamp-in-black-culemborg-the-netherlands-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Willem van Doorn floor lamp in black Culemborg The Netherlands 1950",
+"url": "https://www.studioninedesign.nl/willem-van-doorn-floor-lamp-in-black-culemborg-the-netherlands-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1735/sm_03.jpg",
+"price": 750.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-o-moller-set-of-six-teak-dining-chairs-model-75-jl-mollers-denmark-1954": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels O. Moller set of six teak dining chairs model 75 JL Mollers Denmark 1954",
+"url": "https://www.studioninedesign.nl/niels-o-moller-set-of-six-teak-dining-chairs-model-75-jl-mollers-denmark-1954",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1723/sm_01.jpg",
+"price": 2250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-clausen-pair-of-teak-chest-of-drawers-nc-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Clausen pair of teak chest of drawers NC Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/niels-clausen-pair-of-teak-chest-of-drawers-nc-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1709/sm_01.jpg",
+"price": 3000.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3000.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-extendable-dining-table-in-teak-sibast-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder extendable dining table in teak Sibast Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-vodder-extendable-dining-table-in-teak-sibast-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1727/sm_01.jpg",
+"price": 2500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/tito-agnoli-set-of-eight-sistina-dining-chairs-black-leather-matteo-grassi-italy-1980": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Tito Agnoli set of eight Sistina dining chairs black leather Matteo Grassi Italy 1980",
+"url": "https://www.studioninedesign.nl/tito-agnoli-set-of-eight-sistina-dining-chairs-black-leather-matteo-grassi-italy-1980",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1730/sm_02.jpg",
+"price": 3000.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3000.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-riisager-hansen-nesting-tables-in-teak-haslev-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Riisager Hansen nesting tables in teak Haslev Denmark 1960",
+"url": "https://www.studioninedesign.nl/erik-riisager-hansen-nesting-tables-in-teak-haslev-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1713/sm_02.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/danish-extendable-dining-table-in-rosewood-gudme-mobelfabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Danish extendable dining table in rosewood Gudme Mobelfabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/danish-extendable-dining-table-in-rosewood-gudme-mobelfabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1731/sm_01.jpg",
+"price": 1950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/danish-rectangular-mirror-in-rosewood-mid-century-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Danish rectangular mirror in rosewood Mid-Century Denmark 1960",
+"url": "https://www.studioninedesign.nl/danish-rectangular-mirror-in-rosewood-mid-century-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1743/sm_01_3.jpg",
+"price": 495.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"studio-nine-design-roosendaal:/france-son-round-teak-dining-table-cado-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "France & Son round teak dining table Cado Denmark 1960",
+"url": "https://www.studioninedesign.nl/france-son-round-teak-dining-table-cado-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1729/sm_03.jpg",
+"price": 1950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-otto-moller-model-66-armchairs-in-teak-and-paper-cord-denmark-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Otto Moller model 66 armchairs in teak and paper cord Denmark 1970",
+"url": "https://www.studioninedesign.nl/niels-otto-moller-model-66-armchairs-in-teak-and-paper-cord-denmark-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1653/sm_01.jpg",
+"price": 4500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-wegner-model-at-309-dining-table-in-teak-andreas-tuck-denmark-1952": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans Wegner model AT-309 dining table in teak Andreas Tuck Denmark 1952",
+"url": "https://www.studioninedesign.nl/hans-wegner-model-at-309-dining-table-in-teak-andreas-tuck-denmark-1952",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1674/sm_01.jpg",
+"price": 6000.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+6000.0
+]
+]
+},
+"studio-nine-design-roosendaal:/sigurd-ressell-falcon-lounge-chair-leather-and-metal-vatne-norway-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Sigurd Ressell Falcon lounge chair leather and metal Vatne Norway 1970",
+"url": "https://www.studioninedesign.nl/sigurd-ressell-falcon-lounge-chair-leather-and-metal-vatne-norway-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1673/sm_01.jpg",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-buch-boomerang-dry-bar-set-in-teak-dyrlund-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Buch boomerang dry bar set in teak Dyrlund Denmark 1960",
+"url": "https://www.studioninedesign.nl/erik-buch-boomerang-dry-bar-set-in-teak-dyrlund-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1694/sm_27.jpg",
+"price": 4250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/harry-ostergaard-set-of-eight-dining-chairs-in-teak-randers-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Harry Ostergaard set of eight dining chairs in teak Randers Denmark 1960",
+"url": "https://www.studioninedesign.nl/harry-ostergaard-set-of-eight-dining-chairs-in-teak-randers-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1690/sm_01.jpg",
+"price": 5750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+5750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-brouer-teak-writing-desk-brouer-mobelfabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Brouer teak writing desk Brouer Mobelfabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/erik-brouer-teak-writing-desk-brouer-mobelfabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1715/sm_01.jpg",
+"price": 1650.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-wegner-at-303-cross-leg-dining-table-andreas-tuck-denmark-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans Wegner AT 303 cross-leg dining table Andreas Tuck Denmark 1950",
+"url": "https://www.studioninedesign.nl/hans-wegner-at-303-cross-leg-dining-table-andreas-tuck-denmark-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1708/sm_01.jpg",
+"price": 2950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-model-394-sideboard-rosewood-aksel-kjersgaard-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen model 394 sideboard rosewood Aksel Kjersgaard Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-model-394-sideboard-rosewood-aksel-kjersgaard-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1700/sm_02.jpg",
+"price": 3250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hvidt-molgaard-ax-coffee-table-teak-and-beech-fritz-hansen-denmark-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hvidt & Molgaard AX coffee table teak and beech Fritz Hansen Denmark 1950",
+"url": "https://www.studioninedesign.nl/hvidt-molgaard-ax-coffee-table-teak-and-beech-fritz-hansen-denmark-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1702/sm_01.jpg",
+"price": 1150.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-brouer-desk-in-rosewood-brouer-mobelfabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Brouer desk in rosewood Brouer Mobelfabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/erik-brouer-desk-in-rosewood-brouer-mobelfabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1704/sm_02.jpg",
+"price": 1950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/scandinavian-rectangular-mirror-in-teak-mid-century-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Scandinavian rectangular mirror in teak Mid-Century Denmark 1960",
+"url": "https://www.studioninedesign.nl/scandinavian-rectangular-mirror-in-teak-mid-century-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1720/sm_01.jpg",
+"price": 275.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-wegner-drop-leaf-dining-table-beech-and-teak-denmark-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans Wegner drop-leaf dining table beech and teak Denmark 1950",
+"url": "https://www.studioninedesign.nl/hans-wegner-drop-leaf-dining-table-beech-and-teak-denmark-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1732/sm_01.jpg",
+"price": 1350.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1350.0
+]
+]
+},
+"studio-nine-design-roosendaal:/gunni-omann-model-5-pair-of-rosewood-sideboards-omann-jun-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Gunni Omann model 5 pair of rosewood sideboards Omann Jun Denmark 1960",
+"url": "https://www.studioninedesign.nl/gunni-omann-model-5-pair-of-rosewood-sideboards-omann-jun-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1706/sm_02.jpg",
+"price": 3250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/danish-daybed-in-teak-and-fabic-mid-century-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Danish daybed in teak and fabic Mid-Century Denmark 1960",
+"url": "https://www.studioninedesign.nl/danish-daybed-in-teak-and-fabic-mid-century-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1665/sm_03.jpg",
+"price": 1750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/illum-wikkelso-bar-cabinet-in-rosewood-c-f-christensen-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Illum Wikkelso bar cabinet in rosewood C. F. Christensen Denmark 1960",
+"url": "https://www.studioninedesign.nl/illum-wikkelso-bar-cabinet-in-rosewood-c-f-christensen-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1681/sm_01.jpg",
+"price": 5250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+5250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/illum-wikkelso-side-table-teak-hjorring-mobel-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Illum Wikkelso side table teak Hjorring Mobel Denmark 1960",
+"url": "https://www.studioninedesign.nl/illum-wikkelso-side-table-teak-hjorring-mobel-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1716/sm_01.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-moller-model-254-extendable-dining-table-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Moller model 254 extendable dining table rosewood Denmark 1960",
+"url": "https://www.studioninedesign.nl/niels-moller-model-254-extendable-dining-table-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1719/sm_01.jpg",
+"price": 2250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/j-j-m-hoogervorst-model-8025-floor-lamp-anvia-netherlands-1957": {
+"shop": "studio-nine-design-roosendaal",
+"title": "J.J.M. Hoogervorst model 8025 floor lamp Anvia Netherlands 1957",
+"url": "https://www.studioninedesign.nl/j-j-m-hoogervorst-model-8025-floor-lamp-anvia-netherlands-1957",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1695/sm_03.jpg",
+"price": 1500.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-tambour-cabinet-in-rosewood-feldballes-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen tambour cabinet in rosewood Feldballes Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-tambour-cabinet-in-rosewood-feldballes-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1717/sm_02.jpg",
+"price": 1500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/roland-wilhelmsson-rw152-dining-table-karl-andersson-soner-sweden-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Roland Wilhelmsson RW152 dining table Karl Andersson & Söner Sweden 1970",
+"url": "https://www.studioninedesign.nl/roland-wilhelmsson-rw152-dining-table-karl-andersson-soner-sweden-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1722/sm_01.jpg",
+"price": 1950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/helge-vestergaard-jensen-bar-cabinet-rosewood-jason-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Helge Vestergaard Jensen bar cabinet rosewood Jason Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/helge-vestergaard-jensen-bar-cabinet-rosewood-jason-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1657/sm_02.jpg",
+"price": 4750.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-wahl-iversen-set-of-six-teak-dining-chairs-glyngore-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Wahl Iversen set of six teak dining chairs Glyngore Denmark 1960",
+"url": "https://www.studioninedesign.nl/arne-wahl-iversen-set-of-six-teak-dining-chairs-glyngore-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1685/sm_01.jpg",
+"price": 1800.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1800.0
+]
+]
+},
+"studio-nine-design-roosendaal:/sofus-jorgensen-cross-leg-highboard-rosewood-nyrup-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Sofus Jorgensen cross-leg highboard rosewood Nyrup Denmark 1960",
+"url": "https://www.studioninedesign.nl/sofus-jorgensen-cross-leg-highboard-rosewood-nyrup-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1691/sm_01.jpg",
+"price": 2250.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/gunni-omann-sideboard-model-19-in-teak-omann-jun-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Gunni Omann sideboard model 19 in teak Omann Jun Denmark 1960",
+"url": "https://www.studioninedesign.nl/gunni-omann-sideboard-model-19-in-teak-omann-jun-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1705/sm_02.jpg",
+"price": 2150.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-otto-moller-large-extendable-dining-table-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Otto Moller large extendable dining table rosewood Denmark 1960",
+"url": "https://www.studioninedesign.nl/niels-otto-moller-large-extendable-dining-table-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1689/sm_01.jpg",
+"price": 2250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-planter-in-teak-aksel-kjersgaard-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen planter in teak Aksel Kjersgaard Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-planter-in-teak-aksel-kjersgaard-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1701/sm_01.jpg",
+"price": 650.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/franz-xaver-sideboard-in-walnut-sproll-switzerland-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Franz Xaver sideboard in walnut Sproll Switzerland 1960",
+"url": "https://www.studioninedesign.nl/franz-xaver-sideboard-in-walnut-sproll-switzerland-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1683/sm_01.jpg",
+"price": 3500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/jens-quistgaard-sculptural-tray-table-in-teak-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Jens Quistgaard sculptural tray table in teak Denmark 1960",
+"url": "https://www.studioninedesign.nl/jens-quistgaard-sculptural-tray-table-in-teak-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1686/sm_01.jpg",
+"price": 1500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/peter-lovig-nielsen-boomerang-writing-desk-teak-lovig-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Peter Lovig Nielsen boomerang writing desk teak Lovig Denmark 1960",
+"url": "https://www.studioninedesign.nl/peter-lovig-nielsen-boomerang-writing-desk-teak-lovig-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1688/sm_06.jpg",
+"price": 2650.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/rob-parry-pair-of-lotus-lounge-chairs-gelderland-netherlands-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Rob Parry pair of Lotus lounge chairs Gelderland  Netherlands 1960",
+"url": "https://www.studioninedesign.nl/rob-parry-pair-of-lotus-lounge-chairs-gelderland-netherlands-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1677/sm_04.jpg",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-oval-dining-table-in-rosewood-villy-schou-andersen-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen oval dining table in rosewood Villy Schou Andersen Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-oval-dining-table-in-rosewood-villy-schou-andersen-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1682/sm_01.jpg",
+"price": 1950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-jacobsen-set-of-eight-3107-butterfly-dining-chairs-fritz-hansen-denmark-1967": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Jacobsen set of eight 3107 Butterfly dining chairs Fritz Hansen Denmark 1967",
+"url": "https://www.studioninedesign.nl/arne-jacobsen-set-of-eight-3107-butterfly-dining-chairs-fritz-hansen-denmark-1967",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1684/sm_RBN_3584.jpg",
+"price": 1600.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1600.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hans-wegner-model-ch36-dining-chairs-in-oak-carl-hansen-son-denmark-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hans Wegner model CH36 dining chairs in oak Carl Hansen & Son Denmark 1970",
+"url": "https://www.studioninedesign.nl/hans-wegner-model-ch36-dining-chairs-in-oak-carl-hansen-son-denmark-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1649/sm_01.jpg",
+"price": 4500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/danish-high-cabinet-in-teak-with-tambour-doors-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Danish high cabinet in teak with tambour doors Denmark 1960",
+"url": "https://www.studioninedesign.nl/danish-high-cabinet-in-teak-with-tambour-doors-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1615/sm_01.jpg",
+"price": 2950.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/horst-bruning-model-1730-long-sideboard-behr-germany-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Horst Bruning model 1730 long sideboard Behr Germany 1960",
+"url": "https://www.studioninedesign.nl/horst-bruning-model-1730-long-sideboard-behr-germany-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1678/sm_02.jpg",
+"price": 3250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/pair-of-scandinavian-floating-nightstands-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Pair of Scandinavian floating nightstands rosewood Denmark 1960",
+"url": "https://www.studioninedesign.nl/pair-of-scandinavian-floating-nightstands-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1669/sm_01.jpg",
+"price": 950.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/pair-of-durlet-lounge-chairs-brown-leather-belgium-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Pair of Durlet lounge chairs brown leather Belgium 1960",
+"url": "https://www.studioninedesign.nl/pair-of-durlet-lounge-chairs-brown-leather-belgium-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1654/sm_01.jpg",
+"price": 1500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/de-sede-ds-31-high-back-lounge-chair-in-naturel-leather-switzerland-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "De Sede DS-31 high-back lounge chair in naturel leather Switzerland 1970",
+"url": "https://www.studioninedesign.nl/de-sede-ds-31-high-back-lounge-chair-in-naturel-leather-switzerland-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1672/sm_04.jpg",
+"price": 1650.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/set-of-four-scandinavian-dining-chairs-in-oak-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Set of four Scandinavian dining chairs in oak Denmark 1960",
+"url": "https://www.studioninedesign.nl/set-of-four-scandinavian-dining-chairs-in-oak-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1670/sm_01.jpg",
+"price": 1500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-andersen-palle-pedersen-t-chair-model-68-in-teak-randers-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Andersen & Palle Pedersen T-Chair model 68 in teak Randers Denmark 1960",
+"url": "https://www.studioninedesign.nl/erik-andersen-palle-pedersen-t-chair-model-68-in-teak-randers-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1648/sm_01.jpg",
+"price": 1250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/temde-tripod-floorlamp-in-sisal-and-teak-switzerland-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Temde tripod floorlamp in sisal and teak Switzerland 1960",
+"url": "https://www.studioninedesign.nl/temde-tripod-floorlamp-in-sisal-and-teak-switzerland-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1656/sm_03.jpg",
+"price": 1150.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/dick-cordemeijer-cleopatra-daybed-for-auping-in-wool-the-netherlands-1954": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Dick Cordemeijer Cleopatra daybed for Auping in wool The Netherlands 1954",
+"url": "https://www.studioninedesign.nl/dick-cordemeijer-cleopatra-daybed-for-auping-in-wool-the-netherlands-1954",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1660/sm_01.jpg",
+"price": 1350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1350.0
+]
+]
+},
+"studio-nine-design-roosendaal:/werner-neumann-sculptural-birchwood-sofa-in-birch-bark-and-leather-the-netherlands": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Werner Neumann sculptural Birchwood sofa in birch bark and leather The Netherlands",
+"url": "https://www.studioninedesign.nl/werner-neumann-sculptural-birchwood-sofa-in-birch-bark-and-leather-the-netherlands",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1663/sm_03.jpg",
+"price": 5950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+5950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/svend-langkilde-rosewood-chest-of-drawers-langkilde-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Svend Langkilde rosewood chest of drawers Langkilde Mobler Denmark 1960",
+"url": "https://www.studioninedesign.nl/svend-langkilde-rosewood-chest-of-drawers-langkilde-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1652/sm_01.jpg",
+"price": 2750.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-jacobsen-oxford-office-chairs-in-cognac-leather-fritz-hansen-denmark-1967": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Jacobsen Oxford office chairs in cognac leather Fritz Hansen Denmark 1967",
+"url": "https://www.studioninedesign.nl/arne-jacobsen-oxford-office-chairs-in-cognac-leather-fritz-hansen-denmark-1967",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1605/sm_01.jpg",
+"price": 2250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/knut-hesterberg-model-snake-coffee-table-ronald-schmitt-germany-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Knut Hesterberg model Snake coffee table Ronald Schmitt Germany 1965",
+"url": "https://www.studioninedesign.nl/knut-hesterberg-model-snake-coffee-table-ronald-schmitt-germany-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1650/sm_04.jpg",
+"price": 1750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/alfred-hendrickx-t4-dining-table-beech-belform-belgium-1958": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Alfred Hendrickx T4 dining table beech Belform Belgium 1958",
+"url": "https://www.studioninedesign.nl/alfred-hendrickx-t4-dining-table-beech-belform-belgium-1958",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1639/sm_01.jpg",
+"price": 2750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/poul-hundevad-side-table-in-teak-vamdrup-stolefabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Poul Hundevad side table in teak Vamdrup Stolefabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/poul-hundevad-side-table-in-teak-vamdrup-stolefabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1600/sm_02.jpg",
+"price": 750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/dick-cordemeijer-cleopatra-daybed-for-auping-in-white-fabric-the-netherlands-1954": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Dick Cordemeijer Cleopatra daybed for Auping in white fabric The Netherlands 1954",
+"url": "https://www.studioninedesign.nl/dick-cordemeijer-cleopatra-daybed-for-auping-in-white-fabric-the-netherlands-1954",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1662/sm_01.jpg",
+"price": 1350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1350.0
+]
+]
+},
+"studio-nine-design-roosendaal:/poul-m-volther-chest-of-drawers-model-f17-in-teak-and-oak-fdb-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Poul M. Volther chest of drawers model F17 in teak and oak FDB Møbler Denmark 1960",
+"url": "https://www.studioninedesign.nl/poul-m-volther-chest-of-drawers-model-f17-in-teak-and-oak-fdb-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1667/sm_01.jpg",
+"price": 1500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/bruno-gatta-model-232-pair-of-sconces-stilnovo-italy-1954": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Bruno Gatta model 232 pair of sconces Stilnovo Italy 1954",
+"url": "https://www.studioninedesign.nl/bruno-gatta-model-232-pair-of-sconces-stilnovo-italy-1954",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1617/sm_01.jpg",
+"price": 2500.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/h-w-klein-secretary-cabinet-rosewood-bramin-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "H.W. Klein secretary cabinet rosewood Bramin Denmark 1960",
+"url": "https://www.studioninedesign.nl/h-w-klein-secretary-cabinet-rosewood-bramin-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1638/sm_01.jpg",
+"price": 1650.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/piet-hein-bruno-mathsson-superellipse-coffee-table-fritz-hansen-denmark-1968": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Piet Hein & Bruno Mathsson Superellipse coffee table Fritz Hansen Denmark 1968",
+"url": "https://www.studioninedesign.nl/piet-hein-bruno-mathsson-superellipse-coffee-table-fritz-hansen-denmark-1968",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1614/sm_07_-_kopie_2.jpg",
+"price": 2450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/borge-mogensen-cognac-leather-lounge-chairs-fredericia-stolefabrik-denmark-1963": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Borge Mogensen cognac leather lounge chairs Fredericia Stolefabrik Denmark 1963",
+"url": "https://www.studioninedesign.nl/borge-mogensen-cognac-leather-lounge-chairs-fredericia-stolefabrik-denmark-1963",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1604/sm_02.jpg",
+"price": 3950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/dick-cordemeijer-cleopatra-daybed-for-auping-in-melange-fabric-the-netherlands-1954": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Dick Cordemeijer Cleopatra daybed for Auping in melange fabric The Netherlands 1954",
+"url": "https://www.studioninedesign.nl/dick-cordemeijer-cleopatra-daybed-for-auping-in-melange-fabric-the-netherlands-1954",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1661/sm_01.jpg",
+"price": 1350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1350.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-rosewood-chest-of-drawers-feldballes-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen rosewood chest of drawers Feldballes Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-rosewood-chest-of-drawers-feldballes-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1651/sm_01.jpg",
+"price": 1250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/gunni-omann-highboard-model-19-in-rosewood-omann-jun-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Gunni Omann highboard model 19 in rosewood Omann Jun Denmark 1960",
+"url": "https://www.studioninedesign.nl/gunni-omann-highboard-model-19-in-rosewood-omann-jun-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1609/sm_03.jpg",
+"price": 2950.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/set-of-four-danish-dining-chairs-in-teak-and-paper-cord-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Set of four Danish dining chairs in teak and paper cord Denmark 1960",
+"url": "https://www.studioninedesign.nl/set-of-four-danish-dining-chairs-in-teak-and-paper-cord-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1602/sm_01.jpg",
+"price": 1500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/pair-of-tiki-lounge-chairs-in-teak-and-boucle-busnelli-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Pair of “Tiki” lounge chairs in teak and bouclé Busnelli Italy 1960",
+"url": "https://www.studioninedesign.nl/pair-of-tiki-lounge-chairs-in-teak-and-boucle-busnelli-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1550/sm_05.jpg",
+"price": 4500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/ilmari-tapiovaara-pirkka-sideboard-laukaan-puu-finland-1940": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Ilmari Tapiovaara “Pirkka” sideboard  Laukaan Puu Finland 1940",
+"url": "https://www.studioninedesign.nl/ilmari-tapiovaara-pirkka-sideboard-laukaan-puu-finland-1940",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1595/sm_01.jpg",
+"price": 9500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+9500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/unusual-sideboard-in-rosewood-with-metal-legs-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Unusual sideboard in rosewood with metal legs Denmark 1960",
+"url": "https://www.studioninedesign.nl/unusual-sideboard-in-rosewood-with-metal-legs-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1612/sm_01.jpg",
+"price": 2450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/hugo-frandsen-large-planter-in-rosewood-spottrup-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Hugo Frandsen large planter in rosewood Spottrup Denmark 1960",
+"url": "https://www.studioninedesign.nl/hugo-frandsen-large-planter-in-rosewood-spottrup-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1601/sm_04.jpg",
+"price": 650.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-hovmand-olsen-set-of-four-dining-chairs-in-teak-mogens-kold-denmark-1959": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Hovmand Olsen set of four dining chairs in teak Mogens Kold Denmark 1959",
+"url": "https://www.studioninedesign.nl/arne-hovmand-olsen-set-of-four-dining-chairs-in-teak-mogens-kold-denmark-1959",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1586/sm_02.jpg",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/thomas-poss-eferfolger-wall-mirror-in-rosewood-triangular-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Thomas Poss Eferfolger wall mirror in rosewood triangular Denmark 1960",
+"url": "https://www.studioninedesign.nl/thomas-poss-eferfolger-wall-mirror-in-rosewood-triangular-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1596/sm_01.jpg",
+"price": 950.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/scandinavian-executive-desk-in-rosewood-with-bar-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Scandinavian executive desk in rosewood with bar Denmark 1960",
+"url": "https://www.studioninedesign.nl/scandinavian-executive-desk-in-rosewood-with-bar-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1591/sm_01.jpg",
+"price": 4500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-buch-set-of-three-od61-bar-stools-in-rosewood-oddense-denmark-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Buch set of three “OD61” bar stools In rosewood Oddense Denmark 1965",
+"url": "https://www.studioninedesign.nl/erik-buch-set-of-three-od61-bar-stools-in-rosewood-oddense-denmark-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1556/sm_02.jpg",
+"price": 3750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/scandinavian-sideboard-in-rosewood-with-tambour-doors-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Scandinavian sideboard in rosewood with tambour doors Denmark 1960",
+"url": "https://www.studioninedesign.nl/scandinavian-sideboard-in-rosewood-with-tambour-doors-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1590/sm_05.jpg",
+"price": 4500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/johannes-andersen-set-of-nesting-tables-in-rosewood-silkeborg-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Johannes Andersen set of nesting tables in rosewood Silkeborg Denmark 1960",
+"url": "https://www.studioninedesign.nl/johannes-andersen-set-of-nesting-tables-in-rosewood-silkeborg-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1594/sm_01.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/italian-sideboard-in-walnut-g-cecchini-e-c-cantu-italy-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Italian sideboard in walnut G. Cecchini e C. Cantu Italy 1950",
+"url": "https://www.studioninedesign.nl/italian-sideboard-in-walnut-g-cecchini-e-c-cantu-italy-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1599/sm_01.jpg",
+"price": 3500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/severin-hansen-large-set-of-3-nesting-tables-in-rosewood-haslev-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Severin Hansen large set of 3 nesting tables in rosewood Haslev Denmark 1960",
+"url": "https://www.studioninedesign.nl/severin-hansen-large-set-of-3-nesting-tables-in-rosewood-haslev-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1587/sm_01.jpg",
+"price": 1450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/borge-mogensen-chest-of-drawers-in-teak-soborg-mobelfabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Borge Mogensen chest of drawers in teak Soborg Mobelfabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/borge-mogensen-chest-of-drawers-in-teak-soborg-mobelfabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1579/sm_01.jpg",
+"price": 2750.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/rastad-and-relling-low-back-lounge-chairs-gimson-and-slater-norway-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Rastad and Relling low back lounge chairs Gimson and Slater Norway 1960",
+"url": "https://www.studioninedesign.nl/rastad-and-relling-low-back-lounge-chairs-gimson-and-slater-norway-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1552/sm_01.jpg",
+"price": 3500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/johannes-sorth-chest-of-drawers-in-teak-nexo-mobelfabrik-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Johannes Sorth chest of drawers in teak Nexo Mobelfabrik Denmark 1960",
+"url": "https://www.studioninedesign.nl/johannes-sorth-chest-of-drawers-in-teak-nexo-mobelfabrik-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1565/sm_01.jpg",
+"price": 1450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/wim-rietveld-pyramid-dining-chairs-ahrend-de-cirkel-the-netherlands-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Wim Rietveld Pyramid dining chairs Ahrend de Cirkel The Netherlands 1960",
+"url": "https://www.studioninedesign.nl/wim-rietveld-pyramid-dining-chairs-ahrend-de-cirkel-the-netherlands-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1560/sm_01.jpg",
+"price": 2500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/louis-christiaan-kalff-nb100-desk-lamp-philips-the-netherlands-1957": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Louis Christiaan Kalff NB100 desk lamp Philips The Netherlands 1957",
+"url": "https://www.studioninedesign.nl/louis-christiaan-kalff-nb100-desk-lamp-philips-the-netherlands-1957",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1559/sm_01.jpg",
+"price": 750.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/rimbert-sandholt-chest-of-drawers-in-teak-atelje-sweden-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Rimbert Sandholt chest of drawers in teak Atelje Sweden 1960",
+"url": "https://www.studioninedesign.nl/rimbert-sandholt-chest-of-drawers-in-teak-atelje-sweden-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1583/sm_03.jpg",
+"price": 1450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-vodder-model-430-dining-chairs-rosewood-sibast-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Vodder model 430 dining chairs rosewood Sibast Mobler Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/arne-vodder-model-430-dining-chairs-rosewood-sibast-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1545/sm_01.jpg",
+"price": 3000.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3000.0
+]
+]
+},
+"studio-nine-design-roosendaal:/large-scandinavian-chest-of-drawers-in-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Large Scandinavian chest of drawers in rosewood Denmark 1960",
+"url": "https://www.studioninedesign.nl/large-scandinavian-chest-of-drawers-in-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1564/sm_01.jpg",
+"price": 1450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/illum-wikkelso-ml-90-three-seater-sofa-laursen-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Illum Wikkelso ML-90 three-seater sofa Laursen Denmark 1960",
+"url": "https://www.studioninedesign.nl/illum-wikkelso-ml-90-three-seater-sofa-laursen-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1578/sm_01.jpg",
+"price": 2950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/magnussen-ponte-mactan-stone-small-coffee-table-belgium-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Magnussen Ponte Mactan stone small coffee table Belgium 1970",
+"url": "https://www.studioninedesign.nl/magnussen-ponte-mactan-stone-small-coffee-table-belgium-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1576/sm_01.jpg",
+"price": 500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-buch-pair-of-od61-bar-stools-oddense-mobler-denmark-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Buch pair of “OD61” bar stools Oddense Mobler Denmark 1965",
+"url": "https://www.studioninedesign.nl/erik-buch-pair-of-od61-bar-stools-oddense-mobler-denmark-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1555/sm_01.jpg",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/tiki-lounge-chair-in-teak-and-boucle-busnelli-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "“Tiki” lounge chair in teak and bouclé Busnelli Italy 1960",
+"url": "https://www.studioninedesign.nl/tiki-lounge-chair-in-teak-and-boucle-busnelli-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1551/sm_01.jpg",
+"price": 2250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/philippon-lecoq-pointe-de-diamant-sideboard-behr-germany-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Philippon & Lecoq “Pointe de Diamant” sideboard Behr Germany 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/philippon-lecoq-pointe-de-diamant-sideboard-behr-germany-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1547/sm_03.jpg",
+"price": 15000.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+15000.0
+]
+]
+},
+"studio-nine-design-roosendaal:/arne-wahl-iversen-st-750-armchair-niels-eilersen-denmark-1959": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Arne Wahl Iversen “ST-750” armchair Niels Eilersen Denmark 1959 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/arne-wahl-iversen-st-750-armchair-niels-eilersen-denmark-1959",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1535/sm_01.jpg",
+"price": 1250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/severin-hansen-sewing-table-in-rosewood-haslev-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Severin Hansen sewing table in rosewood Haslev Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/severin-hansen-sewing-table-in-rosewood-haslev-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1521/sm_01.jpg",
+"price": 750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"studio-nine-design-roosendaal:/scandinavian-daybed-in-teak-and-cane-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Scandinavian daybed in teak and cane Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/scandinavian-daybed-in-teak-and-cane-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1536/sm_01.jpg",
+"price": 2450.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2450.0
+]
+]
+},
+"studio-nine-design-roosendaal:/kai-kristiansen-bench-and-mirror-rosewood-aksel-kjersgaard-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Kai Kristiansen bench and mirror rosewood Aksel Kjersgaard Denmark 1960",
+"url": "https://www.studioninedesign.nl/kai-kristiansen-bench-and-mirror-rosewood-aksel-kjersgaard-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1575/sm_01.jpg",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/trau-arredamenti-metallici-spa-large-desk-rosewood-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Trau Arredamenti Metallici S.P.A. large desk rosewood Italy 1960",
+"url": "https://www.studioninedesign.nl/trau-arredamenti-metallici-spa-large-desk-rosewood-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1582/sm_03.jpg",
+"price": 3250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/peter-lovig-free-standing-writing-desk-in-teak-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Peter Lovig free standing writing desk in teak Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/peter-lovig-free-standing-writing-desk-in-teak-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1543/sm_05_-_kopie.jpg",
+"price": 2250.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/niels-otto-moller-sideboard-in-rosewood-jl-mollers-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Niels Otto Moller sideboard in rosewood J.L. Mollers Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/niels-otto-moller-sideboard-in-rosewood-jl-mollers-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1532/sm_06_-_kopie.jpg",
+"price": 6500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+6500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/illum-wikkelso-side-table-in-teak-hjorring-mobel-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Illum Wikkelso side table in teak Hjorring Mobel Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/illum-wikkelso-side-table-in-teak-hjorring-mobel-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1546/sm_01.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/italian-sideboard-or-chest-of-drawers-in-teak-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Italian sideboard or chest of drawers in teak Italy 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/italian-sideboard-or-chest-of-drawers-in-teak-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1538/sm_01.jpg",
+"price": 2250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/henry-rosengren-hansen-sideboard-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Henry Rosengren Hansen sideboard rosewood Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/henry-rosengren-hansen-sideboard-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1533/sm_01.jpg",
+"price": 3250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/erik-buch-sideboard-in-rosewood-oddense-mobler-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Erik Buch sideboard in rosewood Oddense Mobler Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/erik-buch-sideboard-in-rosewood-oddense-mobler-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1531/sm_04.jpg",
+"price": 3250.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/set-of-3-danish-nesting-tables-in-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Set of 3 Danish nesting tables in rosewood Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/set-of-3-danish-nesting-tables-in-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1515/sm_1_-_kopie.jpg",
+"price": 600.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"studio-nine-design-roosendaal:/diamond-shaped-coffee-table-in-white-travertine-italy-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Diamond shaped coffee table in white travertine Italy 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/diamond-shaped-coffee-table-in-white-travertine-italy-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1486/sm_3.jpg",
+"price": 600.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"studio-nine-design-roosendaal:/evert-jelle-jelles-eclipse-floor-lamp-raak-amsterdam-the-netherlands-1964": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Evert Jelle Jelles Eclipse floor lamp RAAK Amsterdam The Netherlands 1964",
+"url": "https://www.studioninedesign.nl/evert-jelle-jelles-eclipse-floor-lamp-raak-amsterdam-the-netherlands-1964",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1396/sm_1.jpg",
+"price": 1950.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/france-son-round-dining-table-in-teak-cado-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "France & Son round dining table in teak Cado Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/france-son-round-dining-table-in-teak-cado-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1442/sm_1.jpg",
+"price": 2500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"studio-nine-design-roosendaal:/raak-amsterdam-maxi-globe-cascade-pendant-lamp-netherlands-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "RAAK Amsterdam Maxi Globe Cascade pendant lamp Netherlands 1965 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/raak-amsterdam-maxi-globe-cascade-pendant-lamp-netherlands-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1447/sm_raakmaxiglobe-02.jpg",
+"price": 1150.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/jjm-hoogervorst-floor-lamp-black-anvia-almelo-the-netherlands-1950": {
+"shop": "studio-nine-design-roosendaal",
+"title": "JJM Hoogervorst floor lamp black Anvia Almelo The Netherlands 1950 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/jjm-hoogervorst-floor-lamp-black-anvia-almelo-the-netherlands-1950",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1463/sm_anviafloorlamp04_-_kopie.jpg",
+"price": 950.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/frank-ligtelijn-raindrop-sconces-raak-the-netherlands-1970": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Frank Ligtelijn “Raindrop” sconces RAAK The Netherlands 1970 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/frank-ligtelijn-raindrop-sconces-raak-the-netherlands-1970",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1416/sm_6.jpg",
+"price": 1150.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/severin-hansen-highboard-in-rosewood-haslev-mbelsnedkeri-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Severin Hansen highboard in rosewood Haslev Møbelsnedkeri Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/severin-hansen-highboard-in-rosewood-haslev-mbelsnedkeri-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1373/sm_1.jpg",
+"price": 1950.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"studio-nine-design-roosendaal:/helge-sibast-set-of-six-dining-chairs-in-rosewood-denmark-1960": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Helge Sibast set of six dining chairs in rosewood Denmark 1960 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/helge-sibast-set-of-six-dining-chairs-in-rosewood-denmark-1960",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1384/sm_2.jpg",
+"price": 2250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2250.0
+]
+]
+},
+"studio-nine-design-roosendaal:/e-larsen-a-bender-madsen-armchair-in-rosewood-willy-beck-denmark-1949": {
+"shop": "studio-nine-design-roosendaal",
+"title": "E. Larsen & A. Bender Madsen armchair in rosewood Willy Beck Denmark 1949 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/e-larsen-a-bender-madsen-armchair-in-rosewood-willy-beck-denmark-1949",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/1206/sm_3.jpg",
+"price": 1150.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1150.0
+]
+]
+},
+"studio-nine-design-roosendaal:/raak-maxi-globe-flush-mount-lamp-the-netherlands-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "Raak Maxi globe flush mount lamp The Netherlands 1965 I Studio Nine Design",
+"url": "https://www.studioninedesign.nl/raak-maxi-globe-flush-mount-lamp-the-netherlands-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/212/sm_DSC_5395.jpg",
+"price": 275.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"studio-nine-design-roosendaal:/raak-amsterdam-maxi-globe-xl-pendant-lamps-the-netherlands-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "RAAK Amsterdam Maxi Globe XL pendant lamps The Netherlands 1965 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/raak-amsterdam-maxi-globe-xl-pendant-lamps-the-netherlands-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/591/sm_1.jpg",
+"price": 475.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+475.0
+]
+]
+},
+"studio-nine-design-roosendaal:/raak-amsterdam-maxi-globe-l-pendant-lamps-the-netherlands-1965-copy": {
+"shop": "studio-nine-design-roosendaal",
+"title": "RAAK Amsterdam Maxi Globe L pendant lamps The Netherlands 1965 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/raak-amsterdam-maxi-globe-l-pendant-lamps-the-netherlands-1965-copy",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/589/sm_3_0.jpg",
+"price": 375.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"studio-nine-design-roosendaal:/raak-amsterdam-maxi-globe-m-pendant-lamps-the-netherlands-1965": {
+"shop": "studio-nine-design-roosendaal",
+"title": "RAAK Amsterdam Maxi Globe M pendant lamps The Netherlands 1965 | Studio Nine Design",
+"url": "https://www.studioninedesign.nl/raak-amsterdam-maxi-globe-m-pendant-lamps-the-netherlands-1965",
+"image": "https://www.studioninedesign.nl/portal/public/images/products/588/sm_1.jpg",
+"price": 275.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"smuk-collectables-roosendaal:/eikenhouten-art-deco-armstoel-haagse-school-nederland-301.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Eikenhouten art deco armstoel Haagse School, Nederland '30",
+"url": "https://www.smukcollectables.com/eikenhouten-art-deco-armstoel-haagse-school-nederland-301.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10_orig.jpg",
+"price": 575.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+575.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalistische-eikenhouten-salontafel-nederland-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalistische eikenhouten salontafel, Nederland '60",
+"url": "https://www.smukcollectables.com/brutalistische-eikenhouten-salontafel-nederland-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4_orig.jpg",
+"price": 1100.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1100.0
+]
+]
+},
+"smuk-collectables-roosendaal:/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ovale massief eikenhouten rustieke salontafel, Frankrijk '60",
+"url": "https://www.smukcollectables.com/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4_orig.jpg",
+"price": 1300.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1300.0
+]
+]
+},
+"smuk-collectables-roosendaal:/de-sede-ds-2011-fauteuil-zwitserland-80.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "De Sede DS-2011 fauteuil Zwitserland '80",
+"url": "https://www.smukcollectables.com/de-sede-ds-2011-fauteuil-zwitserland-80.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/de-sede-ds-2011-lounge-chair-1980s-4_orig.jpg",
+"price": 995.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-brutalistische-eikenhouten-stoelen-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4  brutalistische  eikenhouten stoelen '60",
+"url": "https://www.smukcollectables.com/set-van-4-brutalistische-eikenhouten-stoelen-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s_orig.jpg",
+"price": 1200.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"smuk-collectables-roosendaal:/pastoe-teakhouten-barkast-cees-braakman-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Pastoe teakhouten barkast Cees Braakman '60",
+"url": "https://www.smukcollectables.com/pastoe-teakhouten-barkast-cees-braakman-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/eikenhouten-armstoel-met-biezen-zitting-haagse-school-401.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Eikenhouten armstoel met biezen zitting, Haagse School '40",
+"url": "https://www.smukcollectables.com/eikenhouten-armstoel-met-biezen-zitting-haagse-school-401.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7520_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-masssief-eiken-salontafel-side-table-nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage masssief eiken salontafel/ side table, Nederland '60",
+"url": "https://www.smukcollectables.com/vintage-masssief-eiken-salontafel-side-table-nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-14_orig.jpg",
+"price": 625.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+625.0
+]
+]
+},
+"smuk-collectables-roosendaal:/rustiek-eikenhouten-bijzettafel-scandinavieuml-301.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Rustiek eikenhouten bijzettafel, Scandinavië '30",
+"url": "https://www.smukcollectables.com/rustiek-eikenhouten-bijzettafel-scandinavieuml-301.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8_orig.jpg",
+"price": 295.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-grenen-met-tuigleren-eetkamerstoelen-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4 grenen met tuigleren eetkamerstoelen '70",
+"url": "https://www.smukcollectables.com/set-van-4-grenen-met-tuigleren-eetkamerstoelen-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7_orig.jpg",
+"price": 995.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"smuk-collectables-roosendaal:/ronde-massief-eikenhouten-tripod-salontafel-nederland-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ronde massief  eikenhouten tripod salontafel, Nederland  '60",
+"url": "https://www.smukcollectables.com/ronde-massief-eikenhouten-tripod-salontafel-nederland-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/extra-lage-xl-eikenhouten-side-table-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Extra lage XL eikenhouten side table '70",
+"url": "https://www.smukcollectables.com/extra-lage-xl-eikenhouten-side-table-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/ceramano-koralle-w-germany-vazen-hans-welling-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ceramano Koralle W-Germany vazen Hans Welling '60",
+"url": "https://www.smukcollectables.com/ceramano-koralle-w-germany-vazen-hans-welling-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/art-deco-haagse-school-dressoirkast-nederland-30.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Art Deco Haagse School dressoir/kast, Nederland '30",
+"url": "https://www.smukcollectables.com/art-deco-haagse-school-dressoirkast-nederland-30.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-7_orig.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"smuk-collectables-roosendaal:/beukenhouten-spijlen-armstoel-denemarken-501.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Beukenhouten spijlen armstoel, Denemarken '50",
+"url": "https://www.smukcollectables.com/beukenhouten-spijlen-armstoel-denemarken-501.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9_orig.jpg",
+"price": 350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 2 Rainer Daumiller stoelen, Hirtshals Savvaerk '70",
+"url": "https://www.smukcollectables.com/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/19e-eeuwse-beukenhouten-kinderstoel1.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "19e Eeuwse beukenhouten kinderstoel",
+"url": "https://www.smukcollectables.com/19e-eeuwse-beukenhouten-kinderstoel1.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10_orig.jpg",
+"price": 195.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/iepenhouten-sculptuur-frankrijk-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Iepenhouten sculptuur, Frankrijk  '70",
+"url": "https://www.smukcollectables.com/iepenhouten-sculptuur-frankrijk-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5_orig.jpg",
+"price": 500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+500.0
+]
+]
+},
+"smuk-collectables-roosendaal:/rechthoekige-brutalistische-salontafel-nederland-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Rechthoekige  brutalistische salontafel, Nederland '70",
+"url": "https://www.smukcollectables.com/rechthoekige-brutalistische-salontafel-nederland-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14_orig.jpg",
+"price": 450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"smuk-collectables-roosendaal:/lamino-fauteuil-yngve-ekstroumlm-swedese-501.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Lamino fauteuil Yngve Ekström, Swedese '50",
+"url": "https://www.smukcollectables.com/lamino-fauteuil-yngve-ekstroumlm-swedese-501.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/art-deco-armstoel-nederland-1930.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Art Deco armstoel, Nederland 1930",
+"url": "https://www.smukcollectables.com/art-deco-armstoel-nederland-1930.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armstoel-1930-4_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/kastanjehouten-bijzettafel-19e-eeuw1.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Kastanjehouten  bijzettafel, 19e eeuw",
+"url": "https://www.smukcollectables.com/kastanjehouten-bijzettafel-19e-eeuw1.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5_orig.jpg",
+"price": 249.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+249.0
+]
+]
+},
+"smuk-collectables-roosendaal:/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Lisbeth Sallingboe grenen/keramiek salontafel, Denemarken '70",
+"url": "https://www.smukcollectables.com/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-6_orig.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"smuk-collectables-roosendaal:/mobichalet-brutalist-houten-banken-belgieuml-501.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Mobichalet brutalist houten  banken, België '50",
+"url": "https://www.smukcollectables.com/mobichalet-brutalist-houten-banken-belgieuml-501.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7_orig.jpg",
+"price": 600.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"smuk-collectables-roosendaal:/xl-brutalistische-bielzen-salontafel-nederland-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Xl brutalistische bielzen salontafel, Nederland '60",
+"url": "https://www.smukcollectables.com/xl-brutalistische-bielzen-salontafel-nederland-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4 mid century palissander eetkamerstoelen, Denemarken '60",
+"url": "https://www.smukcollectables.com/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7_orig.jpg",
+"price": 1400.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1400.0
+]
+]
+},
+"smuk-collectables-roosendaal:/grenen-lounge-stoelen-frankrijk-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Grenen lounge stoelen, Frankrijk '70",
+"url": "https://www.smukcollectables.com/grenen-lounge-stoelen-frankrijk-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3_orig.jpg",
+"price": 1200.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"smuk-collectables-roosendaal:/minimalistische-eikenhouten-bijzettafel-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Minimalistische eikenhouten bijzettafel '60",
+"url": "https://www.smukcollectables.com/minimalistische-eikenhouten-bijzettafel-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-5_orig.jpg",
+"price": 195.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/modernist-walnoot-houten-stoelen-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Modernist walnoot houten stoelen '70",
+"url": "https://www.smukcollectables.com/modernist-walnoot-houten-stoelen-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2_orig.jpg",
+"price": 450.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"smuk-collectables-roosendaal:/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Leolux salontafel in Japandi stijl, Harry de Groot  Nederland '70",
+"url": "https://www.smukcollectables.com/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Poul Cadovius Royal system teakhouten wandkasten  Denemarken '60",
+"url": "https://www.smukcollectables.com/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s_orig.jpg",
+"price": 275.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalist-bram-sprij-eetkamerstoelen-nederland-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalist Bram Sprij eetkamerstoelen,  Nederland '60",
+"url": "https://www.smukcollectables.com/brutalist-bram-sprij-eetkamerstoelen-nederland-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-501.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Drexel 'Declaration' armstoelen, Kipp Stewart en Stewart MacDougall '50",
+"url": "https://www.smukcollectables.com/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-501.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-8_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/val-padilla-manila-stoelen-jasper-conran-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Val Padilla Manila stoelen, Jasper Conran '70",
+"url": "https://www.smukcollectables.com/val-padilla-manila-stoelen-jasper-conran-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denemarken-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Uitschuifbare grenen eettafel, Stolefabriken Lindebjerg Denemarken '70",
+"url": "https://www.smukcollectables.com/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denemarken-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-5_orig.jpg",
+"price": 795.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+795.0
+]
+]
+},
+"smuk-collectables-roosendaal:/18e-eeuwse-eikenhouten-dekenkist1.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "18e eeuwse  eikenhouten dekenkist",
+"url": "https://www.smukcollectables.com/18e-eeuwse-eikenhouten-dekenkist1.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-farstrup-moslashbler-stoel-denemarken-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage Farstrup Møbler stoel, Denemarken '60",
+"url": "https://www.smukcollectables.com/vintage-farstrup-moslashbler-stoel-denemarken-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1851_orig.jpg",
+"price": 295.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"smuk-collectables-roosendaal:/wilkhahn-fauteuils-duitsland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Wilkhahn fauteuils, Duitsland '60",
+"url": "https://www.smukcollectables.com/wilkhahn-fauteuils-duitsland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8980_orig.jpg",
+"price": 550.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+550.0
+]
+]
+},
+"smuk-collectables-roosendaal:/randall-buck-draaistoel-steelcase-strafor-701.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Randall Buck draaistoel, Steelcase Strafor '70",
+"url": "https://www.smukcollectables.com/randall-buck-draaistoel-steelcase-strafor-701.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6_orig.jpg",
+"price": 375.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"smuk-collectables-roosendaal:/lov-oosterbeek-art-deco-stoel-nederland-201.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "L.O.V.  Oosterbeek Art Deco stoel Nederland '20",
+"url": "https://www.smukcollectables.com/lov-oosterbeek-art-deco-stoel-nederland-201.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848_orig.jpg",
+"price": 350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"smuk-collectables-roosendaal:/bovenkamp-bank-arnold-madsen--henry-schubell-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Bovenkamp bank Arnold Madsen  & Henry Schubell '60",
+"url": "https://www.smukcollectables.com/bovenkamp-bank-arnold-madsen--henry-schubell-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s-4_orig.jpg",
+"price": 1795.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1795.0
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-bureaulamp-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage  bureaulamp '50",
+"url": "https://www.smukcollectables.com/vintage-bureaulamp-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2137_orig.jpg",
+"price": 250.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+250.0
+]
+]
+},
+"smuk-collectables-roosendaal:/jaren-70-houten-bijzettafel1.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Jaren 70 houten bijzettafel",
+"url": "https://www.smukcollectables.com/jaren-70-houten-bijzettafel1.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7_orig.jpg",
+"price": 325.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+325.0
+]
+]
+},
+"smuk-collectables-roosendaal:/tue-poulsen-salontafel-eikenhout-met-keramiek-acute70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Tue Poulsen salontafel eikenhout met keramiek  ´70",
+"url": "https://www.smukcollectables.com/tue-poulsen-salontafel-eikenhout-met-keramiek-acute70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/published/tue-poulsen-salontafel-70-3.jpg?1732120238",
+"price": 850.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+850.0
+]
+]
+},
+"smuk-collectables-roosendaal:/driezitsbank-l-olsen--soslashn-denemarken-601.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Driezitsbank L. Olsen & Søn, Denemarken '60",
+"url": "https://www.smukcollectables.com/driezitsbank-l-olsen--soslashn-denemarken-601.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/published/img-1739.jpg?1711536952",
+"price": 1195.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalist-midcentury-wall-sculpture-wandsculptuur-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalist  midcentury wall sculpture, wandsculptuur '60",
+"url": "https://www.smukcollectables.com/brutalist-midcentury-wall-sculpture-wandsculptuur-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-7_orig.jpg",
+"price": 450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"smuk-collectables-roosendaal:/eikenhouten-art-deco-armstoel-haagse-school-nederland-30.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Eikenhouten art deco armstoel Haagse School, Nederland '30",
+"url": "https://www.smukcollectables.com/eikenhouten-art-deco-armstoel-haagse-school-nederland-30.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10_orig.jpg",
+"price": 575.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+575.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-brutalistische-eikenhouten-stoelen-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4 brutalistische eikenhouten stoelen '60",
+"url": "https://www.smukcollectables.com/set-van-4-brutalistische-eikenhouten-stoelen-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s_orig.jpg",
+"price": 1200.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"smuk-collectables-roosendaal:/modernist-walnoot-houten-stoelen-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Modernist walnoot houten stoelen '70",
+"url": "https://www.smukcollectables.com/modernist-walnoot-houten-stoelen-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2_orig.jpg",
+"price": 450.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-grenen-met-tuigleren-eetkamerstoelen-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4 grenen met tuigleren eetkamerstoelen '70",
+"url": "https://www.smukcollectables.com/set-van-4-grenen-met-tuigleren-eetkamerstoelen-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7_orig.jpg",
+"price": 995.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"smuk-collectables-roosendaal:/mobichalet-brutalist-houten-banken-belgieuml-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Mobichalet brutalist houten banken, België '50",
+"url": "https://www.smukcollectables.com/mobichalet-brutalist-houten-banken-belgieuml-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/beukenhouten-spijlen-armstoel-denemarken-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Beukenhouten spijlen armstoel, Denemarken '50",
+"url": "https://www.smukcollectables.com/beukenhouten-spijlen-armstoel-denemarken-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9_orig.jpg",
+"price": 350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"smuk-collectables-roosendaal:/grenen-lounge-stoelen-frankrijk-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Grenen lounge stoelen, Frankrijk '70",
+"url": "https://www.smukcollectables.com/grenen-lounge-stoelen-frankrijk-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3_orig.jpg",
+"price": 1200.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 2 Rainer Daumiller stoelen, Hirtshals Savvaerk '70",
+"url": "https://www.smukcollectables.com/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/eikenhouten-armstoel-met-biezen-zitting-haagse-school-40.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Eikenhouten armstoel met biezen zitting, Haagse School '40",
+"url": "https://www.smukcollectables.com/eikenhouten-armstoel-met-biezen-zitting-haagse-school-40.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7520_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/art-deco-armstoel--nederland-1930.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Art Deco armstoel , Nederland 1930",
+"url": "https://www.smukcollectables.com/art-deco-armstoel--nederland-1930.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armstoel-1930-9_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/19e-eeuwse-beukenhouten-kinderstoel.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "19e Eeuwse beukenhouten kinderstoel",
+"url": "https://www.smukcollectables.com/19e-eeuwse-beukenhouten-kinderstoel.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10_orig.jpg",
+"price": 195.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Drexel 'Declaration' armstoelen, Kipp Stewart en Stewart MacDougall '50",
+"url": "https://www.smukcollectables.com/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-10_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/val-padilla-manila-stoelen-jasper-conran-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Val Padilla Manila stoelen, Jasper Conran '70",
+"url": "https://www.smukcollectables.com/val-padilla-manila-stoelen-jasper-conran-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/lamino-fauteuil-yngve-ekstroumlm-swedese-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Lamino fauteuil Yngve Ekström, Swedese '50",
+"url": "https://www.smukcollectables.com/lamino-fauteuil-yngve-ekstroumlm-swedese-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 4  mid century palissander eetkamerstoelen, Denemarken '60",
+"url": "https://www.smukcollectables.com/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7_orig.jpg",
+"price": 1400.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1400.0
+]
+]
+},
+"smuk-collectables-roosendaal:/bovenkamp-bank-arnold-madsen--henry-schubell-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Bovenkamp bank Arnold Madsen & Henry Schubell '60",
+"url": "https://www.smukcollectables.com/bovenkamp-bank-arnold-madsen--henry-schubell-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s_orig.jpg",
+"price": 1795.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1795.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalist-bram-sprij-eetkamerstoelen-nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalist Bram Sprij eetkamerstoelen,  Nederland '60",
+"url": "https://www.smukcollectables.com/brutalist-bram-sprij-eetkamerstoelen-nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9_orig.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/randall-buck-draaistoel-steelcase-strafor-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Randall Buck draaistoel, Steelcase Strafor '70",
+"url": "https://www.smukcollectables.com/randall-buck-draaistoel-steelcase-strafor-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6_orig.jpg",
+"price": 375.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"smuk-collectables-roosendaal:/lov-oosterbeek-art-deco-stoel-nederland-20.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "L.O.V. Oosterbeek Art Deco stoel Nederland '20",
+"url": "https://www.smukcollectables.com/lov-oosterbeek-art-deco-stoel-nederland-20.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848_orig.jpg",
+"price": 350.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"smuk-collectables-roosendaal:/driezitsbank-l-olsen--soslashn-denemarken-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Driezitsbank L. Olsen & Søn, Denemarken '60",
+"url": "https://www.smukcollectables.com/driezitsbank-l-olsen--soslashn-denemarken-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1714_orig.jpg",
+"price": 1195.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-farstrup-moslashbler-stoel-denemarken-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage Farstrup Møbler stoel, Denemarken '60",
+"url": "https://www.smukcollectables.com/vintage-farstrup-moslashbler-stoel-denemarken-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1859_orig.jpg",
+"price": 295.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"smuk-collectables-roosendaal:/set-van-2-wilkhahn-fauteuils-duitsland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Set van 2 Wilkhahn fauteuils, Duitsland '60",
+"url": "https://www.smukcollectables.com/set-van-2-wilkhahn-fauteuils-duitsland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8980_orig.jpg",
+"price": 550.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+550.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalistische-eikenhouten-salontafel-nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalistische eikenhouten salontafel, Nederland '60",
+"url": "https://www.smukcollectables.com/brutalistische-eikenhouten-salontafel-nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4_orig.jpg",
+"price": 1100.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1100.0
+]
+]
+},
+"smuk-collectables-roosendaal:/kastanjehouten-bijzettafel-19e-eeuw.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Kastanjehouten bijzettafel, 19e eeuw",
+"url": "https://www.smukcollectables.com/kastanjehouten-bijzettafel-19e-eeuw.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5_orig.jpg",
+"price": 249.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+249.0
+]
+]
+},
+"smuk-collectables-roosendaal:/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ovale massief eikenhouten rustieke salontafel, Frankrijk '60",
+"url": "https://www.smukcollectables.com/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4_orig.jpg",
+"price": 1300.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1300.0
+]
+]
+},
+"smuk-collectables-roosendaal:/ronde-massief-eikenhouten-tripod-salontafel-nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ronde massief eikenhouten 'tripod' salontafel, Nederland '60",
+"url": "https://www.smukcollectables.com/ronde-massief-eikenhouten-tripod-salontafel-nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Lisbeth Sallingboe grenen/keramiek salontafel, Denemarken '70",
+"url": "https://www.smukcollectables.com/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-7_orig.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"smuk-collectables-roosendaal:/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denmarken-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Uitschuifbare grenen eettafel, Stolefabriken Lindebjerg Denmarken '70",
+"url": "https://www.smukcollectables.com/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denmarken-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-5_orig.jpg",
+"price": 795.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+795.0
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-massief-eiken-salontafel-side-table--nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage massief eiken salontafel/ side table , Nederland '60",
+"url": "https://www.smukcollectables.com/vintage-massief-eiken-salontafel-side-table--nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-14_orig.jpg",
+"price": 625.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+625.0
+]
+]
+},
+"smuk-collectables-roosendaal:/rechthoekige-brutalistische-salontafel-nederland-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Rechthoekige  brutalistische salontafel, Nederland '70",
+"url": "https://www.smukcollectables.com/rechthoekige-brutalistische-salontafel-nederland-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14_orig.jpg",
+"price": 450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"smuk-collectables-roosendaal:/extra-lage-xl-eikenhouten-side-table-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Extra lage XL eikenhouten side table '70",
+"url": "https://www.smukcollectables.com/extra-lage-xl-eikenhouten-side-table-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/rustiek-eikenhouten-bijzettafel-scandinavieuml-30.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Rustiek eikenhouten bijzettafel, Scandinavië '30",
+"url": "https://www.smukcollectables.com/rustiek-eikenhouten-bijzettafel-scandinavieuml-30.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8_orig.jpg",
+"price": 295.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"smuk-collectables-roosendaal:/xl-brutalistische-bielzen-salontafel-nederland-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "XL brutalistische bielzen salontafel, Nederland '60",
+"url": "https://www.smukcollectables.com/xl-brutalistische-bielzen-salontafel-nederland-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/minimalistische-eikenhouten-bijzettafel-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Minimalistische eikenhouten bijzettafel '60",
+"url": "https://www.smukcollectables.com/minimalistische-eikenhouten-bijzettafel-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-7_orig.jpg",
+"price": 195.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"smuk-collectables-roosendaal:/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Leolux salontafel in Japandi stijl, Harry de Groot  Nederland '70",
+"url": "https://www.smukcollectables.com/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/jaren-70-houten-bijzettafel.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Jaren 70 houten bijzettafel",
+"url": "https://www.smukcollectables.com/jaren-70-houten-bijzettafel.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7_orig.jpg",
+"price": 325.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+325.0
+]
+]
+},
+"smuk-collectables-roosendaal:/tue-poulsen-salontafel-eikenhout-met-keramiek-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Tue Poulsen salontafel eikenhout met keramiek '70",
+"url": "https://www.smukcollectables.com/tue-poulsen-salontafel-eikenhout-met-keramiek-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/tue-poulsen-salontafel-70-5_orig.jpg",
+"price": 850.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+850.0
+]
+]
+},
+"smuk-collectables-roosendaal:/pastoe-teakhouten-barkast-cees-braakman-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Pastoe teakhouten barkast Cees Braakman '60",
+"url": "https://www.smukcollectables.com/pastoe-teakhouten-barkast-cees-braakman-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Poul Cadovius Royal system teakhouten wandkasten  Denemarken '60",
+"url": "https://www.smukcollectables.com/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s_orig.jpg",
+"price": 275.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"smuk-collectables-roosendaal:/18e-eeuwse-eikenhouten-dekenkist.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "18e eeuwse eikenhouten dekenkist",
+"url": "https://www.smukcollectables.com/18e-eeuwse-eikenhouten-dekenkist.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/art-deco-haagse-school-kastdressoir-nederland-30.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Art Deco Haagse School kast/dressoir, Nederland '30",
+"url": "https://www.smukcollectables.com/art-deco-haagse-school-kastdressoir-nederland-30.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-6_orig.jpg",
+"price": 950.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"smuk-collectables-roosendaal:/ceramano-koralle-w-germany-vazen-hans-welling-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Ceramano Koralle W-Germany vazen Hans Welling '60",
+"url": "https://www.smukcollectables.com/ceramano-koralle-w-germany-vazen-hans-welling-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7_orig.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"smuk-collectables-roosendaal:/iepenhouten-sculptuur-m-bordier-frankrijk-70.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Iepenhouten sculptuur, M. Bordier Frankrijk  '70",
+"url": "https://www.smukcollectables.com/iepenhouten-sculptuur-m-bordier-frankrijk-70.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5_orig.jpg",
+"price": 500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+500.0
+]
+]
+},
+"smuk-collectables-roosendaal:/vintage-stalen-bureaulamp-50.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Vintage stalen bureaulamp '50",
+"url": "https://www.smukcollectables.com/vintage-stalen-bureaulamp-50.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2126_orig.jpg",
+"price": 250.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+250.0
+]
+]
+},
+"smuk-collectables-roosendaal:/brutalist-midcentury-wall-sculpture-wandsculptuur-belgieuml-60.html": {
+"shop": "smuk-collectables-roosendaal",
+"title": "Brutalist midcentury wall sculpture, wandsculptuur België '60",
+"url": "https://www.smukcollectables.com/brutalist-midcentury-wall-sculpture-wandsculptuur-belgieuml-60.html",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-7_orig.jpg",
+"price": 450.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
 ]
 ]
 }
