@@ -786,7 +786,9 @@
    "km_from_dam": 70.5,
    "zone": "Further",
    "reader": {
-    "type": "auto"
+    "type": "wp_posts",
+    "base": "https://vanons.eu",
+    "api": "https://public-api.wordpress.com/wp/v2/sites/vanons.eu"
    },
    "design_icons": true
   },
@@ -876,9 +878,89 @@
    "km_from_dam": 80.5,
    "zone": "Further",
    "reader": {
-    "type": "auto"
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.misceaup.nl/c-5559532/banken/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113625/bijzettafels-trolley-s/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113669/bureaus-secretaires/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3101107/eetkamer-stoelen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5546931/eetkamer-tafels/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5546956/fauteuils/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3101106/kasten-dressoirs/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5546932/salontafels/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5838776/wandsystemen-wandplanken/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3149391/overige-meubels/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5176160/glas-kristal/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5176145/vazen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5176142/overige-keramiek/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-4507634/messing-koper/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113638/rekken-manden/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5796184/spiegels/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113633/wanddecoratie-schilderijen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5672382/wandvogels/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113662/overige-woonaccessoires/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113632/bureau-tafellampen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113628/hanglampen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-4120627/neon/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-5403774/plafonnieres/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113631/vloerlampen/"
+     },
+     {
+      "url": "https://www.misceaup.nl/c-3113630/wandlampen/"
+     }
+    ],
+    "link_pattern": "misceaup\\.nl/a-\\d+/[^/?#]+/[^/?#]+$",
+    "key_pattern": "/a-\\d+/[^/]+/([^/?#]+)/?$"
    },
-   "design_icons": true
+   "design_icons": true,
+   "note": "VNTG lists misceaup.nl; vintage.nl redirects there."
   },
   {
    "id": "mippies-arnhem",
@@ -1098,7 +1180,14 @@
    "km_from_dam": 96.2,
    "zone": "Further",
    "reader": {
-    "type": "auto"
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.studioninedesign.nl/collection"
+     }
+    ],
+    "link_pattern": "studioninedesign\\.nl/[a-z0-9]+(-[a-z0-9]+){4,}$",
+    "card_sold": true
    },
    "design_icons": true
   },
@@ -1125,7 +1214,26 @@
    "km_from_dam": 97.2,
    "zone": "Further",
    "reader": {
-    "type": "auto"
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.smukcollectables.com/"
+     },
+     {
+      "url": "https://www.smukcollectables.com/stoelen-banken.html"
+     },
+     {
+      "url": "https://www.smukcollectables.com/tafels.html"
+     },
+     {
+      "url": "https://www.smukcollectables.com/kasten.html"
+     },
+     {
+      "url": "https://www.smukcollectables.com/overig.html"
+     }
+    ],
+    "link_pattern": "smukcollectables\\.com/(?!(stoelen-banken|tafels|kasten|overig|archief|over|contact|algemene-voorwaarden|index)\\.html)[a-z0-9-]+\\.html$",
+    "card_sold": true
    },
    "design_icons": true
   },
@@ -1211,10 +1319,9 @@
    "lng": 6.4772,
    "km_from_dam": 114.3,
    "zone": "Further",
-   "reader": {
-    "type": "auto"
-   },
-   "design_icons": true
+   "reader": null,
+   "design_icons": true,
+   "note": "Switched off: the site sits behind a Cloudflare bot check."
   },
   {
    "id": "retrohuis-nl-stiens",
@@ -1388,10 +1495,9 @@
    "lng": 6.5367,
    "km_from_dam": 151.1,
    "zone": "Further",
-   "reader": {
-    "type": "auto"
-   },
-   "design_icons": true
+   "reader": null,
+   "design_icons": true,
+   "note": "Switched off: mostly posters, postcards and jewellery; its 1980s design section is 15 items, mostly the same."
   },
   {
    "id": "vintage-jolie-roermond",
@@ -1492,15 +1598,24 @@
   {
    "id": "lev-lifestyle",
    "name": "Lev Lifestyle",
-   "address": "Online gallery, Netherlands",
-   "town": "Netherlands",
+   "address": "Levendaal 127, 2311JH Leiden",
+   "town": "Leiden",
    "website": "https://www.levlifestyle.nl",
    "lat": null,
    "lng": null,
    "km_from_dam": null,
    "zone": "Further",
    "reader": {
-    "type": "auto"
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://www.levlifestyle.nl/"
+     }
+    ],
+    "link_pattern": "levlifestyle\\.nl/\\?portfolio=[^&#/]+$",
+    "key_pattern": "portfolio=([^&#/]+)",
+    "card_sold": true,
+    "detail_cap": 400
    },
    "design_icons": true,
    "note": "Not on VNTG's shop map; exact location unknown."
@@ -1531,11 +1646,9 @@
    "lng": null,
    "km_from_dam": null,
    "zone": "Further",
-   "reader": {
-    "type": "auto"
-   },
+   "reader": null,
    "design_icons": true,
-   "note": "Not on VNTG's shop map. Dutch-language site; location not confirmed."
+   "note": "Not on VNTG's shop map. Dutch-language site; location not confirmed. Switched off: a two-page JouwWeb site with 2 items and no shop."
   },
   {
    "id": "iconic-objects",

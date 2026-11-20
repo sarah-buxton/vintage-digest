@@ -109,7 +109,7 @@ def run(today, fetch):
             continue
 
         # Fetch product pages only for items we have not seen before.
-        cap = DETAIL_CAP_FIRST_RUN if first_run else DETAIL_CAP
+        cap = reader.get("detail_cap") or (DETAIL_CAP_FIRST_RUN if first_run else DETAIL_CAP)
         fetched = 0
         for it in found:
             iid = f"{sid}:{it['key']}"

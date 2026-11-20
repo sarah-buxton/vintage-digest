@@ -103,11 +103,12 @@ def read_woo(shop, fetch):
 
 # ---------------------------------------------------------------- WordPress posts used as product pages
 def read_wp_posts(shop, fetch):
-    base = shop["reader"]["base"].rstrip("/")
+    # "api" lets a WordPress.com blog use WordPress.com's own feed (public-api.wordpress.com/wp/v2/sites/<domain>)
+    api = (shop["reader"].get("api") or shop["reader"]["base"].rstrip("/") + "/wp-json/wp/v2").rstrip("/")
     items = []
     for page in range(1, 31):
         try:
-            posts = json.loads(fetch(f"{base}/wp-json/wp/v2/posts?per_page=100&page={page}&_embed=1"))
+            posts = json.loads(fetch(f"{api}/posts?per_page=100&page={page}&_embed=1"))
         except Exception:
             if page > 1:  # WordPress answers past the last page with an error
                 break
@@ -240,6 +241,7 @@ def read_html(shop, fetch):
                     continue
                 img = a.find("img") or _card_image(a, pattern)
                 text = _clean_title(a.get_text(" ", strip=True))
+                sold = bool(cfg.get("card_sold")) and _sold_text(_card_text(a, pattern))
                 found[key] = {
                     "key": key,
                     "title": text or _clean_title(img.get("alt") if img else "") or "",
@@ -247,8 +249,8 @@ def read_html(shop, fetch):
                     "image": _img_src(img, url),
                     "price": None,
                     "category": urlparse(href).path,
-                    "available": True,
-                    "_needs_detail": True,
+                    "available": not sold,
+                    "_needs_detail": not sold,  # no need to open a product page we already know is sold
                 }
             if page and len(found) == before:
                 break  # this page added nothing new: past the last page
@@ -285,6 +287,22 @@ def _card_image(a, pattern):
         if img is not None and links <= {href}:
             return img
     return None
+
+
+def _card_text(a, pattern):
+    """Text of the biggest block around this link that holds no other product,
+    e.g. the title and a SOLD badge sitting next to an image-only link."""
+    href = a.get("href")
+    node, text = a, a.get_text(" ", strip=True)
+    for _ in range(5):
+        node = node.parent
+        if node is None:
+            break
+        links = {x.get("href") for x in node.find_all("a", href=True) if pattern.search(x["href"].rstrip("/"))}
+        if links - {href}:
+            break
+        text = node.get_text(" ", strip=True)
+    return text
 
 
 def _clean_url(href, cfg):
