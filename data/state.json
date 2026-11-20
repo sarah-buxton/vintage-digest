@@ -249,7 +249,7 @@
 "error": null,
 "warning": null,
 "last_run": "2026-11-20",
-"last_count": 410
+"last_count": 411
 },
 "studio-nine-design-roosendaal": {
 "baseline_done": true,
@@ -304,12 +304,12 @@
 "last_run": "2026-11-20"
 },
 "lev-lifestyle": {
-"baseline_done": false,
+"baseline_done": true,
 "status": "ok",
 "error": null,
 "last_run": "2026-11-20",
 "warning": null,
-"last_count": 0
+"last_count": 29
 },
 "juki-amsterdam": {
 "baseline_done": true,
@@ -71170,7 +71170,7 @@ null
 "type": "Decor & art",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
-"status": "live",
+"status": "gone",
 "baseline": false,
 "price_history": [
 [
@@ -71633,7 +71633,7 @@ null
 "shop": "treasure-depot-amsterdam",
 "title": "Hans-Agne Jakobsson T625 lamp",
 "url": "https://www.treasuredepot.nl/index.php?route=product/product&product_id=2064",
-"image": "https://www.treasuredepot.nl/image/cache/catalog/hanglampen/26451%20(8)-2593x3112.jpg",
+"image": "https://www.treasuredepot.nl/image/cache/catalog/hanglampen/26451%20(8)-250x250w.jpg",
 "price": 485.0,
 "type": "Lighting",
 "first_seen": "2026-11-20",
@@ -71656,7 +71656,7 @@ null
 "type": "Decor & art",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
-"status": "live",
+"status": "gone",
 "baseline": false,
 "price_history": [
 [
@@ -74135,7 +74135,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Eikenhouten art deco armstoel Haagse School, Nederland '30",
 "url": "https://www.smukcollectables.com/eikenhouten-art-deco-armstoel-haagse-school-nederland-301.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10.jpg",
 "price": 575.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74153,7 +74153,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalistische eikenhouten salontafel, Nederland '60",
 "url": "https://www.smukcollectables.com/brutalistische-eikenhouten-salontafel-nederland-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4.jpg",
 "price": 1100.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74171,7 +74171,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ovale massief eikenhouten rustieke salontafel, Frankrijk '60",
 "url": "https://www.smukcollectables.com/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4.jpg",
 "price": 1300.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74189,7 +74189,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "De Sede DS-2011 fauteuil Zwitserland '80",
 "url": "https://www.smukcollectables.com/de-sede-ds-2011-fauteuil-zwitserland-80.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/de-sede-ds-2011-lounge-chair-1980s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/de-sede-ds-2011-lounge-chair-1980s.jpg",
 "price": 995.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74207,7 +74207,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4  brutalistische  eikenhouten stoelen '60",
 "url": "https://www.smukcollectables.com/set-van-4-brutalistische-eikenhouten-stoelen-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s.jpg",
 "price": 1200.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74225,7 +74225,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Pastoe teakhouten barkast Cees Braakman '60",
 "url": "https://www.smukcollectables.com/pastoe-teakhouten-barkast-cees-braakman-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74243,7 +74243,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Eikenhouten armstoel met biezen zitting, Haagse School '40",
 "url": "https://www.smukcollectables.com/eikenhouten-armstoel-met-biezen-zitting-haagse-school-401.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7520_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7519.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74261,7 +74261,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage masssief eiken salontafel/ side table, Nederland '60",
 "url": "https://www.smukcollectables.com/vintage-masssief-eiken-salontafel-side-table-nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-14_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-3.jpg",
 "price": 625.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74279,7 +74279,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Rustiek eikenhouten bijzettafel, Scandinavië '30",
 "url": "https://www.smukcollectables.com/rustiek-eikenhouten-bijzettafel-scandinavieuml-301.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8.jpg",
 "price": 295.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74297,7 +74297,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4 grenen met tuigleren eetkamerstoelen '70",
 "url": "https://www.smukcollectables.com/set-van-4-grenen-met-tuigleren-eetkamerstoelen-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7.jpg",
 "price": 995.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74315,7 +74315,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ronde massief  eikenhouten tripod salontafel, Nederland  '60",
 "url": "https://www.smukcollectables.com/ronde-massief-eikenhouten-tripod-salontafel-nederland-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74333,7 +74333,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Extra lage XL eikenhouten side table '70",
 "url": "https://www.smukcollectables.com/extra-lage-xl-eikenhouten-side-table-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74351,7 +74351,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ceramano Koralle W-Germany vazen Hans Welling '60",
 "url": "https://www.smukcollectables.com/ceramano-koralle-w-germany-vazen-hans-welling-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74369,7 +74369,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Art Deco Haagse School dressoir/kast, Nederland '30",
 "url": "https://www.smukcollectables.com/art-deco-haagse-school-dressoirkast-nederland-30.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-6.jpg",
 "price": 950.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74387,7 +74387,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Beukenhouten spijlen armstoel, Denemarken '50",
 "url": "https://www.smukcollectables.com/beukenhouten-spijlen-armstoel-denemarken-501.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9.jpg",
 "price": 350.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74405,7 +74405,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 2 Rainer Daumiller stoelen, Hirtshals Savvaerk '70",
 "url": "https://www.smukcollectables.com/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74423,7 +74423,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "19e Eeuwse beukenhouten kinderstoel",
 "url": "https://www.smukcollectables.com/19e-eeuwse-beukenhouten-kinderstoel1.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10.jpg",
 "price": 195.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74441,7 +74441,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Iepenhouten sculptuur, Frankrijk  '70",
 "url": "https://www.smukcollectables.com/iepenhouten-sculptuur-frankrijk-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5.jpg",
 "price": 500.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74459,7 +74459,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Rechthoekige  brutalistische salontafel, Nederland '70",
 "url": "https://www.smukcollectables.com/rechthoekige-brutalistische-salontafel-nederland-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14.jpg",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74477,7 +74477,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Lamino fauteuil Yngve Ekström, Swedese '50",
 "url": "https://www.smukcollectables.com/lamino-fauteuil-yngve-ekstroumlm-swedese-501.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74495,7 +74495,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Art Deco armstoel, Nederland 1930",
 "url": "https://www.smukcollectables.com/art-deco-armstoel-nederland-1930.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armstoel-1930-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armchair-1930s.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74513,7 +74513,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Kastanjehouten  bijzettafel, 19e eeuw",
 "url": "https://www.smukcollectables.com/kastanjehouten-bijzettafel-19e-eeuw1.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5.jpg",
 "price": 249.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74531,7 +74531,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Lisbeth Sallingboe grenen/keramiek salontafel, Denemarken '70",
 "url": "https://www.smukcollectables.com/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-7.jpg",
 "price": 950.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74549,7 +74549,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Mobichalet brutalist houten  banken, België '50",
 "url": "https://www.smukcollectables.com/mobichalet-brutalist-houten-banken-belgieuml-501.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7.jpg",
 "price": 600.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74567,7 +74567,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Xl brutalistische bielzen salontafel, Nederland '60",
 "url": "https://www.smukcollectables.com/xl-brutalistische-bielzen-salontafel-nederland-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74585,7 +74585,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4 mid century palissander eetkamerstoelen, Denemarken '60",
 "url": "https://www.smukcollectables.com/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7.jpg",
 "price": 1400.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74603,7 +74603,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Grenen lounge stoelen, Frankrijk '70",
 "url": "https://www.smukcollectables.com/grenen-lounge-stoelen-frankrijk-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3.jpg",
 "price": 1200.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74621,7 +74621,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Minimalistische eikenhouten bijzettafel '60",
 "url": "https://www.smukcollectables.com/minimalistische-eikenhouten-bijzettafel-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-5.jpg",
 "price": 195.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74639,7 +74639,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Modernist walnoot houten stoelen '70",
 "url": "https://www.smukcollectables.com/modernist-walnoot-houten-stoelen-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2.jpg",
 "price": 450.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74657,7 +74657,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Leolux salontafel in Japandi stijl, Harry de Groot  Nederland '70",
 "url": "https://www.smukcollectables.com/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74675,7 +74675,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Poul Cadovius Royal system teakhouten wandkasten  Denemarken '60",
 "url": "https://www.smukcollectables.com/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s.jpg",
 "price": 275.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74693,7 +74693,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalist Bram Sprij eetkamerstoelen,  Nederland '60",
 "url": "https://www.smukcollectables.com/brutalist-bram-sprij-eetkamerstoelen-nederland-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74711,7 +74711,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Drexel 'Declaration' armstoelen, Kipp Stewart en Stewart MacDougall '50",
 "url": "https://www.smukcollectables.com/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-501.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-8_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-6.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74729,7 +74729,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Val Padilla Manila stoelen, Jasper Conran '70",
 "url": "https://www.smukcollectables.com/val-padilla-manila-stoelen-jasper-conran-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74747,7 +74747,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Uitschuifbare grenen eettafel, Stolefabriken Lindebjerg Denemarken '70",
 "url": "https://www.smukcollectables.com/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denemarken-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-8.jpg",
 "price": 795.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74765,7 +74765,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "18e eeuwse  eikenhouten dekenkist",
 "url": "https://www.smukcollectables.com/18e-eeuwse-eikenhouten-dekenkist1.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74783,7 +74783,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage Farstrup Møbler stoel, Denemarken '60",
 "url": "https://www.smukcollectables.com/vintage-farstrup-moslashbler-stoel-denemarken-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1851_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1858.jpg",
 "price": 295.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74801,7 +74801,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Wilkhahn fauteuils, Duitsland '60",
 "url": "https://www.smukcollectables.com/wilkhahn-fauteuils-duitsland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8980_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8988.jpg",
 "price": 550.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74819,7 +74819,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Randall Buck draaistoel, Steelcase Strafor '70",
 "url": "https://www.smukcollectables.com/randall-buck-draaistoel-steelcase-strafor-701.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6.jpg",
 "price": 375.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74837,7 +74837,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "L.O.V.  Oosterbeek Art Deco stoel Nederland '20",
 "url": "https://www.smukcollectables.com/lov-oosterbeek-art-deco-stoel-nederland-201.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848-1.jpg",
 "price": 350.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74855,7 +74855,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Bovenkamp bank Arnold Madsen  & Henry Schubell '60",
 "url": "https://www.smukcollectables.com/bovenkamp-bank-arnold-madsen--henry-schubell-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s.jpg",
 "price": 1795.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74873,7 +74873,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage  bureaulamp '50",
 "url": "https://www.smukcollectables.com/vintage-bureaulamp-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2137_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2137.jpg",
 "price": 250.0,
 "type": "Lighting",
 "first_seen": "2026-11-20",
@@ -74891,7 +74891,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Jaren 70 houten bijzettafel",
 "url": "https://www.smukcollectables.com/jaren-70-houten-bijzettafel1.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7.jpg",
 "price": 325.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74909,7 +74909,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Tue Poulsen salontafel eikenhout met keramiek  ´70",
 "url": "https://www.smukcollectables.com/tue-poulsen-salontafel-eikenhout-met-keramiek-acute70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/published/tue-poulsen-salontafel-70-3.jpg?1732120238",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/tue-poulsen-salontafel-70-5.jpg",
 "price": 850.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74927,7 +74927,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Driezitsbank L. Olsen & Søn, Denemarken '60",
 "url": "https://www.smukcollectables.com/driezitsbank-l-olsen--soslashn-denemarken-601.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/published/img-1739.jpg?1711536952",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1714.jpg",
 "price": 1195.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74945,7 +74945,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalist  midcentury wall sculpture, wandsculptuur '60",
 "url": "https://www.smukcollectables.com/brutalist-midcentury-wall-sculpture-wandsculptuur-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-3.jpg",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -74963,7 +74963,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Eikenhouten art deco armstoel Haagse School, Nederland '30",
 "url": "https://www.smukcollectables.com/eikenhouten-art-deco-armstoel-haagse-school-nederland-30.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-haagse-school-armchair-1930s-10.jpg",
 "price": 575.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74981,7 +74981,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4 brutalistische eikenhouten stoelen '60",
 "url": "https://www.smukcollectables.com/set-van-4-brutalistische-eikenhouten-stoelen-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-oak-velvet-dining-chairs-1950s.jpg",
 "price": 1200.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -74999,7 +74999,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Modernist walnoot houten stoelen '70",
 "url": "https://www.smukcollectables.com/modernist-walnoot-houten-stoelen-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/modernist-stoelen-jr-80-2.jpg",
 "price": 450.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75017,7 +75017,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4 grenen met tuigleren eetkamerstoelen '70",
 "url": "https://www.smukcollectables.com/set-van-4-grenen-met-tuigleren-eetkamerstoelen-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-4-pine-and-saddle-leather-dining-chairs-1970s-7.jpg",
 "price": 995.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75035,7 +75035,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Mobichalet brutalist houten banken, België '50",
 "url": "https://www.smukcollectables.com/mobichalet-brutalist-houten-banken-belgieuml-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/mobichalet-brutalist-benches-banken-1950s-7.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75053,7 +75053,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Beukenhouten spijlen armstoel, Denemarken '50",
 "url": "https://www.smukcollectables.com/beukenhouten-spijlen-armstoel-denemarken-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/spindle-back-armchair-denmark-1950s-9.jpg",
 "price": 350.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75071,7 +75071,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Grenen lounge stoelen, Frankrijk '70",
 "url": "https://www.smukcollectables.com/grenen-lounge-stoelen-frankrijk-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/franse-grenen-lounge-chairs-jr70-3.jpg",
 "price": 1200.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75089,7 +75089,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 2 Rainer Daumiller stoelen, Hirtshals Savvaerk '70",
 "url": "https://www.smukcollectables.com/set-van-2-rainer-daumiller-stoelen-hirtshals-savvaerk-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/set-of-2-rainer-daumiller-side-chairs-1970s-7.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75107,7 +75107,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Eikenhouten armstoel met biezen zitting, Haagse School '40",
 "url": "https://www.smukcollectables.com/eikenhouten-armstoel-met-biezen-zitting-haagse-school-40.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7520_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-7519.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75125,7 +75125,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Art Deco armstoel , Nederland 1930",
 "url": "https://www.smukcollectables.com/art-deco-armstoel--nederland-1930.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armstoel-1930-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-armchair-1930s.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75143,7 +75143,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "19e Eeuwse beukenhouten kinderstoel",
 "url": "https://www.smukcollectables.com/19e-eeuwse-beukenhouten-kinderstoel.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-childeren-s-armchair-10.jpg",
 "price": 195.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75161,7 +75161,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Drexel 'Declaration' armstoelen, Kipp Stewart en Stewart MacDougall '50",
 "url": "https://www.smukcollectables.com/drexel-declaration-armstoelen-kipp-stewart-en-stewart-macdougall-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-10_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/drexel-declaration-chair-kipp-stewart-6.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75179,7 +75179,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Val Padilla Manila stoelen, Jasper Conran '70",
 "url": "https://www.smukcollectables.com/val-padilla-manila-stoelen-jasper-conran-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/val-padilla-jasper-conran-chair-11.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75197,7 +75197,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Lamino fauteuil Yngve Ekström, Swedese '50",
 "url": "https://www.smukcollectables.com/lamino-fauteuil-yngve-ekstroumlm-swedese-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/swedese-lamino-yngve-ekstrom-3.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75215,7 +75215,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 4  mid century palissander eetkamerstoelen, Denemarken '60",
 "url": "https://www.smukcollectables.com/set-van-4-mid-century-palissander-eetkamerstoelen-denemarken-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/rosewood-dining-chairs-denmark-1960s-7.jpg",
 "price": 1400.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75233,7 +75233,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Bovenkamp bank Arnold Madsen & Henry Schubell '60",
 "url": "https://www.smukcollectables.com/bovenkamp-bank-arnold-madsen--henry-schubell-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bovenkamp-sofa-arnold-madsen-henry-schubell-60s.jpg",
 "price": 1795.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75251,7 +75251,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalist Bram Sprij eetkamerstoelen,  Nederland '60",
 "url": "https://www.smukcollectables.com/brutalist-bram-sprij-eetkamerstoelen-nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/bram-sprij-oak-leather-dining-chairs-1960s-9.jpg",
 "price": null,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75269,7 +75269,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Randall Buck draaistoel, Steelcase Strafor '70",
 "url": "https://www.smukcollectables.com/randall-buck-draaistoel-steelcase-strafor-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/randall-buck-draaistoel-strafor-frankrijk-70-6.jpg",
 "price": 375.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75287,7 +75287,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "L.O.V. Oosterbeek Art Deco stoel Nederland '20",
 "url": "https://www.smukcollectables.com/lov-oosterbeek-art-deco-stoel-nederland-20.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-4848-1.jpg",
 "price": 350.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75305,7 +75305,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Driezitsbank L. Olsen & Søn, Denemarken '60",
 "url": "https://www.smukcollectables.com/driezitsbank-l-olsen--soslashn-denemarken-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1714_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1714.jpg",
 "price": 1195.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75323,7 +75323,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage Farstrup Møbler stoel, Denemarken '60",
 "url": "https://www.smukcollectables.com/vintage-farstrup-moslashbler-stoel-denemarken-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1859_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-1858.jpg",
 "price": 295.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75341,7 +75341,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Set van 2 Wilkhahn fauteuils, Duitsland '60",
 "url": "https://www.smukcollectables.com/set-van-2-wilkhahn-fauteuils-duitsland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8980_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-8988.jpg",
 "price": 550.0,
 "type": "Seating",
 "first_seen": "2026-11-20",
@@ -75359,7 +75359,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalistische eikenhouten salontafel, Nederland '60",
 "url": "https://www.smukcollectables.com/brutalistische-eikenhouten-salontafel-nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/large-dark-oak-brutalist-coffee-table-1960s-4.jpg",
 "price": 1100.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75377,7 +75377,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Kastanjehouten bijzettafel, 19e eeuw",
 "url": "https://www.smukcollectables.com/kastanjehouten-bijzettafel-19e-eeuw.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/19th-century-chestnut-side-table-5.jpg",
 "price": 249.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75395,7 +75395,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ovale massief eikenhouten rustieke salontafel, Frankrijk '60",
 "url": "https://www.smukcollectables.com/ovale-massief-eikenhouten-rustieke-salontafel-frankrijk-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-dark-oak-oval-coffee-table-1960s-4.jpg",
 "price": 1300.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75413,7 +75413,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ronde massief eikenhouten 'tripod' salontafel, Nederland '60",
 "url": "https://www.smukcollectables.com/ronde-massief-eikenhouten-tripod-salontafel-nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/circular-solid-oak-tripod-coffee-table1960s-6.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75431,7 +75431,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Lisbeth Sallingboe grenen/keramiek salontafel, Denemarken '70",
 "url": "https://www.smukcollectables.com/lisbeth-sallingboe-grenenkeramiek-salontafel-denemarken-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/britt-sallingboe-coffee-table-denmark-1970s-6.jpg",
 "price": 950.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75449,7 +75449,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Uitschuifbare grenen eettafel, Stolefabriken Lindebjerg Denmarken '70",
 "url": "https://www.smukcollectables.com/uitschuifbare-grenen-eettafel-stolefabriken-lindebjerg-denmarken-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-pinewood-dining-table-denmark-1970s-8.jpg",
 "price": 795.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75467,7 +75467,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage massief eiken salontafel/ side table , Nederland '60",
 "url": "https://www.smukcollectables.com/vintage-massief-eiken-salontafel-side-table--nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-14_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/free-form-solid-oak-side-table-the-netherlands-1960s-3.jpg",
 "price": 625.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75485,7 +75485,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Rechthoekige  brutalistische salontafel, Nederland '70",
 "url": "https://www.smukcollectables.com/rechthoekige-brutalistische-salontafel-nederland-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/beam-square-coffee-table-14.jpg",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75503,7 +75503,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Extra lage XL eikenhouten side table '70",
 "url": "https://www.smukcollectables.com/extra-lage-xl-eikenhouten-side-table-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/extra-low-xl-oak-side-table-1970s-4.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75521,7 +75521,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Rustiek eikenhouten bijzettafel, Scandinavië '30",
 "url": "https://www.smukcollectables.com/rustiek-eikenhouten-bijzettafel-scandinavieuml-30.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-antique-sculptural-rustic-stool-8.jpg",
 "price": 295.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75539,7 +75539,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "XL brutalistische bielzen salontafel, Nederland '60",
 "url": "https://www.smukcollectables.com/xl-brutalistische-bielzen-salontafel-nederland-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/xl-brutalist-beam-coffee-table-7.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75557,7 +75557,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Minimalistische eikenhouten bijzettafel '60",
 "url": "https://www.smukcollectables.com/minimalistische-eikenhouten-bijzettafel-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/oak-minimalist-rectangle-side-table-5.jpg",
 "price": 195.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75575,7 +75575,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Leolux salontafel in Japandi stijl, Harry de Groot  Nederland '70",
 "url": "https://www.smukcollectables.com/leolux-salontafel-in-japandi-stijl-harry-de-groot-nederland-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/japandi-style-leolux-coffee-table-harry-de-groot-1970s-2.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75593,7 +75593,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Jaren 70 houten bijzettafel",
 "url": "https://www.smukcollectables.com/jaren-70-houten-bijzettafel.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/vintage-beukenhouten-salontafel-1970s-7.jpg",
 "price": 325.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75611,7 +75611,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Tue Poulsen salontafel eikenhout met keramiek '70",
 "url": "https://www.smukcollectables.com/tue-poulsen-salontafel-eikenhout-met-keramiek-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/tue-poulsen-salontafel-70-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-6982.jpg",
 "price": 850.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75629,7 +75629,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Pastoe teakhouten barkast Cees Braakman '60",
 "url": "https://www.smukcollectables.com/pastoe-teakhouten-barkast-cees-braakman-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/pastoe-bar-cabinet-cees-braakman-1960s-9.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75647,7 +75647,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Poul Cadovius Royal system teakhouten wandkasten  Denemarken '60",
 "url": "https://www.smukcollectables.com/poul-cadovius-royal-system-teakhouten-wandkasten-denemarken-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/teak-wall-cabinets-poul-cadovius-1960s.jpg",
 "price": 275.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75665,7 +75665,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "18e eeuwse eikenhouten dekenkist",
 "url": "https://www.smukcollectables.com/18e-eeuwse-eikenhouten-dekenkist.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-9506-1.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75683,7 +75683,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Art Deco Haagse School kast/dressoir, Nederland '30",
 "url": "https://www.smukcollectables.com/art-deco-haagse-school-kastdressoir-nederland-30.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-6_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/art-deco-sideboard-oak-with-coromandel-details1930s-2.jpg",
 "price": 950.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75701,7 +75701,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Ceramano Koralle W-Germany vazen Hans Welling '60",
 "url": "https://www.smukcollectables.com/ceramano-koralle-w-germany-vazen-hans-welling-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/ceramano-vases-koralle-hans-welling-w-germany-orange-lava-7.jpg",
 "price": null,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75719,7 +75719,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Iepenhouten sculptuur, M. Bordier Frankrijk  '70",
 "url": "https://www.smukcollectables.com/iepenhouten-sculptuur-m-bordier-frankrijk-70.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/iepenhouten-sculptuur-bordier-80-5.jpg",
 "price": 500.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75737,7 +75737,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Vintage stalen bureaulamp '50",
 "url": "https://www.smukcollectables.com/vintage-stalen-bureaulamp-50.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2126_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/img-2126.jpg",
 "price": 250.0,
 "type": "Lighting",
 "first_seen": "2026-11-20",
@@ -75755,7 +75755,7 @@ null
 "shop": "smuk-collectables-roosendaal",
 "title": "Brutalist midcentury wall sculpture, wandsculptuur België '60",
 "url": "https://www.smukcollectables.com/brutalist-midcentury-wall-sculpture-wandsculptuur-belgieuml-60.html",
-"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-7_orig.jpg",
+"image": "https://www.smukcollectables.com/uploads/2/5/1/0/25106269/brutalist-midcentury-wall-sculpture-wandsculptuur-belgi-1960s-4.jpg",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-20",
@@ -75766,6 +75766,582 @@ null
 [
 "2026-11-20",
 450.0
+]
+]
+},
+"kunstconsult-amstelveen:/Lamps/Willem-van-Oyen-for-Raak-Amsterdam.-Glass-wall-lamp.-model-Chartres.-1960s": {
+"shop": "kunstconsult-amstelveen",
+"title": "Willem van Oyen for Raak Amsterdam, Glass wall lamp, model Chartres, 1960s - Willem van Oyen",
+"url": "https://www.kunstconsult.com/Lamps/Willem-van-Oyen-for-Raak-Amsterdam.-Glass-wall-lamp.-model-Chartres.-1960s",
+"image": "http://images.artimin.com/i-f/700/1400/1:1/139573.jpg",
+"price": 300.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"kunstconsult-amstelveen:/Printed-Matter/Hildo-Krop.-Seven-New-Year-s-cards.-Woodcut-on-paper.-1952-1966": {
+"shop": "kunstconsult-amstelveen",
+"title": "Hildo Krop, Seven New Year's cards, Woodcut on paper, 1952-1966 - Hildo (H.L.) Krop",
+"url": "https://www.kunstconsult.com/Printed-Matter/Hildo-Krop.-Seven-New-Year-s-cards.-Woodcut-on-paper.-1952-1966",
+"image": "http://images.artimin.com/i-f/700/1400/1:1/169017.jpg",
+"price": 110.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+110.0
+]
+]
+},
+"atelier-uma-breda:11377663967569": {
+"shop": "atelier-uma-breda",
+"title": "Shaggy Stripe - Wool Rug / LAYERED",
+"url": "https://www.atelieruma.com/products/shaggy-stripe-wool-rug-layered",
+"image": "https://cdn.shopify.com/s/files/1/0621/5093/4753/files/LAYERED_Shaggy_Striped_Chocolate_01.webp?v=1795183909",
+"price": 1300.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+1300.0
+]
+]
+},
+"lev-lifestyle:ib-madsen-acton-schubell-easy-chair": {
+"shop": "lev-lifestyle",
+"title": "IB Madsen & Acton Schubell easy chair",
+"url": "https://www.levlifestyle.nl/?portfolio=ib-madsen-acton-schubell-easy-chair/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/11/SMchair.jpg-1.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:sawbuck-ch29-hans-j-wegner-carl-hansen-son": {
+"shop": "lev-lifestyle",
+"title": "sawbuck CH29 Hans J Wegner, Carl Hansen & Son",
+"url": "https://www.levlifestyle.nl/?portfolio=sawbuck-ch29-hans-j-wegner-carl-hansen-son/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/10/HWsawbuck.jpg-3.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:pk-15-poul-kjearholm-pp-mobler": {
+"shop": "lev-lifestyle",
+"title": "PK 15 Poul Kjaerholm, PP møbler",
+"url": "https://www.levlifestyle.nl/?portfolio=pk-15-poul-kjearholm-pp-mobler/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/08/PK15.jpg-2.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:erik-buch-sj-08-stool-domus-dancia": {
+"shop": "lev-lifestyle",
+"title": "Erik Buck SJ. 08 stool, Domus Dancia",
+"url": "https://www.levlifestyle.nl/?portfolio=erik-buch-sj-08-stool-domus-dancia/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/08/EBstool.jpg-1.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:franco-albini-lobster-wicker-ottoman": {
+"shop": "lev-lifestyle",
+"title": "Franco Albini Lobster wicker Ottoman",
+"url": "https://www.levlifestyle.nl/?portfolio=franco-albini-lobster-wicker-ottoman/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/08/FAstool.jpg-1.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:coffee-table-venus-ge-1937-hans-j-wegner-getama": {
+"shop": "lev-lifestyle",
+"title": "Coffee table Venus GE 1937, Hans J Wegner Getama",
+"url": "https://www.levlifestyle.nl/?portfolio=coffee-table-venus-ge-1937-hans-j-wegner-getama/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/08/Venustable.jpg-6.jpg",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:bench-hans-j-wegner-at-18-andreas-tuck": {
+"shop": "lev-lifestyle",
+"title": "Bench Hans J Wegner, AT-18 Andreas Tuck",
+"url": "https://www.levlifestyle.nl/?portfolio=bench-hans-j-wegner-at-18-andreas-tuck/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/07/HWbench-1.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:arne-wahl-iversen-st-750-niels-eilersen": {
+"shop": "lev-lifestyle",
+"title": "Arne Wahl Iversen, ST-750 Niels Eilersen",
+"url": "https://www.levlifestyle.nl/?portfolio=arne-wahl-iversen-st-750-niels-eilersen/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/06/AWI.jpg-2.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:stone-sculpture-henning-bang-broderskabet-denmark": {
+"shop": "lev-lifestyle",
+"title": "Stone sculpture, Henning Bang “Broderskabet” Denmark",
+"url": "https://www.levlifestyle.nl/?portfolio=stone-sculpture-henning-bang-broderskabet-denmark/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2026/05/HBsculpture.JPG-1.png",
+"price": null,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:china-chair-fh4283-hans-j-wegner-fritz-hansen": {
+"shop": "lev-lifestyle",
+"title": "China chair FH4283 Hans J Wegner, Fritz Hansen",
+"url": "https://www.levlifestyle.nl/?portfolio=china-chair-fh4283-hans-j-wegner-fritz-hansen/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/11/CHINAchair.jpg-2.png",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:jielde-industrie-lamp-jean-louis-domecq": {
+"shop": "lev-lifestyle",
+"title": "Jieldé industrie lamp, Jean – Louis Domecq",
+"url": "https://www.levlifestyle.nl/?portfolio=jielde-industrie-lamp-jean-louis-domecq/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/12/Jielde.jpg-4.png",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:roald-steen-hansen-world-pictures-copenhagen": {
+"shop": "lev-lifestyle",
+"title": "Roald Steen Hansen, World pictures Copenhagen",
+"url": "https://www.levlifestyle.nl/?portfolio=roald-steen-hansen-world-pictures-copenhagen/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2024/09/coathanger.jpg-1.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:large-oyster-f157-pierre-paulin-artifort": {
+"shop": "lev-lifestyle",
+"title": "Large Oyster F157 Pierre Paulin, Artifort",
+"url": "https://www.levlifestyle.nl/?portfolio=large-oyster-f157-pierre-paulin-artifort/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/12/PPoyster.jpg-2.png",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:japanese-paper-lamp-hayashi-kogei-fores": {
+"shop": "lev-lifestyle",
+"title": "Japanese paper lamp Hayashi Kogei, Fores",
+"url": "https://www.levlifestyle.nl/?portfolio=japanese-paper-lamp-hayashi-kogei-fores/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/11/Japanselamp.jpg-4.png",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:wim-rietveld-model-447-gispen": {
+"shop": "lev-lifestyle",
+"title": "Wim Rietveld model 447, Gispen",
+"url": "https://www.levlifestyle.nl/?portfolio=wim-rietveld-model-447-gispen/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/10/WRsofa.jpg-2.png",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:vintage-danish-design-architects-holders": {
+"shop": "lev-lifestyle",
+"title": "Vintage Danish design Architects Holder",
+"url": "https://www.levlifestyle.nl/?portfolio=vintage-danish-design-architects-holders/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2025/06/holders.jpg-5.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:hans-j-wegner-at-18-andreas-tuck": {
+"shop": "lev-lifestyle",
+"title": "Hans J Wegner AT-18, Andreas Tuck",
+"url": "https://www.levlifestyle.nl/?portfolio=hans-j-wegner-at-18-andreas-tuck/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2024/09/HWBENCH.jpg-4.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:hans-j-wegner-ch23-for-carl-hansen-son": {
+"shop": "lev-lifestyle",
+"title": "Hans J Wegner, CH23 for Carl Hansen & Son",
+"url": "https://www.levlifestyle.nl/?portfolio=hans-j-wegner-ch23-for-carl-hansen-son/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2024/04/HJWCH23.jpg-1.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:borge-mogensen-model-2221-fredericia-stolefabrik": {
+"shop": "lev-lifestyle",
+"title": "Børge Mogensen model 2221, Fredericia Stolefabrik",
+"url": "https://www.levlifestyle.nl/?portfolio=borge-mogensen-model-2221-fredericia-stolefabrik/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2024/02/BMsafari.jpg-2.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:hans-j-wegner-ch29-sawbuck-carl-hansen-son": {
+"shop": "lev-lifestyle",
+"title": "Hans J Wegner CH29 SAWBUCK Carl Hansen & Son",
+"url": "https://www.levlifestyle.nl/?portfolio=hans-j-wegner-ch29-sawbuck-carl-hansen-son/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2023/04/CH29.jpg-2.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:ch53-hans-j-wegner-carl-hansen-son-1966-denmark": {
+"shop": "lev-lifestyle",
+"title": "CH53 Hans J Wegner, Carl hansen & Son, 1966 Denmark",
+"url": "https://www.levlifestyle.nl/?portfolio=ch53-hans-j-wegner-carl-hansen-son-1966-denmark/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2022/10/CH53HJW.jpg-2.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:arne-jacobsen-vlinderstoel-fritz-hansen": {
+"shop": "lev-lifestyle",
+"title": "Arne Jacobsen vlinderstoel, Fritz Hansen",
+"url": "https://www.levlifestyle.nl/?portfolio=arne-jacobsen-vlinderstoel-fritz-hansen/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2017/01/vlinderstoel-1.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:lounge-chair-theo-ruth-artifort-2": {
+"shop": "lev-lifestyle",
+"title": "Lounge chair Theo Ruth, Artifort",
+"url": "https://www.levlifestyle.nl/?portfolio=lounge-chair-theo-ruth-artifort-2/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/04/Theo-Ruth-Artifact-easy-chair-1.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:laden-kast-scandinavisch-design": {
+"shop": "lev-lifestyle",
+"title": "Laden kast, Scandinavisch design",
+"url": "https://www.levlifestyle.nl/?portfolio=laden-kast-scandinavisch-design/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2016/01/ladenkastje-1.jpg",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:louis-van-teeffelen-webe-dutch-design": {
+"shop": "lev-lifestyle",
+"title": "Louis van Teeffelen, wébé Dutch design",
+"url": "https://www.levlifestyle.nl/?portfolio=louis-van-teeffelen-webe-dutch-design/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/12/louisvteeffelendinnerchairs-1.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:charles-ray-eames-rockingchair-rar": {
+"shop": "lev-lifestyle",
+"title": "Charles & Ray Eames Rockingchair RAR",
+"url": "https://www.levlifestyle.nl/?portfolio=charles-ray-eames-rockingchair-rar/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/07/eames-rocking-chair.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:friso-kramer-result-chair": {
+"shop": "lev-lifestyle",
+"title": "Friso Kramer result chair",
+"url": "https://www.levlifestyle.nl/?portfolio=friso-kramer-result-chair/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/05/Friso-Kramer.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:johannes-andersen-stoel-mahjongg": {
+"shop": "lev-lifestyle",
+"title": "Johannes Andersen stoel Mahjongg",
+"url": "https://www.levlifestyle.nl/?portfolio=johannes-andersen-stoel-mahjongg/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/04/Johannes-Andersen-stoel-Mahjongg.jpg",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"lev-lifestyle:dirk-van-sliedrecht": {
+"shop": "lev-lifestyle",
+"title": "Dirk van Sliedregt",
+"url": "https://www.levlifestyle.nl/?portfolio=dirk-van-sliedrecht/",
+"image": "https://www.levlifestyle.nl/wp-content/uploads/2015/04/Dirk-van-Sliedrecht.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
 ]
 ]
 }
