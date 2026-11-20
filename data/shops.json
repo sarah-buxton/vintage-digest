@@ -786,13 +786,18 @@
    "km_from_dam": 70.5,
    "zone": "Further",
    "reader": {
-    "type": "wp_posts",
-    "base": "https://vanons.eu",
-    "api": "https://public-api.wordpress.com/wp/v2/sites/vanons.eu",
-    "params": "&categories=311136"
+    "type": "html",
+    "listings": [
+     {
+      "url": "https://vanons.eu/category/te-koop/page/{page}/",
+      "max_pages": 25
+     }
+    ],
+    "link_pattern": "vanons\\.eu/\\d{4}/\\d{2}/\\d{2}/[^/?#]+$",
+    "card_sold": true
    },
    "design_icons": true,
-   "note": "WordPress.com blog; reads only the 'Te koop' (for sale) category, id 311136."
+   "note": "WordPress.com blog. Reads its 'Te koop' (for sale) category pages; WordPress.com's data feed timed out."
   },
   {
    "id": "vintro-design-westmaas",
@@ -879,90 +884,9 @@
    "lng": 5.5167,
    "km_from_dam": 80.5,
    "zone": "Further",
-   "reader": {
-    "type": "html",
-    "listings": [
-     {
-      "url": "https://www.misceaup.nl/c-5559532/banken/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113625/bijzettafels-trolley-s/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113669/bureaus-secretaires/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3101107/eetkamer-stoelen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5546931/eetkamer-tafels/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5546956/fauteuils/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3101106/kasten-dressoirs/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5546932/salontafels/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5838776/wandsystemen-wandplanken/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3149391/overige-meubels/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5176160/glas-kristal/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5176145/vazen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5176142/overige-keramiek/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-4507634/messing-koper/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113638/rekken-manden/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5796184/spiegels/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113633/wanddecoratie-schilderijen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5672382/wandvogels/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113662/overige-woonaccessoires/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113632/bureau-tafellampen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113628/hanglampen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-4120627/neon/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-5403774/plafonnieres/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113631/vloerlampen/"
-     },
-     {
-      "url": "https://www.misceaup.nl/c-3113630/wandlampen/"
-     }
-    ],
-    "link_pattern": "misceaup\\.nl/a-\\d+/[^/?#]+/[^/?#]+$",
-    "key_pattern": "/a-\\d+/[^/]+/([^/?#]+)/?$"
-   },
+   "reader": null,
    "design_icons": true,
-   "note": "VNTG lists misceaup.nl; vintage.nl redirects there."
+   "note": "VNTG lists misceaup.nl; vintage.nl redirects there. Switched off: the site refuses automated visits (403 Forbidden)."
   },
   {
    "id": "mippies-arnhem",
