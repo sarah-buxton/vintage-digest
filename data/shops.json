@@ -788,9 +788,11 @@
    "reader": {
     "type": "wp_posts",
     "base": "https://vanons.eu",
-    "api": "https://public-api.wordpress.com/wp/v2/sites/vanons.eu"
+    "api": "https://public-api.wordpress.com/wp/v2/sites/vanons.eu",
+    "params": "&categories=311136"
    },
-   "design_icons": true
+   "design_icons": true,
+   "note": "WordPress.com blog; reads only the 'Te koop' (for sale) category, id 311136."
   },
   {
    "id": "vintro-design-westmaas",

@@ -108,7 +108,7 @@ def read_wp_posts(shop, fetch):
     items = []
     for page in range(1, 31):
         try:
-            posts = json.loads(fetch(f"{api}/posts?per_page=100&page={page}&_embed=1"))
+            posts = json.loads(fetch(f"{api}/posts?per_page=100&page={page}&_embed=1{shop['reader'].get('params', '')}"))
         except Exception:
             if page > 1:  # WordPress answers past the last page with an error
                 break
@@ -219,7 +219,8 @@ def read_html(shop, fetch):
             url = listing["url"].format(page=page) if page else listing["url"]
             try:
                 html = fetch(url)
-            except Exception:
+            except Exception as e:
+                print(f"  listing page failed {url}: {type(e).__name__}: {str(e)[:150]}")
                 if page and page > 1:
                     break
                 continue
@@ -241,7 +242,7 @@ def read_html(shop, fetch):
                     continue
                 img = a.find("img") or _card_image(a, pattern)
                 text = _clean_title(a.get_text(" ", strip=True))
-                sold = bool(cfg.get("card_sold")) and _sold_text(_card_text(a, pattern))
+                sold = bool(cfg.get("card_sold")) and _sold_text(_card_text(a, pattern, url))
                 found[key] = {
                     "key": key,
                     "title": text or _clean_title(img.get("alt") if img else "") or "",
@@ -289,19 +290,24 @@ def _card_image(a, pattern):
     return None
 
 
-def _card_text(a, pattern):
+def _card_text(a, pattern, page_url):
     """Text of the biggest block around this link that holds no other product,
     e.g. the title and a SOLD badge sitting next to an image-only link."""
-    href = a.get("href")
+    def norm(h):
+        return urljoin(page_url, h).split("#")[0].rstrip("/")
+    href = norm(a["href"])
     node, text = a, a.get_text(" ", strip=True)
     for _ in range(5):
         node = node.parent
         if node is None:
             break
-        links = {x.get("href") for x in node.find_all("a", href=True) if pattern.search(x["href"].rstrip("/"))}
-        if links - {href}:
+        links = {norm(x["href"]) for x in node.find_all("a", href=True)}
+        if {h for h in links if pattern.search(h)} - {href}:
             break
-        text = node.get_text(" ", strip=True)
+        t = node.get_text(" ", strip=True)
+        if len(t) > 400:
+            break  # bigger than one product card
+        text = t
     return text
 
 
