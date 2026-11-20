@@ -66,7 +66,7 @@
 "error": null,
 "warning": null,
 "last_run": "2026-11-20",
-"last_count": 10
+"last_count": 9
 },
 "studio-1-nes-aan-de-amstel": {
 "baseline_done": true,
@@ -114,7 +114,7 @@
 "error": null,
 "warning": null,
 "last_run": "2026-11-20",
-"last_count": 173
+"last_count": 174
 },
 "amsterdam-modernism-cruquius": {
 "baseline_done": true,
@@ -211,10 +211,12 @@
 "last_count": 46
 },
 "van-ons-nederhemert": {
-"baseline_done": false,
-"status": "error",
-"error": "ReadTimeout: HTTPSConnectionPool(host='public-api.wordpress.com', port=443): Read timed out. (read timeout=30)",
-"last_run": "2026-11-20"
+"baseline_done": true,
+"status": "ok",
+"error": null,
+"last_run": "2026-11-20",
+"warning": null,
+"last_count": 200
 },
 "the-great-apple-appeltern": {
 "baseline_done": true,
@@ -335,7 +337,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Gilded iron coffee table '1990'",
 "url": "https://www.instagram.com/p/Df7CuFuisCy/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/912519752_18655389295039817_3769206059429524287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3VEMe7uyzloQ7kNvwHvPJoo&_nc_oc=AdoGochdhs29eTn8MJw0CGeTZk2ar-pPbwKKtwmCMGPPcKj6C_AQnsba_E6OYGw1-D1wh3CblDQLSffLRVlEBjtq&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQK2wFdF6IWp3x4cnqxLQvrXM4y7AEcFTPq5pBEr7-S_OHSnsE46wE__FKVirdjj6LGGqQeQDZm0qg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS16s23HQ4rVKYNLdO-YyoFpYUsca4s3LkByEAaGajTGw&oe=6B062D81",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/912519752_18655389295039817_3769206059429524287_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=103&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3VEMe7uyzloQ7kNvwHvPJoo&_nc_oc=AdoGochdhs29eTn8MJw0CGeTZk2ar-pPbwKKtwmCMGPPcKj6C_AQnsba_E6OYGw1-D1wh3CblDQLSffLRVlEBjtq&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQKa3TynchnYPV4V55ekrT8mArgFwk3KSA-XlrA7ob3cEsuuDXTfjlXDf3WfZCRCZdGy763Urerznw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTCdqyMKWYeTI57sMHxNsDi5Jm__c3KqaT5_PG3uf7q4Q&oe=6B062D81",
 "price": 450.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -353,7 +355,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Sciolari brass chandelier + 1 matching wall light '1960'",
 "url": "https://www.instagram.com/p/Df690NSCvPX/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/907061754_18655381273039817_4993880650660551052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tbSGGBOoRUQQ7kNvwFxbwpV&_nc_oc=Adr9w5676UXAhQREJTuhcS8mFi6J6l8O2tLSJlHcPGQ-HcLfV3JwSVETJ7CU5YJ3YPGm4Dn808GU6w7hq3aIpmma&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQJNakwKIPrBIk0FCLAXQ1MOZAUTi_rIWpxzRzX_gdOpfhi0L0lrE-uDnMCsxUlQNuKH4c3jwkY6bw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQScaV3iboyjvtFQVhJ6EutP6P9zfMM_wiTK0BJyVwY8hw&oe=6B061DFE",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/907061754_18655381273039817_4993880650660551052_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=tbSGGBOoRUQQ7kNvwFxbwpV&_nc_oc=Adr9w5676UXAhQREJTuhcS8mFi6J6l8O2tLSJlHcPGQ-HcLfV3JwSVETJ7CU5YJ3YPGm4Dn808GU6w7hq3aIpmma&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQIbQpZsXaPXPnDtxIBPe8n48tr91CnK5Xz-I2rOE_yBacxgQXGWMoiAA64d2fWBXUY2Dsqme6bgqQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQDWJrbcd2kNc0ZCzxbgVK7eqrobKCmP8w0fbNT_hhfFA&oe=6B061DFE",
 "price": 550.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -371,7 +373,7 @@
 "shop": "brocanteurs-amsterdam",
 "title": "Instagram post",
 "url": "https://www.instagram.com/p/DfSPyQpqG3y/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/886769630_18649711399039817_6632361862758526601_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RGL3MRrbKu8Q7kNvwGF306n&_nc_oc=AdrEwh0WNOvnvGLSjI-5u30SmymrxkLkPPAeJUy82UsghU32LEZnhfMoEEj-ZInvA4J5A-YJD2CAPclomoqgztkY&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQIB7gYk5PctkagsTHoEX7uqJ47c8vypiZp2PPqTYvGhBL2gVm8HzAdk2NVA5aa9OV7JkBnRux4Skg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQT2bFcDCxQmf1Z_GaAWZ8W83oUk0NXmNG2pfFuOABx10A&oe=6B061136",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/886769630_18649711399039817_6632361862758526601_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RGL3MRrbKu8Q7kNvwGF306n&_nc_oc=AdrEwh0WNOvnvGLSjI-5u30SmymrxkLkPPAeJUy82UsghU32LEZnhfMoEEj-ZInvA4J5A-YJD2CAPclomoqgztkY&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQITEx26oAV6MZs__Qvf2rL22ojwVz3Vx4SpEG4FPRNJt_iXLl75EjaqpwkSuyIz331qctVOvXvFAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRo3jCwrMn38IFTr7Qti8bdrwLqmQRzKbAD2HL8fvhe1w&oe=6B061136",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -389,7 +391,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Cast iron baby crib '1890'",
 "url": "https://www.instagram.com/p/De_rnLOCrmu/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/865040612_18646896178039817_4420445919827583258_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MMp8lplxpQgQ7kNvwGjqmfR&_nc_oc=AdoIwz3MphSKwHFDxt9qP6ClkKz0rr-KaLPXdCvVHwM55cFpBiVNFrYNJohbOo9T9bfCLCKJ1RbndNWehpgvmda3&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKJzdvyAQcoxrO2Kz9LaFOgt8Mw8MGdHg26J4S52JEe3sIn6c4s3IxK5QGDdMfaDW0EjBvUkft7NA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSKGHtN71BHJeU64fsdUPdBeiALTaY6Kqd-yBXbBuLkbA&oe=6B0612A0",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/865040612_18646896178039817_4420445919827583258_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=MMp8lplxpQgQ7kNvwGjqmfR&_nc_oc=AdoIwz3MphSKwHFDxt9qP6ClkKz0rr-KaLPXdCvVHwM55cFpBiVNFrYNJohbOo9T9bfCLCKJ1RbndNWehpgvmda3&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQK3mfM6seQa08rGbouT1u6sJguNqq2LTTqZd4-z9sJ9b2jie8MEpN-ZQBaZH1qAIBExadxHHumuAQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSdTELCogy4bVZ8GkhhuTInkela9_rUN6vgZO5EISF_jA&oe=6B0612A0",
 "price": 230.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -407,7 +409,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Malevolti bird '1970' found a beautiful nest.\n\n#malevolti #bird",
 "url": "https://www.instagram.com/p/De2L6ejKMMj/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/864579591_18645425833039817_1824914383640314784_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aLy6qZsbnUYQ7kNvwG6tKFJ&_nc_oc=AdqrhIPl25bCElXIIfn1MJiy1J9m7AbGN9I7PKrGZb_7T357XQ1mvMgjQQurhTUl9LJJab48ac79PFukQbXEN00i&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLhopE5UhR2wwr_9Nvml6XjRhKpSTy8pyeK7rgJMcf34KOqLHXOiq6WOlgx0i7tvJxXTcZKPsvdRQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS16vOJI_m6GmK-oLXXuWG08ZfzPwSgWsbFRwbaSBHixQ&oe=6B062660",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/864579591_18645425833039817_1824914383640314784_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=aLy6qZsbnUYQ7kNvwG6tKFJ&_nc_oc=AdqrhIPl25bCElXIIfn1MJiy1J9m7AbGN9I7PKrGZb_7T357XQ1mvMgjQQurhTUl9LJJab48ac79PFukQbXEN00i&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQKyx2a8qF5Wf13QHSuNGbtXQ--JRa4J42g9LC2QB2TfR7kLebbK4nHClxLzSZkOlKXnCQcAwdSptA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRHae-Baz9uJVvsrRxpzZDWqzWyaRRaNUqNVOuo4EF-Uw&oe=6B062660",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -425,7 +427,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Brass 'elephants' coffee table '1970'",
 "url": "https://www.instagram.com/p/DeJ8aRNisI7/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/839065031_18639010573039817_8173211220113441571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cWPXWOqGdY4Q7kNvwHnpMg2&_nc_oc=AdqTB89g5uywxxTxuxaKbceCTWdzynbqOLWDh_XvadGzfH-EnHMcdyFlHsbwO6MinklXrAXOx3J-78BNXaRhiC7X&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLDANMqJkEvgFvp1WaU-it7Qs_tKceWou3KqvTC0qPM9ZCaqeLawierkDbHWV8kiDJKDe3E0NDsAw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSY8Z4ZtECp7uMPFRdjRlZu5OzDFEg_aNOmiRStNlGBQQ&oe=6B062F08",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/839065031_18639010573039817_8173211220113441571_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cWPXWOqGdY4Q7kNvwHnpMg2&_nc_oc=AdqTB89g5uywxxTxuxaKbceCTWdzynbqOLWDh_XvadGzfH-EnHMcdyFlHsbwO6MinklXrAXOx3J-78BNXaRhiC7X&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQJEv2At4Pl4rc4GYkFTyDvpyXLueAJ9oWbwWgyCXjkAeRkhnDhOgN3lCBpzgudFxemc8FnaxdkW0Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRgLa_MNFz4pRs6UgF5qwD4tyofCSYd-wDtRpYlZ9Z6dg&oe=6B062F08",
 "price": 550.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -443,7 +445,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Fleur de lis table lamp '1970'",
 "url": "https://www.instagram.com/p/Dd8w9IPihuG/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/829586217_18637095388039817_1438675875873751929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jWmVHuGuPDIQ7kNvwHe6j1e&_nc_oc=Ado3EIYR9oXFubZ7s-iJmGox9QJYFN1hMipePqpwguzAkUzZakvt1Q-AJOwrTJrcNAj_ZUts9KtMijFZVKzY9acS&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKer4dUuwoaEvIRHG7moHTwMCtarlpRFb8hs3rOmt93LTawRqPvLIBtevtC-yQYv9HgyeFfGf1Mgw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQR4J2wn930i36QuWRwocVcapenicTHi2T8QUqtsPXOIkw&oe=6B063F52",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/829586217_18637095388039817_1438675875873751929_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=jWmVHuGuPDIQ7kNvwHe6j1e&_nc_oc=Ado3EIYR9oXFubZ7s-iJmGox9QJYFN1hMipePqpwguzAkUzZakvt1Q-AJOwrTJrcNAj_ZUts9KtMijFZVKzY9acS&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQLcdW8wpJgyOXxqm_08mJGh60wi4fayWRqMVUG22LbSV7ZbMbu8aMyuwCtpl2VY5Ek2d-CT4FErKA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQSH4tXRVIs337P-eRAkZZeu18W66f1pJHMzjSqXnDzfLw&oe=6B063F52",
 "price": 175.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -461,7 +463,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Set nightstands '1970'",
 "url": "https://www.instagram.com/p/Ddq5NQyCtCb/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/821729277_18634671562039817_3664990649855564028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nOjyll8zlTgQ7kNvwGG9VvM&_nc_oc=AdrLdpXXWtpD-oUXlFML3nb_wrV0bcJfMVkXfOLNrt2kdKmeoYokYGenQcUhjjsupgvNEfoVuxMGmOn8qII2J8rY&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQLqUgY-GaFjZdGCtdpcCXGFUw2kSFVzVpOg82CdIOSFb38sKnX2YLpK4t3_FTE3zhpX_v2jlnbfxQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS82vdZXbHUTczhaUqVTHWCOqmQf0D79kgywsXJ4k7dVA&oe=6B06417C",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/821729277_18634671562039817_3664990649855564028_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=104&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=nOjyll8zlTgQ7kNvwGG9VvM&_nc_oc=AdrLdpXXWtpD-oUXlFML3nb_wrV0bcJfMVkXfOLNrt2kdKmeoYokYGenQcUhjjsupgvNEfoVuxMGmOn8qII2J8rY&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQLu3s1NnA-2mGd8jVeA0Vru2Z9X3px07Up5cld1c7-gQBcrug2eLc9jiKaSwLMFsy3e46tq8onvsA&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQS7vAuKMITdpm5gRtC4oRMISfa0ifAHmSyMCMM8ilbw6g&oe=6B06417C",
 "price": 350.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -479,7 +481,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Iron coffee table '1990/2000'",
 "url": "https://www.instagram.com/p/Ddlwv85CjwG/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/818492177_18634003375039817_6154297412487138746_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=i9JePAMjf6MQ7kNvwFSr-BC&_nc_oc=AdpLRR6bXRcgXIYG_z5FFKOcm_0U109HMWW_Mz_SIr_oPfNE_m8Xtawst6itcBcsi4Y4MLKBq9R2AETino9b0Kl4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQKD2mC_eX4Fb_y_0X-X0dSIkvZRKHQNEgnZoqKrAb_txHiLdvWVl7sffeUJnDlm4BrsmZXOsIGH5w&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQPXKUQpSxH6MPGRp9N3IszUr4ECUQIu8Y2nOCZmX4_8g&oe=6B063B92",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/818492177_18634003375039817_6154297412487138746_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=109&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=i9JePAMjf6MQ7kNvwFSr-BC&_nc_oc=AdpLRR6bXRcgXIYG_z5FFKOcm_0U109HMWW_Mz_SIr_oPfNE_m8Xtawst6itcBcsi4Y4MLKBq9R2AETino9b0Kl4&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQJLclR97YQdKmmGam23fLux_W4ud3NLiCteCsI5WclyRmHdGcmSHghHZpcs-Kb7q1DSBd_G8sQ6Hw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTITnouATBAHP7jsbw5EpiQd00EWfTlQa8O-EuUUSIJVw&oe=6B063B92",
 "price": 550.0,
 "type": "Tables & desks",
 "first_seen": "2026-11-19",
@@ -497,7 +499,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Svenskt Tenn servingcart '1950'",
 "url": "https://www.instagram.com/p/DdWAv7GCkgC/",
-"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/809209694_18631921057039817_6852615465349279348_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IAGwrdfkrAkQ7kNvwGUttyz&_nc_oc=AdqFy4108tQSJVeYp8EWNtA-Vky29bCmDTgXjerr68KWA03N9AcBz2iWVI2FdQ1VlkGaoh0X2bVm4GEpzpfVQA2s&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=jfx8pAbMNNuhHQ-xxTLD2Q&_nc_tpa=Q5bMBQJiQIIOfAePXw1-sAw25Xgwm2yvP2nb63nTo-1tKEyEBboNkQPQv5nfm-x2a6yVVedIjoeeyRJ6Aw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQTdTpvW14b3K5y2JLB0Z8kJKnxaik1NClXbBav3LnFPoA&oe=6B061B48",
+"image": "https://scontent-ams4-1.cdninstagram.com/v/t51.82787-15/809209694_18631921057039817_6852615465349279348_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=IAGwrdfkrAkQ7kNvwGUttyz&_nc_oc=AdqFy4108tQSJVeYp8EWNtA-Vky29bCmDTgXjerr68KWA03N9AcBz2iWVI2FdQ1VlkGaoh0X2bVm4GEpzpfVQA2s&_nc_zt=23&_nc_ht=scontent-ams4-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=yP2GyYE2-BBIpr-EeEWHug&_nc_tpa=Q5bMBQKQBSX80O4tEoi8ehcLAwdnNlRkjBeKJXaNcGjQuEMgGSk8-o3wnN7VvEkAm5Fydih2kwBBSEQSLg&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQtgETn9TevgeF55cFhKpB0bkR5w4n7-JOeG0AOqJdSbQ&oe=6B061B48",
 "price": 350.0,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -515,7 +517,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Visiting our cliënts in the UK on 16th and 17th of July. \n\nOrders (due to custom paperwork..) can be booked till 9th of July.\n\nSee you soon.",
 "url": "https://www.instagram.com/p/DaXalKgqiUH/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/722809761_18606609154039817_5000879953168755816_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dFNW-bc-NeYQ7kNvwHaw-FF&_nc_oc=Adrm6XzwLN_0ZsByAIuHJmfAWXmPU_ImkJxEZGBJh2f7wGb7fs-RyNrVzeIp7HCiMxufafNURww5gG5gxN5bmtDX&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=g3WSNqpXFEnuWGrTrsEveA&_nc_tpa=Q5bMBQKwHWQ_uOfpUCet8lbGslO01wpDE4_U3qvn84Hxl3LuvmTg7SInfY7jAL1UOdQqZgBIl-sOCE46rw&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRtA3BRGg8RAGmNy84CjC1KejoeTJPbPnVQS9iQss0YHw&oe=6B063F6D",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/722809761_18606609154039817_5000879953168755816_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiRkVFRC5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dFNW-bc-NeYQ7kNvwHaw-FF&_nc_oc=Adrm6XzwLN_0ZsByAIuHJmfAWXmPU_ImkJxEZGBJh2f7wGb7fs-RyNrVzeIp7HCiMxufafNURww5gG5gxN5bmtDX&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=CjCqBJxNDh0IRxUZXR1BhQ&_nc_tpa=Q5bMBQKmr2S_k_5FZqjSsvpzHUix46a40mNtqCNI1ujWOsr0tBxYlSYqa5KF6EpN-8ucLZzOzBSk3kaa5Q&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRsBbEzOmQxYXMxtXa28jbq8IKxm-V2r2Mi4VPRVmqiYQ&oe=6B063F6D",
 "price": null,
 "type": "Other",
 "first_seen": "2026-11-19",
@@ -533,7 +535,7 @@ null
 "shop": "brocanteurs-amsterdam",
 "title": "Glass tablelamp '1970'",
 "url": "https://www.instagram.com/p/DaQOtG_ikrM/",
-"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/729622123_18605706472039817_3187091305160711416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Ixq9YCkql8Q7kNvwFXJ8M1&_nc_oc=AdpSPy289znIm22FlBhqiCjov2B31O5js8YU-gwgNLmJbFC-0pJpFIFvHy2DdcyHcXPC2SZ0eEy3ClM7kEjLu7vo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=g3WSNqpXFEnuWGrTrsEveA&_nc_tpa=Q5bMBQKcauQRcpp5_ETgAKTZ1MqOURXrX8LLIayogBeT3uTESPy0VxPTqm15DSux-EgnP1bxPG5TbV2GYQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQQWGbkH0uYIXUFacyRVT0OVIo8IbFkRrJw_Au3KjFBhaw&oe=6B061DE2",
+"image": "https://scontent-ams2-1.cdninstagram.com/v/t51.82787-15/729622123_18605706472039817_3187091305160711416_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=102&_nc_map=urlgen_bucketless&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=1Ixq9YCkql8Q7kNvwFXJ8M1&_nc_oc=AdpSPy289znIm22FlBhqiCjov2B31O5js8YU-gwgNLmJbFC-0pJpFIFvHy2DdcyHcXPC2SZ0eEy3ClM7kEjLu7vo&_nc_zt=23&_nc_ht=scontent-ams2-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=CjCqBJxNDh0IRxUZXR1BhQ&_nc_tpa=Q5bMBQKpxlO1WKrtG1KqUA1S8fPgj6cppu45ZTTy9yZuJ2rrPnDlIM3eS4kS5p7iyR1nQHQEsxm6iWblVQ&_nc_ct=RQosPBUKFQIAAAA&oh=00_AQRfiPiKuOcBDW8aJsx0L58DkJgDkjNXkBwlTuJzXge4sg&oe=6B061DE2",
 "price": 450.0,
 "type": "Lighting",
 "first_seen": "2026-11-19",
@@ -71170,7 +71172,7 @@ null
 "type": "Decor & art",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
-"status": "gone",
+"status": "live",
 "baseline": false,
 "price_history": [
 [
@@ -75778,7 +75780,7 @@ null
 "type": "Lighting",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
-"status": "live",
+"status": "gone",
 "baseline": false,
 "price_history": [
 [
@@ -75796,7 +75798,7 @@ null
 "type": "Decor & art",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
-"status": "live",
+"status": "gone",
 "baseline": false,
 "price_history": [
 [
@@ -76334,6 +76336,3624 @@ null
 "image": "https://www.levlifestyle.nl/wp-content/uploads/2015/04/Dirk-van-Sliedrecht.jpg",
 "price": null,
 "type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"vintage-asylum-haarlem:11783": {
+"shop": "vintage-asylum-haarlem",
+"title": "Vintage PH Kontrast Poul Henningsen Louis Poulsen Denmark 1962",
+"url": "https://vintage-asylum.nl/product/vintage-ph-kontrast-poul-henningsen-louis-poulsen-denmark-1962/",
+"image": "https://vintage-asylum.nl/wp-content/uploads/2026/11/contrast5-300x300.jpg",
+"price": 2495.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": false,
+"price_history": [
+[
+"2026-11-20",
+2495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/zwarte-artifort-c671-bank-van-kho-liang-ie": {
+"shop": "van-ons-nederhemert",
+"title": "Artifort C671 Bank van Kho Liang Ie: Tijdloos Nederlands Design",
+"url": "https://vanons.eu/2026/10/09/zwarte-artifort-c671-bank-van-kho-liang-ie/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9940.jpg?fit=1200%2C800&ssl=1",
+"price": 1950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/george-nelson-sunburst-klok-voor-vitra-2": {
+"shop": "van-ons-nederhemert",
+"title": "George Nelson Sunburst Wandklok: Tijdloos Design in Noten",
+"url": "https://vanons.eu/2026/10/09/george-nelson-sunburst-klok-voor-vitra-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9946.jpg?fit=1200%2C796&ssl=1",
+"price": 425.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+425.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/martin-visser-bz71-lattenbank": {
+"shop": "van-ons-nederhemert",
+"title": "Unieke Essenhouten Lattenbank van Martin Visser - 1960",
+"url": "https://vanons.eu/2026/10/09/martin-visser-bz71-lattenbank/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9870.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/vintage-italiaanse-fauteuil-in-zwart-velours": {
+"shop": "van-ons-nederhemert",
+"title": "Minimalistische Italiaanse Designstoel - Gastone Rinaldi",
+"url": "https://vanons.eu/2026/10/09/vintage-italiaanse-fauteuil-in-zwart-velours/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9818.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/set-van-twee-groene-mathieu-mategot-bijzettafels": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Bijzettafels van Mathieu Matégot uit de Jaren '50",
+"url": "https://vanons.eu/2026/10/09/set-van-twee-groene-mathieu-mategot-bijzettafels/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9962.jpg?fit=1200%2C800&ssl=1",
+"price": 1750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1750.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/teak-hulmefa-propos-series-highboard": {
+"shop": "van-ons-nederhemert",
+"title": "Elegant Nederlands Design Highboard van Hulmefa uit 1960",
+"url": "https://vanons.eu/2026/10/09/teak-hulmefa-propos-series-highboard/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9776.jpg?fit=1200%2C800&ssl=1",
+"price": 2350.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2350.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/sculpturale-erik-magnussen-parken-chairs-voor-paustian": {
+"shop": "van-ons-nederhemert",
+"title": "Ontdek de unieke Parken stoelen van Erik Magnussen",
+"url": "https://vanons.eu/2026/10/09/sculpturale-erik-magnussen-parken-chairs-voor-paustian/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9888.jpg?fit=1200%2C800&ssl=1",
+"price": 1000.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1000.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/38016": {
+"shop": "van-ons-nederhemert",
+"title": "Unieke Franse Brutalistische Boomstam Krukken Te Koop",
+"url": "https://vanons.eu/2026/10/09/38016/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9861.jpg?fit=1200%2C800&ssl=1",
+"price": 225.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+225.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/teak-penguin-chair-van-webe-door-louis-van-teeffelen": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Nederlandse Design Fauteuil van WeBe uit 1960",
+"url": "https://vanons.eu/2026/10/09/teak-penguin-chair-van-webe-door-louis-van-teeffelen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9837.jpg?fit=1200%2C800&ssl=1",
+"price": 895.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+895.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/palissander-houten-salontafel-van-johannes-andersen-voor-cfc-silkeborg": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Salontafel van Johannes Andersen - 1960, Prachtig Ontwerp",
+"url": "https://vanons.eu/2026/10/09/palissander-houten-salontafel-van-johannes-andersen-voor-cfc-silkeborg/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9800.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/vintage-deense-teak-houten-ladenkast": {
+"shop": "van-ons-nederhemert",
+"title": "Teak Houten Ladenkast uit Denemarken - Mid Century Modern",
+"url": "https://vanons.eu/2026/10/09/vintage-deense-teak-houten-ladenkast/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9901.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/vintage-franse-rotan-vloerlamp": {
+"shop": "van-ons-nederhemert",
+"title": "Mid Century Modern Vloerlamp uit Frankrijk - Vintage 1960",
+"url": "https://vanons.eu/2026/10/09/vintage-franse-rotan-vloerlamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9823.jpg?fit=1200%2C800&ssl=1",
+"price": 550.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+550.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/vintage-eero-saarinen-conference-stoelen-model-72-voor-knoll-international": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Eero Saarinen Stoelen Set van 2 - Mid Century Design",
+"url": "https://vanons.eu/2026/10/09/vintage-eero-saarinen-conference-stoelen-model-72-voor-knoll-international/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9894.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/09/teak-fristho-dressoir-van-marten-franckena": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Teakhouten Dressoir van Marten Franckena",
+"url": "https://vanons.eu/2026/10/09/teak-fristho-dressoir-van-marten-franckena/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/10/img_9911.jpg?fit=1200%2C800&ssl=1",
+"price": 2200.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2200.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/05/poul-henningsen-ph5-hanglamp-voor-louis-poulsen-3": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage PH5 Lamp van Poul Henningsen voor Louis Poulsen",
+"url": "https://vanons.eu/2026/10/05/poul-henningsen-ph5-hanglamp-voor-louis-poulsen-3/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/11/img_5140.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/10/05/teak-rob-parry-lotus-fauteuil-voor-gelderland-2": {
+"shop": "van-ons-nederhemert",
+"title": "Rob Parry's Vintage Lotus Fauteuil Tijdloos Dutch Design",
+"url": "https://vanons.eu/2026/10/05/teak-rob-parry-lotus-fauteuil-voor-gelderland-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7571.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2026/09/22/teakhouten-kai-kristiansen-wandsysteem-voor-fm-mobler": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Teak Wandsysteem van Kai Kristiansen - Denemarken 1960",
+"url": "https://vanons.eu/2026/09/22/teakhouten-kai-kristiansen-wandsysteem-voor-fm-mobler/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/11/img_4700.jpg?fit=1200%2C800&ssl=1",
+"price": 1950.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/09/16/set-van-twee-teakhouten-capella-chairs-van-illum-wikkelso": {
+"shop": "van-ons-nederhemert",
+"title": "Teak Deens design Fauteuil van Illum Wikkelso model Capella",
+"url": "https://vanons.eu/2026/09/16/set-van-twee-teakhouten-capella-chairs-van-illum-wikkelso/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_5783i.jpg?fit=1200%2C800&ssl=1",
+"price": 950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/08/17/mid-century-eiken-brutalistische-wandplank": {
+"shop": "van-ons-nederhemert",
+"title": "Mid Century Eiken Brutalistische wandplank",
+"url": "https://vanons.eu/2026/08/17/mid-century-eiken-brutalistische-wandplank/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/08/img_9653.jpg?fit=1200%2C800&ssl=1",
+"price": 175.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+175.0
+]
+]
+},
+"van-ons-nederhemert:/2026/08/17/zwarte-minimalistische-metalen-bijzettafel-met-glazen-blad": {
+"shop": "van-ons-nederhemert",
+"title": "Zwarte minimalistische metalen bijzettafel met glazen blad",
+"url": "https://vanons.eu/2026/08/17/zwarte-minimalistische-metalen-bijzettafel-met-glazen-blad/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/08/img_9633.jpg?fit=1200%2C800&ssl=1",
+"price": 125.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+125.0
+]
+]
+},
+"van-ons-nederhemert:/2026/08/17/vintage-eiken-jaren-70-spiegel-met-gegolfde-houten-lijst": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Eiken jaren 70 spiegel met gegolfde houten lijst",
+"url": "https://vanons.eu/2026/08/17/vintage-eiken-jaren-70-spiegel-met-gegolfde-houten-lijst/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/08/img_9636.jpg?fit=1200%2C800&ssl=1",
+"price": 125.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+125.0
+]
+]
+},
+"van-ons-nederhemert:/2026/08/17/massief-eiken-spiegel-met-geschulpte-rand": {
+"shop": "van-ons-nederhemert",
+"title": "Massief Eiken spiegel met geschulpte rand",
+"url": "https://vanons.eu/2026/08/17/massief-eiken-spiegel-met-geschulpte-rand/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/08/img_9641-1.jpg?fit=1200%2C800&ssl=1",
+"price": 125.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+125.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/twee-arne-norell-sirocco-fauteuils-in-palissander": {
+"shop": "van-ons-nederhemert",
+"title": "Twee Arne Norell Sirocco fauteuils in Palissander",
+"url": "https://vanons.eu/2026/06/24/twee-arne-norell-sirocco-fauteuils-in-palissander/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9427.jpg?fit=1200%2C800&ssl=1",
+"price": 4000.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4000.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/niels-otto-moller-palissander-houten-dressoir": {
+"shop": "van-ons-nederhemert",
+"title": "Niels Otto Moller Palissander houten dressoir",
+"url": "https://vanons.eu/2026/06/24/niels-otto-moller-palissander-houten-dressoir/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9500.jpg?fit=1200%2C800&ssl=1",
+"price": 6500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+6500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/messing-wandlamp-door-th-valentiner-1950": {
+"shop": "van-ons-nederhemert",
+"title": "Messing wandlamp door Th. Valentiner, 1950",
+"url": "https://vanons.eu/2026/06/24/messing-wandlamp-door-th-valentiner-1950/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9553.jpg?fit=1200%2C800&ssl=1",
+"price": 950.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/set-van-drie-brutalist-eiken-bijzettafels": {
+"shop": "van-ons-nederhemert",
+"title": "Set van drie Brutalist eiken bijzettafels",
+"url": "https://vanons.eu/2026/06/24/set-van-drie-brutalist-eiken-bijzettafels/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9413.jpg?fit=1200%2C800&ssl=1",
+"price": 300.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/blauwe-verner-panton-flowerpot-hanglamp": {
+"shop": "van-ons-nederhemert",
+"title": "Blauwe Verner Panton flowerpot hanglamp",
+"url": "https://vanons.eu/2026/06/24/blauwe-verner-panton-flowerpot-hanglamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9569.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/24/vintage-teakhouten-deens-design-highboard-2": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Deens Design Highboard uit de Jaren '60",
+"url": "https://vanons.eu/2026/06/24/vintage-teakhouten-deens-design-highboard-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9527.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/17/set-van-drie-koperen-bent-karlby-hanglampen-voor-lyfa": {
+"shop": "van-ons-nederhemert",
+"title": "Set van drie koperen Bent Karlby hanglampen voor Lyfa",
+"url": "https://vanons.eu/2026/06/17/set-van-drie-koperen-bent-karlby-hanglampen-voor-lyfa/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9588.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/17/deens-design-dennen-houten-ladekast": {
+"shop": "van-ons-nederhemert",
+"title": "Prachtige Deense Design Ladenkast in Grenen uit 1960",
+"url": "https://vanons.eu/2026/06/17/deens-design-dennen-houten-ladekast/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9408.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/16/safari-stoel-in-eik-en-leer-van-aage-brun": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Aage Brun Safari Fauteuil uit Denemarken",
+"url": "https://vanons.eu/2026/06/16/safari-stoel-in-eik-en-leer-van-aage-brun/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9323.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/15/borge-mogensen-kina-boekenkast-voor-fdb-mobler-in-eiken": {
+"shop": "van-ons-nederhemert",
+"title": "Exclusieve Børge Mogensen Boekenkast uit de jaren '50",
+"url": "https://vanons.eu/2026/06/15/borge-mogensen-kina-boekenkast-voor-fdb-mobler-in-eiken/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9381.jpg?fit=1200%2C800&ssl=1",
+"price": 1750.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1750.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/15/vintage-grijze-deens-design-hanglamp": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage grijze Deens design hanglamp",
+"url": "https://vanons.eu/2026/06/15/vintage-grijze-deens-design-hanglamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9605.jpg?fit=1200%2C800&ssl=1",
+"price": 225.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+225.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/14/rietveld-oase-stoel-ahrend-de-cirkel": {
+"shop": "van-ons-nederhemert",
+"title": "Rietveld Oase stoel Ahrend de Cirkel",
+"url": "https://vanons.eu/2026/06/14/rietveld-oase-stoel-ahrend-de-cirkel/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9317.jpg?fit=1200%2C800&ssl=1",
+"price": 750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/14/vintage-deens-design-bijzettafel-in-chrome-en-perspex": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Deens design bijzettafel in Chrome en perspex",
+"url": "https://vanons.eu/2026/06/14/vintage-deens-design-bijzettafel-in-chrome-en-perspex/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9302.jpg?fit=1200%2C800&ssl=1",
+"price": 150.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+150.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/10/hein-stolle-voor-t-spectrum-wenge-houten-fauteuil-model-sz25-sz80": {
+"shop": "van-ons-nederhemert",
+"title": "Minimalistische Design Fauteuil van Hein Stolle in Wenge hout",
+"url": "https://vanons.eu/2026/06/10/hein-stolle-voor-t-spectrum-wenge-houten-fauteuil-model-sz25-sz80/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9297-edited-1.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/05/set-van-4-rudolf-wolf-stoelen-voor-elsrijk": {
+"shop": "van-ons-nederhemert",
+"title": "Set van 4 Rudolf Wolf stoelen voor Elsrijk",
+"url": "https://vanons.eu/2026/06/05/set-van-4-rudolf-wolf-stoelen-voor-elsrijk/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9209kleiner.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/05/rudolf-wolf-salontafel-voor-rohe-noordwolde": {
+"shop": "van-ons-nederhemert",
+"title": "Zeldzame Vintage Koffietafel van Rudolf Wolf",
+"url": "https://vanons.eu/2026/06/05/rudolf-wolf-salontafel-voor-rohe-noordwolde/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9218i.jpg?fit=1200%2C800&ssl=1",
+"price": 395.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+395.0
+]
+]
+},
+"van-ons-nederhemert:/2026/06/05/poul-kjaerholm-pk22-fauteuil-voor-e-kold-christensen": {
+"shop": "van-ons-nederhemert",
+"title": "Unieke mid century modern design PK22 Fauteuil van Poul Kjærholm",
+"url": "https://vanons.eu/2026/06/05/poul-kjaerholm-pk22-fauteuil-voor-e-kold-christensen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/06/img_9233.jpg?fit=1200%2C800&ssl=1",
+"price": 3750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3750.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/29/set-van-twee-uiterst-zeldzame-saturn-wandlampen-van-lyfa": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee uiterst zeldzame Saturn wandlampen van LYFA",
+"url": "https://vanons.eu/2026/04/29/set-van-twee-uiterst-zeldzame-saturn-wandlampen-van-lyfa/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_9020-kopiei.jpg?fit=1200%2C790&ssl=1",
+"price": 2800.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2800.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/29/set-van-4-eiken-hans-wegner-sawbuck-model-ch29-stoelen-door-carl-hansen-and-son": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Hans Wegner CH29 Eetkamerstoelen van Carl Hansen",
+"url": "https://vanons.eu/2026/04/29/set-van-4-eiken-hans-wegner-sawbuck-model-ch29-stoelen-door-carl-hansen-and-son/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8618.jpg?fit=1200%2C800&ssl=1",
+"price": 3600.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+3600.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/29/zeldzame-philips-nx38-vloerlamp-van-louis-kalff": {
+"shop": "van-ons-nederhemert",
+"title": "Zeldzame Philips NX38 vloerlamp van Louis Kalff",
+"url": "https://vanons.eu/2026/04/29/zeldzame-philips-nx38-vloerlamp-van-louis-kalff/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8714.jpg?fit=1200%2C800&ssl=1",
+"price": 2400.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2400.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/29/grote-vintage-grenen-spiegel": {
+"shop": "van-ons-nederhemert",
+"title": "Grote vintage grenen spiegel",
+"url": "https://vanons.eu/2026/04/29/grote-vintage-grenen-spiegel/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8856.jpg?fit=1200%2C800&ssl=1",
+"price": 125.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+125.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/brutalistische-burlwood-boomstam-salontafel": {
+"shop": "van-ons-nederhemert",
+"title": "Brutalistische burlwood boomstam salontafel",
+"url": "https://vanons.eu/2026/04/28/brutalistische-burlwood-boomstam-salontafel/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8743.jpg?fit=1200%2C800&ssl=1",
+"price": 525.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+525.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/poul-henningsen-ph5-hanglampen-voor-louis-poulsen": {
+"shop": "van-ons-nederhemert",
+"title": "Poul Henningsen PH5 hanglampen voor Louis Poulsen",
+"url": "https://vanons.eu/2026/04/28/poul-henningsen-ph5-hanglampen-voor-louis-poulsen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_9000.jpg?fit=1200%2C800&ssl=1",
+"price": 990.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+990.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/mid-century-modern-eiken-dressoir-uit-frankrijk": {
+"shop": "van-ons-nederhemert",
+"title": "Mid century modern eiken dressoir uit Frankrijk",
+"url": "https://vanons.eu/2026/04/28/mid-century-modern-eiken-dressoir-uit-frankrijk/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8873.jpg?fit=1200%2C800&ssl=1",
+"price": 2200.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2200.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/houtsnede-met-titel-bomen-uit-1963": {
+"shop": "van-ons-nederhemert",
+"title": "Houtsnede met titel ‘Bomen’ uit 1963",
+"url": "https://vanons.eu/2026/04/28/houtsnede-met-titel-bomen-uit-1963/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8731.jpg?fit=1200%2C800&ssl=1",
+"price": 295.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/eiken-fauteuil-van-ejvind-johansson-voor-fdb-mobler-the-j65-chair": {
+"shop": "van-ons-nederhemert",
+"title": "Eiken fauteuil van Ejvind Johansson voor FDB Mobler The J65 chair",
+"url": "https://vanons.eu/2026/04/28/eiken-fauteuil-van-ejvind-johansson-voor-fdb-mobler-the-j65-chair/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8781-e1777394359331.jpg?fit=1200%2C800&ssl=1",
+"price": 1400.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1400.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/vintage-deens-design-kegel-lamp-in-koper": {
+"shop": "van-ons-nederhemert",
+"title": "Prachtige Deense Kegel Lamp van Bent Karlby - Slechts €200",
+"url": "https://vanons.eu/2026/04/28/vintage-deens-design-kegel-lamp-in-koper/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8988.jpg?fit=1200%2C800&ssl=1",
+"price": 195.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/28/italiaans-vintage-tafellampje-van-stilux-milano-in-messing-en-opaline-glas": {
+"shop": "van-ons-nederhemert",
+"title": "Italiaans vintage tafellampje van Stilux Milano in messing en opaline glas",
+"url": "https://vanons.eu/2026/04/28/italiaans-vintage-tafellampje-van-stilux-milano-in-messing-en-opaline-glas/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8924.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2026/04/22/zwarte-bent-karlby-kegel-lamp-voor-lyfa": {
+"shop": "van-ons-nederhemert",
+"title": "Lyfa Kegel Lamp van Bent Karlby - Deens Design uit 1960",
+"url": "https://vanons.eu/2026/04/22/zwarte-bent-karlby-kegel-lamp-voor-lyfa/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8998.jpg?fit=1200%2C800&ssl=1",
+"price": 275.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/22/palissander-deens-design-platenspelerkast": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Deens Design Kastje in Palissander voor Platenspeler",
+"url": "https://vanons.eu/2026/04/22/palissander-deens-design-platenspelerkast/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8837.jpg?fit=1200%2C800&ssl=1",
+"price": 550.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+550.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/22/ronde-palissander-houten-eetkamer-tafel-door-kai-kristiansen-voor-sva-mobler": {
+"shop": "van-ons-nederhemert",
+"title": "Palissander ronde eetkamertafel van Kai Kristiansen",
+"url": "https://vanons.eu/2026/04/22/ronde-palissander-houten-eetkamer-tafel-door-kai-kristiansen-voor-sva-mobler/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/fb_img_1776815475753.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/22/raak-glazen-toorts-wandlamp-model-c-1517": {
+"shop": "van-ons-nederhemert",
+"title": "RAAK Wandlampen model C-1517 uit de jaren '60",
+"url": "https://vanons.eu/2026/04/22/raak-glazen-toorts-wandlamp-model-c-1517/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8917.jpg?fit=1200%2C800&ssl=1",
+"price": 475.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+475.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/22/deense-palissander-houten-spiegel-2": {
+"shop": "van-ons-nederhemert",
+"title": "Rechthoekige Palissander Houten Design Spiegel van 84 cm",
+"url": "https://vanons.eu/2026/04/22/deense-palissander-houten-spiegel-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/fb_img_1776816338431.jpg?fit=1200%2C800&ssl=1",
+"price": 195.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"van-ons-nederhemert:/2026/04/21/vintage-witte-deense-design-hanglamp": {
+"shop": "van-ons-nederhemert",
+"title": "Witte Vintage Deense Hanglamp",
+"url": "https://vanons.eu/2026/04/21/vintage-witte-deense-design-hanglamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/04/img_8997.jpg?fit=1200%2C800&ssl=1",
+"price": 275.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+275.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/set-van-drie-eiken-nesting-tables-toegeschreven-aan-henning-kjearnulf": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Eikenhouten Bijzettafels van Henning Kjærnulf",
+"url": "https://vanons.eu/2026/03/25/set-van-drie-eiken-nesting-tables-toegeschreven-aan-henning-kjearnulf/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/03/img_8461.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/italiaanse-design-fauteuil-in-mohair": {
+"shop": "van-ons-nederhemert",
+"title": "Italiaanse design fauteuil in Mohair",
+"url": "https://vanons.eu/2026/03/25/italiaanse-design-fauteuil-in-mohair/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/03/img_8440.jpg?fit=1200%2C800&ssl=1",
+"price": 795.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+795.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/rio-palissander-houten-ladenkast-van-erik-jensen-voor-westergaard-mobelfabrik": {
+"shop": "van-ons-nederhemert",
+"title": "Erik Jensen Vintage Ladekast van Braziliaans Palissander",
+"url": "https://vanons.eu/2026/03/25/rio-palissander-houten-ladenkast-van-erik-jensen-voor-westergaard-mobelfabrik/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/03/img_8476.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/breed-teakhouten-deens-design-wandsysteem": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Deens Teakhouten Wandsysteem uit de Jaren 60",
+"url": "https://vanons.eu/2026/03/25/breed-teakhouten-deens-design-wandsysteem/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/03/img_8539.jpg?fit=1200%2C800&ssl=1",
+"price": 800.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+800.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/set-van-twee-preben-dal-symfoni-hanglampen": {
+"shop": "van-ons-nederhemert",
+"title": "Mid Century Design Lampen Set van Preben Dahl",
+"url": "https://vanons.eu/2026/03/25/set-van-twee-preben-dal-symfoni-hanglampen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/03/img_8522i.jpg?fit=1200%2C800&ssl=1",
+"price": 1800.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1800.0
+]
+]
+},
+"van-ons-nederhemert:/2026/03/25/vintage-rode-ph5-lamp-van-poul-henningen-voor-louis-poulsen-2": {
+"shop": "van-ons-nederhemert",
+"title": "PH5 lamp van Poul Henningsen in rood - Deens design klassieker",
+"url": "https://vanons.eu/2026/03/25/vintage-rode-ph5-lamp-van-poul-henningen-voor-louis-poulsen-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/02/mg_3859i.jpg?fit=1200%2C800&ssl=1",
+"price": 475.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+475.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/set-van-2-bamboo-en-rotan-fauteuils-met-bordeaux-rood-mohair": {
+"shop": "van-ons-nederhemert",
+"title": "Set van 2 bamboo en rotan fauteuils met Bordeaux rood Mohair",
+"url": "https://vanons.eu/2026/02/04/set-van-2-bamboo-en-rotan-fauteuils-met-bordeaux-rood-mohair/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8065.jpg?fit=1200%2C783&ssl=1",
+"price": 900.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+900.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/model-sm01-stoel-van-cees-braakman-voor-pastoe": {
+"shop": "van-ons-nederhemert",
+"title": "Model SM01 stoel van Cees Braakman voor Pastoe",
+"url": "https://vanons.eu/2026/02/04/model-sm01-stoel-van-cees-braakman-voor-pastoe/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8097.jpg?fit=1200%2C800&ssl=1",
+"price": 650.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/twee-wandlampen-van-peter-hvidt-en-orla-molgaard-nielsen-voor-le-klint": {
+"shop": "van-ons-nederhemert",
+"title": "Twee wandlampen van Peter Hvidt en Orla Molgaard Nielsen voor Le Klint",
+"url": "https://vanons.eu/2026/02/04/twee-wandlampen-van-peter-hvidt-en-orla-molgaard-nielsen-voor-le-klint/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8182ii.jpg?fit=1200%2C800&ssl=1",
+"price": 1400.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1400.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/eiken-illum-wikkelso-capella-fauteuil": {
+"shop": "van-ons-nederhemert",
+"title": "Eiken Illum Wikkelso Capella fauteuil",
+"url": "https://vanons.eu/2026/02/04/eiken-illum-wikkelso-capella-fauteuil/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_7976.jpg?fit=1200%2C800&ssl=1",
+"price": 950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/teak-arne-vodder-dressoir-model-29-voor-sibast-denemarken": {
+"shop": "van-ons-nederhemert",
+"title": "Teak Arne Vodder dressoir uit de jaren 50",
+"url": "https://vanons.eu/2026/02/04/teak-arne-vodder-dressoir-model-29-voor-sibast-denemarken/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/03/img_3781i.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/paavo-tynell-stijl-vloerlamp-in-messing-en-leer-met-linnen-kap": {
+"shop": "van-ons-nederhemert",
+"title": "Paavo Tynell stijl vloerlamp in messing en leer met linnen kap",
+"url": "https://vanons.eu/2026/02/04/paavo-tynell-stijl-vloerlamp-in-messing-en-leer-met-linnen-kap/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8053.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/ronde-palissander-houten-eetkamer-tafel-door-kai-kristiansen": {
+"shop": "van-ons-nederhemert",
+"title": "Ronde Palissander houten eetkamer tafel door Kai Kristiansen",
+"url": "https://vanons.eu/2026/02/04/ronde-palissander-houten-eetkamer-tafel-door-kai-kristiansen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8132.jpg?fit=1200%2C800&ssl=1",
+"price": 1300.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1300.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/set-van-vier-johannes-andersen-eetkamerstoelen-in-palissander-met-bruin-leer": {
+"shop": "van-ons-nederhemert",
+"title": "Set van vier Johannes Andersen eetkamerstoelen in Palissander met bruin leer",
+"url": "https://vanons.eu/2026/02/04/set-van-vier-johannes-andersen-eetkamerstoelen-in-palissander-met-bruin-leer/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8113.jpg?fit=1200%2C800&ssl=1",
+"price": 1800.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1800.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/set-van-twee-messing-jo-hammerborg-orient-tafellampen": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Messing Jo Hammerborg Oriënt tafellampen",
+"url": "https://vanons.eu/2026/02/04/set-van-twee-messing-jo-hammerborg-orient-tafellampen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8149.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/witte-wandklok-in-de-stijl-van-gerrit-rietveld": {
+"shop": "van-ons-nederhemert",
+"title": "Witte wandklok in de stijl van Gerrit Rietveld",
+"url": "https://vanons.eu/2026/02/04/witte-wandklok-in-de-stijl-van-gerrit-rietveld/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8162i.jpg?fit=1200%2C800&ssl=1",
+"price": 300.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/04/italiaanse-wandlampen-van-esperia-in-teak-met-glas": {
+"shop": "van-ons-nederhemert",
+"title": "Italiaanse wandlampen van Esperia in Teak met glas",
+"url": "https://vanons.eu/2026/02/04/italiaanse-wandlampen-van-esperia-in-teak-met-glas/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8232.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/witte-yngve-ekstrom-cirkle-chair-met-leren-kussen": {
+"shop": "van-ons-nederhemert",
+"title": "Witte Yngve Ekstrom Cirkle chair met leren kussen",
+"url": "https://vanons.eu/2026/02/03/witte-yngve-ekstrom-cirkle-chair-met-leren-kussen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_7996.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/jo-hammerborg-saturn-hanglamp-van-fog-and-morup": {
+"shop": "van-ons-nederhemert",
+"title": "Jo Hammerborg Saturn hanglamp van Fog and Morup",
+"url": "https://vanons.eu/2026/02/03/jo-hammerborg-saturn-hanglamp-van-fog-and-morup/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8277.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/karin-mobring-amiral-chairs-in-chrome-en-jute-uit-1973": {
+"shop": "van-ons-nederhemert",
+"title": "Karin Mobring Amiral chairs in chrome en jute uit 1973",
+"url": "https://vanons.eu/2026/02/03/karin-mobring-amiral-chairs-in-chrome-en-jute-uit-1973/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8078.jpg?fit=1200%2C800&ssl=1",
+"price": 750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/ronde-rieten-bijzettafel-in-de-stijl-van-raoul-guys": {
+"shop": "van-ons-nederhemert",
+"title": "Moderne Bijzettafel van Raoul Guys in gevlochten riet",
+"url": "https://vanons.eu/2026/02/03/ronde-rieten-bijzettafel-in-de-stijl-van-raoul-guys/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_7979.jpg?fit=1200%2C800&ssl=1",
+"price": 75.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+75.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/deense-tafellamp-van-per-linnemann-schmidt-voor-palshus-2": {
+"shop": "van-ons-nederhemert",
+"title": "Deense Tafellamp van Per Linnemann Schmidt voor Palshus",
+"url": "https://vanons.eu/2026/02/03/deense-tafellamp-van-per-linnemann-schmidt-voor-palshus-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8307i.jpg?fit=1200%2C800&ssl=1",
+"price": 675.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+675.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/zweedse-kubbstol-grenen-houten-trunk-chair-uit-de-jaren-60": {
+"shop": "van-ons-nederhemert",
+"title": "Zweedse kubbstol grenen houten trunk chair uit de jaren 60",
+"url": "https://vanons.eu/2026/02/03/zweedse-kubbstol-grenen-houten-trunk-chair-uit-de-jaren-60/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_7944.jpg?fit=1200%2C800&ssl=1",
+"price": 950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+950.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/pine-tema-hanglamp-van-ib-fabiansen-voor-fog-and-morup": {
+"shop": "van-ons-nederhemert",
+"title": "Pine Tema hanglamp van Ib Fabiansen voor Fog and Morup",
+"url": "https://vanons.eu/2026/02/03/pine-tema-hanglamp-van-ib-fabiansen-voor-fog-and-morup/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8296.jpg?fit=1200%2C800&ssl=1",
+"price": 350.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/landschap-olieverf-schilderij-op-hardboard-van-o-couvreur-1946": {
+"shop": "van-ons-nederhemert",
+"title": "Landschap Olieverf schilderij op hardboard van O. Couvreur, 1946",
+"url": "https://vanons.eu/2026/02/03/landschap-olieverf-schilderij-op-hardboard-van-o-couvreur-1946/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8024.jpg?fit=1200%2C800&ssl=1",
+"price": 185.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+185.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/set-van-twee-carl-fagerlund-hanglampen-voor-orrefors": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Carl Fagerlund hanglampen voor Orrefors",
+"url": "https://vanons.eu/2026/02/03/set-van-twee-carl-fagerlund-hanglampen-voor-orrefors/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8284i.jpg?fit=1200%2C800&ssl=1",
+"price": 400.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+400.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/03/unieke-minimalistische-klok-van-grenenhout": {
+"shop": "van-ons-nederhemert",
+"title": "Unieke Minimalistische Klok van Grenenhout",
+"url": "https://vanons.eu/2026/02/03/unieke-minimalistische-klok-van-grenenhout/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_8168.jpg?fit=1200%2C800&ssl=1",
+"price": 300.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/02/set-van-2-alvar-aalto-a110-hand-grenade-hanglampen-in-zwart-met-messing-detail": {
+"shop": "van-ons-nederhemert",
+"title": "Alvar Aalto A110 Hand Grenade hanglampen in zwart met messing",
+"url": "https://vanons.eu/2026/02/02/set-van-2-alvar-aalto-a110-hand-grenade-hanglampen-in-zwart-met-messing-detail/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2015/11/mg_8331.jpg?fit=1200%2C800&ssl=1",
+"price": 425.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+425.0
+]
+]
+},
+"van-ons-nederhemert:/2026/02/01/engelse-barley-twist-gedraaide-houten-tafellampen": {
+"shop": "van-ons-nederhemert",
+"title": "Engelse barley twist gedraaide houten tafellampen",
+"url": "https://vanons.eu/2026/02/01/engelse-barley-twist-gedraaide-houten-tafellampen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/02/img_6297.jpg?fit=1200%2C800&ssl=1",
+"price": 900.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+900.0
+]
+]
+},
+"van-ons-nederhemert:/2026/01/06/zeefdruk-van-willemijn-van-dorp": {
+"shop": "van-ons-nederhemert",
+"title": "Zeefdruk van Willemijn van Dorp",
+"url": "https://vanons.eu/2026/01/06/zeefdruk-van-willemijn-van-dorp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/01/img_7725i.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2026/01/06/minimalistisch-wollen-wandtapijt-uit-de-jaren-70": {
+"shop": "van-ons-nederhemert",
+"title": "Minimalistisch wollen wandtapijt uit de jaren 70",
+"url": "https://vanons.eu/2026/01/06/minimalistisch-wollen-wandtapijt-uit-de-jaren-70/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2026/01/img_7754.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/blauw-kristallen-tafellamp-van-carl-fagerlund-voor-orrefors-model-rd1406": {
+"shop": "van-ons-nederhemert",
+"title": "Blauw kristallen tafellamp van Carl Fagerlund voor Orrefors model RD1406",
+"url": "https://vanons.eu/2025/12/03/blauw-kristallen-tafellamp-van-carl-fagerlund-voor-orrefors-model-rd1406/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7610i.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/impressionistisch-olieverf-schilderij-portret": {
+"shop": "van-ons-nederhemert",
+"title": "Impressionistisch olieverf schilderij portret",
+"url": "https://vanons.eu/2025/12/03/impressionistisch-olieverf-schilderij-portret/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7735.jpg?fit=1200%2C800&ssl=1",
+"price": 250.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+250.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/vintage-nisse-strinning-wandsysteem-in-essenhout": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Nisse Strinning wandsysteem in essenhout",
+"url": "https://vanons.eu/2025/12/03/vintage-nisse-strinning-wandsysteem-in-essenhout/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7718.jpg?fit=1200%2C800&ssl=1",
+"price": 1400.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1400.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/gabriella-crespi-schaal": {
+"shop": "van-ons-nederhemert",
+"title": "Gabriella Crespi schaal",
+"url": "https://vanons.eu/2025/12/03/gabriella-crespi-schaal/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5311.jpg?fit=1200%2C797&ssl=1",
+"price": 180.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+180.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/messing-wandlamp-van-rolf-kruger-voor-paul-neuhaus-leuchten": {
+"shop": "van-ons-nederhemert",
+"title": "Messing wandlamp van Rolf Kruger voor Paul Neuhaus Leuchten",
+"url": "https://vanons.eu/2025/12/03/messing-wandlamp-van-rolf-kruger-voor-paul-neuhaus-leuchten/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7641.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2025/12/03/jaren-70-wollen-wandtapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Jaren 70 wollen wandtapijt",
+"url": "https://vanons.eu/2025/12/03/jaren-70-wollen-wandtapijt/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/12/img_7705.jpg?fit=1200%2C800&ssl=1",
+"price": 350.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/paarse-seks-tre-hanglamp-van-ole-panton-voor-lyfa": {
+"shop": "van-ons-nederhemert",
+"title": "Paarse Seks-Tre hanglamp van Ole Panton voor Lyfa",
+"url": "https://vanons.eu/2025/10/21/paarse-seks-tre-hanglamp-van-ole-panton-voor-lyfa/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7398.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/artifort-oyster-model-f157-fauteuil-door-pierre-paulin-2": {
+"shop": "van-ons-nederhemert",
+"title": "Artifort Oyster model F157 fauteuil door Pierre Paulin",
+"url": "https://vanons.eu/2025/10/21/artifort-oyster-model-f157-fauteuil-door-pierre-paulin-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_6954.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/glazen-tafel-lamp-van-lisbeth-brams-voor-fog-morup": {
+"shop": "van-ons-nederhemert",
+"title": "Glazen tafel lamp van Lisbeth Brams voor Fog & Morup",
+"url": "https://vanons.eu/2025/10/21/glazen-tafel-lamp-van-lisbeth-brams-voor-fog-morup/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7374.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/expressionistisch-olieverf-schilderij-van-sirio-salimbeni": {
+"shop": "van-ons-nederhemert",
+"title": "Expressionistisch olieverf schilderij van Sirio Salimbeni",
+"url": "https://vanons.eu/2025/10/21/expressionistisch-olieverf-schilderij-van-sirio-salimbeni/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7077.jpg?fit=1200%2C800&ssl=1",
+"price": 350.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/teak-ladekast-van-borge-mogensen-voor-karl-andersson-and-son": {
+"shop": "van-ons-nederhemert",
+"title": "Teak ladekast van Borge Mogensen voor Karl Andersson and Son",
+"url": "https://vanons.eu/2025/10/21/teak-ladekast-van-borge-mogensen-voor-karl-andersson-and-son/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7209.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/eiken-hans-wegner-ge290-bank-voor-getama": {
+"shop": "van-ons-nederhemert",
+"title": "Eiken Hans Wegner GE290 bank voor Getama",
+"url": "https://vanons.eu/2025/10/21/eiken-hans-wegner-ge290-bank-voor-getama/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7135.jpg?fit=1200%2C800&ssl=1",
+"price": 2950.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2950.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/set-van-3-vide-poche-van-le-corbussier-en-perriand-voor-lumax": {
+"shop": "van-ons-nederhemert",
+"title": "Set van 3 vide poche van Le Corbussier en Perriand voor Lumax",
+"url": "https://vanons.eu/2025/10/21/set-van-3-vide-poche-van-le-corbussier-en-perriand-voor-lumax/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7290.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/21/set-van-vier-teak-marten-franckena-stoelen-voor-fristho": {
+"shop": "van-ons-nederhemert",
+"title": "Set van vier teak Marten Franckena stoelen voor Fristho",
+"url": "https://vanons.eu/2025/10/21/set-van-vier-teak-marten-franckena-stoelen-voor-fristho/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7267.jpg?fit=1200%2C800&ssl=1",
+"price": 1800.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1800.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/deens-impressionistisch-olieverf-schilderij-1960s": {
+"shop": "van-ons-nederhemert",
+"title": "Deens impressionistisch olieverf schilderij, 1960’s",
+"url": "https://vanons.eu/2025/10/20/deens-impressionistisch-olieverf-schilderij-1960s/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7124.jpg?fit=1200%2C800&ssl=1",
+"price": 300.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/berken-eb02-bureau-van-cees-braakman-voor-pastoe-2": {
+"shop": "van-ons-nederhemert",
+"title": "Berken EB02 bureau van Cees Braakman voor Pastoe",
+"url": "https://vanons.eu/2025/10/20/berken-eb02-bureau-van-cees-braakman-voor-pastoe-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_6937.jpg?fit=1200%2C800&ssl=1",
+"price": 1750.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1750.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/set-van-twee-bijzondere-constant-nieuwenhuis-metalen-wand-planken-in-geel-en-grijs-voor-asmeta": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee bijzondere Constant Nieuwenhuis metalen wand planken in geel en grijs voor Asmeta",
+"url": "https://vanons.eu/2025/10/20/set-van-twee-bijzondere-constant-nieuwenhuis-metalen-wand-planken-in-geel-en-grijs-voor-asmeta/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/07/img_4461.jpg?fit=1200%2C800&ssl=1",
+"price": 750.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/set-van-twee-italiaanse-grenen-design-fauteuils-uit-de-jaren-70": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Italiaanse grenen design fauteuils uit de jaren 70",
+"url": "https://vanons.eu/2025/10/20/set-van-twee-italiaanse-grenen-design-fauteuils-uit-de-jaren-70/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7177-e1768224124493.jpg?fit=1200%2C781&ssl=1",
+"price": 1300.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1300.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/vierkante-willy-guhl-plantenbakken-voor-eternit": {
+"shop": "van-ons-nederhemert",
+"title": "Vierkante Willy Guhl plantenbakken voor Eternit",
+"url": "https://vanons.eu/2025/10/20/vierkante-willy-guhl-plantenbakken-voor-eternit/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_6986.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/scandinavisch-design-wandlamp-in-stijl-van-paavo-tynell": {
+"shop": "van-ons-nederhemert",
+"title": "Scandinavisch design wandlamp",
+"url": "https://vanons.eu/2025/10/20/scandinavisch-design-wandlamp-in-stijl-van-paavo-tynell/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7334.jpg?fit=1200%2C800&ssl=1",
+"price": 285.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+285.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/zes-zeldzame-friso-kramer-revolt-theater-stoelen": {
+"shop": "van-ons-nederhemert",
+"title": "Set van zes zeldzame Friso Kramer Revolt theater stoelen",
+"url": "https://vanons.eu/2025/10/20/zes-zeldzame-friso-kramer-revolt-theater-stoelen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7011i.jpg?fit=1200%2C800&ssl=1",
+"price": 6000.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+6000.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/deens-post-impressionistisch-olieverfschilderij": {
+"shop": "van-ons-nederhemert",
+"title": "Deens post-impressionistisch olieverfschilderij van E.S. uit Horsens",
+"url": "https://vanons.eu/2025/10/20/deens-post-impressionistisch-olieverfschilderij/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7089.jpg?fit=1200%2C800&ssl=1",
+"price": 325.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+325.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/20/murano-tronchi-kroonluchter-van-toni-zuccheri-voor-venini": {
+"shop": "van-ons-nederhemert",
+"title": "Murano Tronchi kroonluchter van Toni Zuccheri voor Venini",
+"url": "https://vanons.eu/2025/10/20/murano-tronchi-kroonluchter-van-toni-zuccheri-voor-venini/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/10/img_7380.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/17/twee-grote-bent-karlby-kina-hanglampen": {
+"shop": "van-ons-nederhemert",
+"title": "Bent Karlby Kina hanglamp",
+"url": "https://vanons.eu/2025/10/17/twee-grote-bent-karlby-kina-hanglampen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/03/img_3754ii.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2025/10/17/cini-boeri-strips-pouf-voor-arflex": {
+"shop": "van-ons-nederhemert",
+"title": "Cini Boeri Strips pouf voor Arflex",
+"url": "https://vanons.eu/2025/10/17/cini-boeri-strips-pouf-voor-arflex/",
+"image": "https://vanons.eu/wp-content/uploads/2025/10/img_6991-1.jpg",
+"price": 1500.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2025/06/03/vintage-oranje-glazen-murano-hanglamp": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage oranje glazen Murano hanglamp",
+"url": "https://vanons.eu/2025/06/03/vintage-oranje-glazen-murano-hanglamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/06/img_6377.jpg?fit=1200%2C800&ssl=1",
+"price": 360.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+360.0
+]
+]
+},
+"van-ons-nederhemert:/2025/06/03/olieverfschilderij-van-umberto-lorini-uit-1960": {
+"shop": "van-ons-nederhemert",
+"title": "Olieverfschilderij van Umberto Lorini uit 1960",
+"url": "https://vanons.eu/2025/06/03/olieverfschilderij-van-umberto-lorini-uit-1960/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/06/img_6661.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2025/06/03/messing-flesopener-in-de-stijl-van-carl-aubock": {
+"shop": "van-ons-nederhemert",
+"title": "Messing flesopener in de stijl van Carl Aubock",
+"url": "https://vanons.eu/2025/06/03/messing-flesopener-in-de-stijl-van-carl-aubock/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/06/img_6670.jpg?fit=1200%2C800&ssl=1",
+"price": 50.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+50.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/vintage-diabolo-hanglamp-van-svend-aage-holm-sorensen": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Diabolo hanglamp van Svend Aage Holm Sorensen",
+"url": "https://vanons.eu/2025/04/19/vintage-diabolo-hanglamp-van-svend-aage-holm-sorensen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6313.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/italiaanse-rotan-stoel-uit-de-jaren-60": {
+"shop": "van-ons-nederhemert",
+"title": "Italiaanse rotan stoel uit de jaren 60",
+"url": "https://vanons.eu/2025/04/19/italiaanse-rotan-stoel-uit-de-jaren-60/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6219.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/grof-abstract-expressionistisch-olieverfschilderij-1962": {
+"shop": "van-ons-nederhemert",
+"title": "Grof abstract expressionistisch olieverfschilderij, 1962",
+"url": "https://vanons.eu/2025/04/19/grof-abstract-expressionistisch-olieverfschilderij-1962/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/artwork-1962.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/originele-vintage-vilhelm-lauritzen-vl38-tafellamp-voor-louis-poulsen": {
+"shop": "van-ons-nederhemert",
+"title": "Originele vintage Vilhelm Lauritzen VL38 tafellamp voor Louis Poulsen",
+"url": "https://vanons.eu/2025/04/19/originele-vintage-vilhelm-lauritzen-vl38-tafellamp-voor-louis-poulsen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6306.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/deens-design-fauteuil-in-bruin-faux-sheepskin": {
+"shop": "van-ons-nederhemert",
+"title": "Deens design fauteuil in bruin faux sheepskin",
+"url": "https://vanons.eu/2025/04/19/deens-design-fauteuil-in-bruin-faux-sheepskin/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_5735.jpg?fit=1200%2C800&ssl=1",
+"price": 650.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/zweeds-rollakan-flat-weave-tapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Zweeds Rollakan flat weave tapijt",
+"url": "https://vanons.eu/2025/04/19/zweeds-rollakan-flat-weave-tapijt/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6073.jpg?fit=1200%2C800&ssl=1",
+"price": 800.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+800.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/19/italiaans-design-wandlamp-in-messing-en-groen": {
+"shop": "van-ons-nederhemert",
+"title": "Italiaans design wandlamp in Messing en Groen",
+"url": "https://vanons.eu/2025/04/19/italiaans-design-wandlamp-in-messing-en-groen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6090i.jpg?fit=1200%2C800&ssl=1",
+"price": 225.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+225.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/11/vintage-frans-grenen-bankje": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Frans Grenen bankje",
+"url": "https://vanons.eu/2025/04/11/vintage-frans-grenen-bankje/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/img_6214.jpg?fit=1200%2C800&ssl=1",
+"price": 225.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+225.0
+]
+]
+},
+"van-ons-nederhemert:/2025/04/10/witte-louis-poulsen-ph4-3-hanglamp-van-poul-henningsen": {
+"shop": "van-ons-nederhemert",
+"title": "Witte Louis Poulsen PH4/3 hanglamp van Poul Henningsen",
+"url": "https://vanons.eu/2025/04/10/witte-louis-poulsen-ph4-3-hanglamp-van-poul-henningsen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/04/ph43.jpg?fit=1200%2C800&ssl=1",
+"price": 395.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+395.0
+]
+]
+},
+"van-ons-nederhemert:/2025/02/27/houten-lamellen-design-hanglamp-in-pine": {
+"shop": "van-ons-nederhemert",
+"title": "Houten lamellen design hanglamp in Pine",
+"url": "https://vanons.eu/2025/02/27/houten-lamellen-design-hanglamp-in-pine/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/02/img_5818.jpg?fit=1200%2C800&ssl=1",
+"price": 375.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+375.0
+]
+]
+},
+"van-ons-nederhemert:/2025/02/27/zeldzame-alvar-aalto-verlengbare-savoy-wandlamp": {
+"shop": "van-ons-nederhemert",
+"title": "Zeldzame Alvar Aalto verlengbare Savoy wandlamp",
+"url": "https://vanons.eu/2025/02/27/zeldzame-alvar-aalto-verlengbare-savoy-wandlamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/02/img_5699.jpg?fit=1200%2C800&ssl=1",
+"price": 1850.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1850.0
+]
+]
+},
+"van-ons-nederhemert:/2025/02/27/einar-palme-olieverf-schilderij-zeezicht-1948": {
+"shop": "van-ons-nederhemert",
+"title": "Einar Palme olieverf schilderij zeezicht 1948",
+"url": "https://vanons.eu/2025/02/27/einar-palme-olieverf-schilderij-zeezicht-1948/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/02/img_5693i.jpg?fit=1200%2C800&ssl=1",
+"price": 395.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+395.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/set-van-twee-berken-alvar-aalto-wandplanken-model-112": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee berken Alvar Aalto wandplanken model 112",
+"url": "https://vanons.eu/2025/01/24/set-van-twee-berken-alvar-aalto-wandplanken-model-112/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5585i.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/set-van-twee-raak-wand-lampen-model-c-1573": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Raak wand lampen model C 1573",
+"url": "https://vanons.eu/2025/01/24/set-van-twee-raak-wand-lampen-model-c-1573/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5278.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/set-van-twee-witte-raak-hanglampen-met-geperforeerde-cirkels": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee witte Raak hanglampen met geperforeerde cirkels",
+"url": "https://vanons.eu/2025/01/24/set-van-twee-witte-raak-hanglampen-met-geperforeerde-cirkels/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5505i.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/set-van-twee-zeldzame-cor-alons-fauteuils-in-berken": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee zeldzame Cor Alons fauteuils in Berken",
+"url": "https://vanons.eu/2025/01/24/set-van-twee-zeldzame-cor-alons-fauteuils-in-berken/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_4982.jpg?fit=1200%2C800&ssl=1",
+"price": 4400.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+4400.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/blauwe-tafellamp-model-gk14-erik-warna-voor-gnosjo-konstmide-zweden-2": {
+"shop": "van-ons-nederhemert",
+"title": "Blauwe tafellamp model GK14 Erik Warna voor Gnosjo Konstmide Zweden",
+"url": "https://vanons.eu/2025/01/24/blauwe-tafellamp-model-gk14-erik-warna-voor-gnosjo-konstmide-zweden-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5473.jpg?fit=1200%2C800&ssl=1",
+"price": 650.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/blauwe-deense-design-schalen-van-inger-krebs-1970": {
+"shop": "van-ons-nederhemert",
+"title": "Deense design schalen van Inger Krebs uit 1970",
+"url": "https://vanons.eu/2025/01/24/blauwe-deense-design-schalen-van-inger-krebs-1970/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_8316-1.jpg?fit=1200%2C800&ssl=1",
+"price": 150.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+150.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/soholm-stentoj-christer-holmgren-set-baltic-vases-in-wit-en-zwart": {
+"shop": "van-ons-nederhemert",
+"title": "Soholm Stentoj Christer Holmgren set Baltic vases in wit en zwart",
+"url": "https://vanons.eu/2025/01/24/soholm-stentoj-christer-holmgren-set-baltic-vases-in-wit-en-zwart/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5363i.jpg?fit=1200%2C797&ssl=1",
+"price": 175.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+175.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/zwart-witte-hagoort-zwenkarm-wandlamp": {
+"shop": "van-ons-nederhemert",
+"title": "Zwart Witte Hagoort zwenkarm wandlamp",
+"url": "https://vanons.eu/2025/01/24/zwart-witte-hagoort-zwenkarm-wandlamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5253.jpg?fit=1200%2C800&ssl=1",
+"price": 495.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+495.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/dark-green-with-brass-lyfa-danish-design-table-lamp": {
+"shop": "van-ons-nederhemert",
+"title": "Donker groene Lyfa Deens design tafellamp",
+"url": "https://vanons.eu/2025/01/24/dark-green-with-brass-lyfa-danish-design-table-lamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5229.jpg?fit=1200%2C800&ssl=1",
+"price": 1100.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1100.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/teak-met-messing-vloerlamp-met-raffia-kap": {
+"shop": "van-ons-nederhemert",
+"title": "Teak met messing vloerlamp met raffia kap",
+"url": "https://vanons.eu/2025/01/24/teak-met-messing-vloerlamp-met-raffia-kap/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5561.jpg?fit=1200%2C800&ssl=1",
+"price": 650.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+650.0
+]
+]
+},
+"van-ons-nederhemert:/2025/01/24/peder-hald-deens-keramieken-tafellamp": {
+"shop": "van-ons-nederhemert",
+"title": "Peder Hald Deens keramieken tafellamp",
+"url": "https://vanons.eu/2025/01/24/peder-hald-deens-keramieken-tafellamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2025/01/img_5258i.jpg?fit=1200%2C800&ssl=1",
+"price": 450.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+450.0
+]
+]
+},
+"van-ons-nederhemert:/2024/10/24/wollen-wand-tapijt-uit-de-seventies": {
+"shop": "van-ons-nederhemert",
+"title": "Wollen wand tapijt uit de seventies",
+"url": "https://vanons.eu/2024/10/24/wollen-wand-tapijt-uit-de-seventies/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_5135.jpg?fit=1200%2C800&ssl=1",
+"price": 350.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"van-ons-nederhemert:/2024/10/24/rohe-noordwolde-magazine-mand": {
+"shop": "van-ons-nederhemert",
+"title": "Rohe Noordwolde magazine mand",
+"url": "https://vanons.eu/2024/10/24/rohe-noordwolde-magazine-mand/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_5106.jpg?fit=1200%2C800&ssl=1",
+"price": 150.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+150.0
+]
+]
+},
+"van-ons-nederhemert:/2024/10/24/vierkante-salontafel-met-leisteen-blad-ontworpen-door-rob-parry": {
+"shop": "van-ons-nederhemert",
+"title": "Vierkante Salontafel met leisteen blad ontworpen door Rob Parry",
+"url": "https://vanons.eu/2024/10/24/vierkante-salontafel-met-leisteen-blad-ontworpen-door-rob-parry/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_4827.jpg?fit=1200%2C800&ssl=1",
+"price": 2500.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+2500.0
+]
+]
+},
+"van-ons-nederhemert:/2024/10/24/modernist-lounge-chair-1960s": {
+"shop": "van-ons-nederhemert",
+"title": "Modernist lounge chair, 1960’s",
+"url": "https://vanons.eu/2024/10/24/modernist-lounge-chair-1960s/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_4991.jpg?fit=1200%2C800&ssl=1",
+"price": 1250.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1250.0
+]
+]
+},
+"van-ons-nederhemert:/2024/10/24/keramiek-tafellamp-van-marianne-starck": {
+"shop": "van-ons-nederhemert",
+"title": "Keramiek tafellamp van Marianne Starck",
+"url": "https://vanons.eu/2024/10/24/keramiek-tafellamp-van-marianne-starck/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/10/img_4911.jpg?fit=1200%2C800&ssl=1",
+"price": 350.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+350.0
+]
+]
+},
+"van-ons-nederhemert:/2024/07/12/abstract-kunstwerk-in-geel-beige-wit-en-grijs-uit-de-jaren-60": {
+"shop": "van-ons-nederhemert",
+"title": "Abstract kunstwerk in geel, beige, wit en grijs uit de jaren 60",
+"url": "https://vanons.eu/2024/07/12/abstract-kunstwerk-in-geel-beige-wit-en-grijs-uit-de-jaren-60/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/07/img_4350.jpg?fit=1200%2C800&ssl=1",
+"price": 800.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+800.0
+]
+]
+},
+"van-ons-nederhemert:/2024/07/12/scandinavisch-design-getextureerde-tafellamp-van-stengods": {
+"shop": "van-ons-nederhemert",
+"title": "Scandinavisch design getextureerde tafellamp van Stengods",
+"url": "https://vanons.eu/2024/07/12/scandinavisch-design-getextureerde-tafellamp-van-stengods/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/07/img_4448.jpg?fit=1200%2C800&ssl=1",
+"price": 475.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+475.0
+]
+]
+},
+"van-ons-nederhemert:/2024/05/01/gispen-1401-fauteuil-van-wim-rietveld-in-groen-leer": {
+"shop": "van-ons-nederhemert",
+"title": "Gispen 1401 Fauteuil van Wim Rietveld in Groen leer",
+"url": "https://vanons.eu/2024/05/01/gispen-1401-fauteuil-van-wim-rietveld-in-groen-leer/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/05/img_4082.jpg?fit=1200%2C800&ssl=1",
+"price": 595.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+595.0
+]
+]
+},
+"van-ons-nederhemert:/2024/05/01/set-van-twee-martin-visser-dd01-bergeijk-wandplanken-met-lades-voor-spectrum": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Martin Visser DD01 Bergeijk wandplanken met lades voor Spectrum",
+"url": "https://vanons.eu/2024/05/01/set-van-twee-martin-visser-dd01-bergeijk-wandplanken-met-lades-voor-spectrum/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/05/img_4036.jpg?fit=1200%2C800&ssl=1",
+"price": 1200.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1200.0
+]
+]
+},
+"van-ons-nederhemert:/2024/03/31/set-van-twee-jo-hammerborg-nordlys-wand-lampen": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Jo Hammerborg Nordlys wand lampen",
+"url": "https://vanons.eu/2024/03/31/set-van-twee-jo-hammerborg-nordlys-wand-lampen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/03/img_3835.jpg?fit=1200%2C800&ssl=1",
+"price": 600.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+600.0
+]
+]
+},
+"van-ons-nederhemert:/2024/01/26/collectie-lennart-andersson-isi-vazen-voor-gullaskruf": {
+"shop": "van-ons-nederhemert",
+"title": "Collectie Lennart Andersson ISI vazen voor Gullaskruf",
+"url": "https://vanons.eu/2024/01/26/collectie-lennart-andersson-isi-vazen-voor-gullaskruf/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2024/01/img_3519.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2023/11/15/deens-design-witte-hanglamp-met-paars-detail-van-formlight-2": {
+"shop": "van-ons-nederhemert",
+"title": "Deens design witte hanglamp met paars detail van Formlight",
+"url": "https://vanons.eu/2023/11/15/deens-design-witte-hanglamp-met-paars-detail-van-formlight-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/11/img_3244.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2023/10/02/ronde-pedersen-and-hansen-spiegel-in-teak": {
+"shop": "van-ons-nederhemert",
+"title": "Ronde Pedersen and Hansen spiegel in Teak",
+"url": "https://vanons.eu/2023/10/02/ronde-pedersen-and-hansen-spiegel-in-teak/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/10/img_3154i.jpg?fit=1200%2C800&ssl=1",
+"price": 295.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+295.0
+]
+]
+},
+"van-ons-nederhemert:/2023/06/24/lennart-andersson-isi-vazen-voor-gullaskruf": {
+"shop": "van-ons-nederhemert",
+"title": "Lennart Andersson ISI vazen voor Gullaskruf",
+"url": "https://vanons.eu/2023/06/24/lennart-andersson-isi-vazen-voor-gullaskruf/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/06/img_2588.jpg?fit=1200%2C800&ssl=1",
+"price": 125.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+125.0
+]
+]
+},
+"van-ons-nederhemert:/2023/04/08/gebatikt-indigo-blauwe-hennep-kussen-van-de-hmong-stam": {
+"shop": "van-ons-nederhemert",
+"title": "Gebatikt Indigo blauwe hennep kussen van de Hmong stam",
+"url": "https://vanons.eu/2023/04/08/gebatikt-indigo-blauwe-hennep-kussen-van-de-hmong-stam/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/04/img_2425.jpg?fit=1200%2C800&ssl=1",
+"price": 65.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+65.0
+]
+]
+},
+"van-ons-nederhemert:/2023/02/20/antieke-afrikaanse-yoruba-orakelschaal-met-deksel-uit-nigeria": {
+"shop": "van-ons-nederhemert",
+"title": "Antieke Afrikaanse Yoruba orakelschaal met deksel uit Nigeria",
+"url": "https://vanons.eu/2023/02/20/antieke-afrikaanse-yoruba-orakelschaal-met-deksel-uit-nigeria/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/02/img_1931.jpg?fit=1200%2C800&ssl=1",
+"price": 850.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+850.0
+]
+]
+},
+"van-ons-nederhemert:/2023/02/20/vroege-zwarte-arne-jacobsen-dot-3170-kruk": {
+"shop": "van-ons-nederhemert",
+"title": "Vroege zwarte Arne Jacobsen DOT 3170 kruk",
+"url": "https://vanons.eu/2023/02/20/vroege-zwarte-arne-jacobsen-dot-3170-kruk/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/02/img_1925.jpg?fit=1200%2C800&ssl=1",
+"price": 750.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+750.0
+]
+]
+},
+"van-ons-nederhemert:/2023/01/29/carl-aubock-vis-flesopener-in-teak": {
+"shop": "van-ons-nederhemert",
+"title": "Carl Auböck Vis flesopener in teak",
+"url": "https://vanons.eu/2023/01/29/carl-aubock-vis-flesopener-in-teak/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2023/01/img_1735.jpg?fit=1200%2C800&ssl=1",
+"price": 195.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+195.0
+]
+]
+},
+"van-ons-nederhemert:/2022/11/23/wit-opaline-glazen-hanglamp-met-teak-detail": {
+"shop": "van-ons-nederhemert",
+"title": "Wit opaline glazen hanglamp met teak detail",
+"url": "https://vanons.eu/2022/11/23/wit-opaline-glazen-hanglamp-met-teak-detail/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2022/11/img_1010.jpg?fit=1200%2C800&ssl=1",
+"price": 300.0,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+300.0
+]
+]
+},
+"van-ons-nederhemert:/2022/10/05/originele-oude-vintage-berber-beni-ouarain-tapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Originele oude vintage berber Beni Ouarain tapijt",
+"url": "https://vanons.eu/2022/10/05/originele-oude-vintage-berber-beni-ouarain-tapijt/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2022/10/img_0050-1.jpg?fit=1200%2C788&ssl=1",
+"price": 795.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+795.0
+]
+]
+},
+"van-ons-nederhemert:/2022/08/11/willem-hussem-abstracte-compositie-1954": {
+"shop": "van-ons-nederhemert",
+"title": "Willem Hussem abstracte compositie, 1954",
+"url": "https://vanons.eu/2022/08/11/willem-hussem-abstracte-compositie-1954/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2022/08/img_6712willem-hussem.jpg?fit=1200%2C800&ssl=1",
+"price": 1500.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+1500.0
+]
+]
+},
+"van-ons-nederhemert:/2022/08/11/vintage-marokkaans-wollen-beni-ouarain-kussen": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Marokkaans wollen Beni Ouarain kussen",
+"url": "https://vanons.eu/2022/08/11/vintage-marokkaans-wollen-beni-ouarain-kussen/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2022/08/img_9694.jpg?fit=1200%2C800&ssl=1",
+"price": 75.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+75.0
+]
+]
+},
+"van-ons-nederhemert:/2022/04/12/set-van-twee-decoratieve-leren-masai-schilden": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee decoratieve leren Masai schilden",
+"url": "https://vanons.eu/2022/04/12/set-van-twee-decoratieve-leren-masai-schilden/",
+"image": "https://vanons.eu/wp-content/uploads/2014/02/contactknoppen.jpg?w=940",
+"price": 250.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+250.0
+]
+]
+},
+"van-ons-nederhemert:/2022/03/15/rookglazen-schaal-van-per-lutken-voor-holmegaard-model-18504": {
+"shop": "van-ons-nederhemert",
+"title": "Rookglazen schaal van Per Lütken voor Holmegaard model 18504",
+"url": "https://vanons.eu/2022/03/15/rookglazen-schaal-van-per-lutken-voor-holmegaard-model-18504/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2022/03/img_8020.jpg?fit=1200%2C800&ssl=1",
+"price": 150.0,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+150.0
+]
+]
+},
+"van-ons-nederhemert:/2021/10/23/decoratieve-antieke-open-haard-stoel": {
+"shop": "van-ons-nederhemert",
+"title": "Decoratieve antieke open haard stoel",
+"url": "https://vanons.eu/2021/10/23/decoratieve-antieke-open-haard-stoel/",
+"image": "https://vanons.eu/wp-content/uploads/2021/10/img_7133.jpg?w=900",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2021/04/26/keramiek-tafellamp-van-jette-helleroe-voor-stentoj": {
+"shop": "van-ons-nederhemert",
+"title": "Keramiek tafellamp van Jette Hellerøe voor  Stentøj",
+"url": "https://vanons.eu/2021/04/26/keramiek-tafellamp-van-jette-helleroe-voor-stentoj/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2021/04/img_5448.jpg?fit=800%2C1200&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2021/03/03/alexander-girard-houten-poppen-van-vitra": {
+"shop": "van-ons-nederhemert",
+"title": "Alexander Girard wooden doll nr 5 Vitra",
+"url": "https://vanons.eu/2021/03/03/alexander-girard-houten-poppen-van-vitra/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2021/03/alexander-girard-doll-5.jpg?fit=1200%2C800&ssl=1",
+"price": 115.0,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+115.0
+]
+]
+},
+"van-ons-nederhemert:/2020/05/19/vintage-marokkaanse-zemmour-poef": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Marokkaanse Zemmour poef",
+"url": "https://vanons.eu/2020/05/19/vintage-marokkaanse-zemmour-poef/",
+"image": "https://vanons.eu/wp-content/uploads/2014/02/contactknoppen.jpg",
+"price": 95.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+95.0
+]
+]
+},
+"van-ons-nederhemert:/2020/03/09/artimeta-eetkamertafel-in-massief-eiken": {
+"shop": "van-ons-nederhemert",
+"title": "Artimeta eetkamertafel in massief eiken",
+"url": "https://vanons.eu/2020/03/09/artimeta-eetkamertafel-in-massief-eiken/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2020/03/img_0771-1.jpg?fit=1200%2C800&ssl=1",
+"price": 995.0,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+995.0
+]
+]
+},
+"van-ons-nederhemert:/2019/11/27/set-van-vier-berken-pastoe-sb03-stoelen-van-cees-braakman": {
+"shop": "van-ons-nederhemert",
+"title": "Set van vier berken Pastoe SB03 stoelen van Cees Braakman",
+"url": "https://vanons.eu/2019/11/27/set-van-vier-berken-pastoe-sb03-stoelen-van-cees-braakman/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/11/mg_9450.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/08/02/set-van-6-borge-mogensen-leer-en-eiken-model-3236-stoelen-voor-fredericia": {
+"shop": "van-ons-nederhemert",
+"title": "Set van 6 Borge Mogensen leer en eiken model 3236 stoelen voor Fredericia",
+"url": "https://vanons.eu/2019/08/02/set-van-6-borge-mogensen-leer-en-eiken-model-3236-stoelen-voor-fredericia/",
+"image": "https://secure.gravatar.com/blavatar/566d6996bf832756f7105fe9344d4c31e93a7772253a88641b5ee060917af70c?s=200&ts=1795186696",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/07/03/vintage-nisse-strinning-wandrek-in-teak": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Nisse Strinning wandrek in teak",
+"url": "https://vanons.eu/2019/07/03/vintage-nisse-strinning-wandrek-in-teak/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/07/mg_7793.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/06/17/deense-teak-houten-schommelstoel": {
+"shop": "van-ons-nederhemert",
+"title": "Deense teak houten schommelstoel",
+"url": "https://vanons.eu/2019/06/17/deense-teak-houten-schommelstoel/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/06/mg_7614.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/04/27/vintage-marokkaanse-azilal-tapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Marokkaanse Azilal tapijt",
+"url": "https://vanons.eu/2019/04/27/vintage-marokkaanse-azilal-tapijt/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/04/dscf4960staand.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/03/31/set-van-twee-teakhouten-deens-design-nachtkastjes": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee teakhouten Deens design nachtkastjes",
+"url": "https://vanons.eu/2019/03/31/set-van-twee-teakhouten-deens-design-nachtkastjes/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/03/mg_6842.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/03/30/pastoe-sm01-stoel-van-cees-braakman": {
+"shop": "van-ons-nederhemert",
+"title": "Pastoe SM01 stoel van Cees Braakman",
+"url": "https://vanons.eu/2019/03/30/pastoe-sm01-stoel-van-cees-braakman/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/03/mg_6760i.jpg?fit=1200%2C800&ssl=1",
+"price": 675.0,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+675.0
+]
+]
+},
+"van-ons-nederhemert:/2019/02/04/fristho-palissander-highboard": {
+"shop": "van-ons-nederhemert",
+"title": "Fristho Palissander highboard",
+"url": "https://vanons.eu/2019/02/04/fristho-palissander-highboard/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/02/mg_6067i.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/02/04/set-van-twee-vintage-nachtkastjes": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee vintage nachtkastjes",
+"url": "https://vanons.eu/2019/02/04/set-van-twee-vintage-nachtkastjes/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/02/mg_6020.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2019/01/06/alvar-aalto-kinder-tafel-n80b-met-n65-stoel-van-artek": {
+"shop": "van-ons-nederhemert",
+"title": "Alvar Aalto kinder tafel N80B met N65 stoel van Artek",
+"url": "https://vanons.eu/2019/01/06/alvar-aalto-kinder-tafel-n80b-met-n65-stoel-van-artek/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2019/01/mg_5796ii.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/12/10/ronde-eetkamertafel-toegeschreven-aan-pastoe": {
+"shop": "van-ons-nederhemert",
+"title": "Ronde eetkamertafel toegeschreven aan Pastoe",
+"url": "https://vanons.eu/2018/12/10/ronde-eetkamertafel-toegeschreven-aan-pastoe/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/12/mg_3691tafel.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/12/10/grijze-arne-jacobsen-voor-louis-poulsen-aj-royal-lamp": {
+"shop": "van-ons-nederhemert",
+"title": "Grijze Arne Jacobsen voor Louis Poulsen AJ Royal lamp",
+"url": "https://vanons.eu/2018/12/10/grijze-arne-jacobsen-voor-louis-poulsen-aj-royal-lamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/12/mg_5709.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/12/10/deens-design-witte-hanglamp-met-paars-detail-van-formlight": {
+"shop": "van-ons-nederhemert",
+"title": "Deens design witte hanglamp met paars detail van Formlight",
+"url": "https://vanons.eu/2018/12/10/deens-design-witte-hanglamp-met-paars-detail-van-formlight/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/12/mg_5711i.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/08/01/groot-teak-poul-cadovius-wandysteem-van-royal-system-met-dressoir": {
+"shop": "van-ons-nederhemert",
+"title": "Groot Teak Poul Cadovius wandysteem van Royal System met dressoir",
+"url": "https://vanons.eu/2018/08/01/groot-teak-poul-cadovius-wandysteem-van-royal-system-met-dressoir/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/08/mg_5124cadoi.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/08/01/set-van-twee-yngve-ekstrom-fauteuils-voor-pastoe": {
+"shop": "van-ons-nederhemert",
+"title": "Set van twee Yngve Ekström fauteuils voor Pastoe",
+"url": "https://vanons.eu/2018/08/01/set-van-twee-yngve-ekstrom-fauteuils-voor-pastoe/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/08/mg_5042.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2018/02/10/vintage-hanglamp-in-de-stijl-van-carl-thore-en-jo-hammerborg": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage hanglamp in de stijl van Carl Thore en Jo Hammerborg",
+"url": "https://vanons.eu/2018/02/10/vintage-hanglamp-in-de-stijl-van-carl-thore-en-jo-hammerborg/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/02/mg_3857.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2017/12/16/mid-century-modern-telefoon-tafel-en-bankje": {
+"shop": "van-ons-nederhemert",
+"title": "Mid century modern telefoon tafel en bankje",
+"url": "https://vanons.eu/2017/12/16/mid-century-modern-telefoon-tafel-en-bankje/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2017/12/mg_3545.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2017/12/06/vintage-marokkaanse-boucherouite-berber-tapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Marokkaanse Boucherouite Berber tapijt",
+"url": "https://vanons.eu/2017/12/06/vintage-marokkaanse-boucherouite-berber-tapijt/",
+"image": "https://vanons.eu/wp-content/uploads/2017/12/dscf4931.jpg",
+"price": null,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2017/12/06/prachtige-oude-vintage-marokkaanse-azilal-tapijt": {
+"shop": "van-ons-nederhemert",
+"title": "Prachtige oude vintage Marokkaanse Azilal tapijt",
+"url": "https://vanons.eu/2017/12/06/prachtige-oude-vintage-marokkaanse-azilal-tapijt/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2017/12/dscf4940i.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2017/12/05/set-van-vier-japanse-serie-eetkamerstoelen-van-cees-braakman-voor-pastoe": {
+"shop": "van-ons-nederhemert",
+"title": "Set van vier Japanse Serie eetkamerstoelen van Cees Braakman voor Pastoe",
+"url": "https://vanons.eu/2017/12/05/set-van-vier-japanse-serie-eetkamerstoelen-van-cees-braakman-voor-pastoe/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2018/01/mg_3676.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Seating",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2017/04/10/vintage-palissander-houten-zwevend-kastje": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage palissander houten zwevend kastje",
+"url": "https://vanons.eu/2017/04/10/vintage-palissander-houten-zwevend-kastje/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2016/05/mg_0367.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2016/12/11/blockitecture-van-james-paulius-voor-areaware": {
+"shop": "van-ons-nederhemert",
+"title": "Houten Blockitecture bouw blokken van James Paulius voor Areaware",
+"url": "https://vanons.eu/2016/12/11/blockitecture-van-james-paulius-voor-areaware/",
+"image": "https://vanons.eu/wp-content/uploads/2015/11/areaware_blockitecture_env_print.jpg",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2016/11/14/jo-hammerborg-medio-hanglamp-in-aluminium": {
+"shop": "van-ons-nederhemert",
+"title": "Jo Hammerborg Medio hanglamp in Aluminium",
+"url": "https://vanons.eu/2016/11/14/jo-hammerborg-medio-hanglamp-in-aluminium/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2016/11/mg_1577.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2016/01/23/pastoe-eu02-japanse-serie-bureau": {
+"shop": "van-ons-nederhemert",
+"title": "Pastoe EU02 Japanse serie bureau",
+"url": "https://vanons.eu/2016/01/23/pastoe-eu02-japanse-serie-bureau/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2013/09/mg_9110.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2016/01/02/vintage-deens-design-houten-kandelaars": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage Deens design houten kandelaars",
+"url": "https://vanons.eu/2016/01/02/vintage-deens-design-houten-kandelaars/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2016/01/mg_8541.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Decor & art",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2016/01/02/vlinder-en-kevers-in-lijst": {
+"shop": "van-ons-nederhemert",
+"title": "Vlinder en kevers in lijst",
+"url": "https://vanons.eu/2016/01/02/vlinder-en-kevers-in-lijst/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2016/01/mg_8548i.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2015/12/08/deens-design-ladenkastje-2": {
+"shop": "van-ons-nederhemert",
+"title": "Deens design ladenkastje",
+"url": "https://vanons.eu/2015/12/08/deens-design-ladenkastje-2/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2015/12/mg_8460.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2015/11/20/eames-hang-it-all": {
+"shop": "van-ons-nederhemert",
+"title": "Eames Hang it all",
+"url": "https://vanons.eu/2015/11/20/eames-hang-it-all/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2016/01/mg_8525.jpg?fit=1200%2C900&ssl=1",
+"price": null,
+"type": "Other",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2015/02/03/vintage-h-wegner-stijl-bijzettafel": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage H. Wegner stijl bijzettafel",
+"url": "https://vanons.eu/2015/02/03/vintage-h-wegner-stijl-bijzettafel/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2015/02/mg_6700.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Tables & desks",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2015/01/24/vintage-grijs-deens-design-wandlampje": {
+"shop": "van-ons-nederhemert",
+"title": "Vintage grijs Deens design wandlampje",
+"url": "https://vanons.eu/2015/01/24/vintage-grijs-deens-design-wandlampje/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2015/01/mg_6456.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2015/01/05/hoogervorst-voor-anvia-buigarm-wandlamp": {
+"shop": "van-ons-nederhemert",
+"title": "Hoogervorst voor Anvia buigarm wandlamp",
+"url": "https://vanons.eu/2015/01/05/hoogervorst-voor-anvia-buigarm-wandlamp/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2015/01/mg_5570ii.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2014/10/05/twee-vintage-zwarte-stilnovo-stijl-wandlampjes": {
+"shop": "van-ons-nederhemert",
+"title": "Twee vintage zwarte stilnovo stijl wandlampjes",
+"url": "https://vanons.eu/2014/10/05/twee-vintage-zwarte-stilnovo-stijl-wandlampjes/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2014/10/mg_4944.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Lighting",
+"first_seen": "2026-11-20",
+"last_seen": "2026-11-20",
+"status": "live",
+"baseline": true,
+"price_history": [
+[
+"2026-11-20",
+null
+]
+]
+},
+"van-ons-nederhemert:/2014/04/05/wim-rietveld-kasten-voor-gispen-model-no-663": {
+"shop": "van-ons-nederhemert",
+"title": "Wim Rietveld kasten voor Gispen model no. 663",
+"url": "https://vanons.eu/2014/04/05/wim-rietveld-kasten-voor-gispen-model-no-663/",
+"image": "https://i0.wp.com/vanons.eu/wp-content/uploads/2014/04/mg_1776.jpg?fit=1200%2C800&ssl=1",
+"price": null,
+"type": "Storage",
 "first_seen": "2026-11-20",
 "last_seen": "2026-11-20",
 "status": "live",
